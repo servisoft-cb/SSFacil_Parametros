@@ -230,7 +230,6 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Height = 13
       Alignment = taRightJustify
       Caption = 'Soma IPI no ICMS (Tipo /Cliente) :'
-      Visible = False
     end
     object Label240: TLabel
       Left = 8
@@ -883,7 +882,6 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
         '9'
         'F'
         'C')
-      Visible = False
     end
     object DBMemo6: TDBMemo
       Left = 310
