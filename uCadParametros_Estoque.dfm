@@ -593,7 +593,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       Top = 263
       Width = 463
       Height = 17
-      Caption = 'Mostrar o Estoque Gerar (independente da Filial) nos cadastros'
+      Caption = 'Mostrar o Estoque Geral (independente da Filial) nos cadastros'
       DataField = 'USA_ESTOQUE_GERAL_CAD'
       DataSource = DMCadParametros.dsParametros_Est
       TabOrder = 27
