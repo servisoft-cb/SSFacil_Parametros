@@ -1,6 +1,6 @@
 object frmCadParametros_NFSe: TfrmCadParametros_NFSe
-  Left = 220
-  Top = 59
+  Left = 374
+  Top = 40
   Width = 1290
   Height = 528
   Caption = 'frmCadParametros_NFSe'
@@ -197,6 +197,14 @@ object frmCadParametros_NFSe: TfrmCadParametros_NFSe
       Height = 13
       Alignment = taRightJustify
       Caption = 'Controla o Munic'#237'pio da NFSe pela Natureza:'
+    end
+    object Label1: TLabel
+      Left = 112
+      Top = 414
+      Width = 170
+      Height = 13
+      Alignment = taRightJustify
+      Caption = 'Origem do percentual de Pis/Cofins:'
     end
     object DirectoryEdit4: TDirectoryEdit
       Left = 204
@@ -470,6 +478,24 @@ object frmCadParametros_NFSe: TfrmCadParametros_NFSe
       Values.Strings = (
         'S'
         'N')
+    end
+    object ComboOrigemPisCofins: TRxDBComboBox
+      Left = 286
+      Top = 406
+      Width = 143
+      Height = 21
+      Style = csDropDownList
+      DataField = 'ORIGEM_PERC_PISCOFINS'
+      DataSource = DMCadParametros.dsParametros_Ser
+      EnableValues = True
+      ItemHeight = 13
+      Items.Strings = (
+        'Filial'
+        'OS (Contratos)')
+      TabOrder = 18
+      Values.Strings = (
+        'F'
+        'O')
     end
   end
 end

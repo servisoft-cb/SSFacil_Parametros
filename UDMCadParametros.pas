@@ -1724,6 +1724,10 @@ type
     sdsParametros_EstGERAR_REG_H020: TStringField;
     sdsParametros_PedSENHA_EXCLUIR_ORC: TStringField;
     cdsParametros_PedSENHA_EXCLUIR_ORC: TStringField;
+    sdsParametros_SerPRECO_CUSTO_MATERIAL: TStringField;
+    sdsParametros_SerORIGEM_PERC_PISCOFINS: TStringField;
+    cdsParametros_SerPRECO_CUSTO_MATERIAL: TStringField;
+    cdsParametros_SerORIGEM_PERC_PISCOFINS: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
