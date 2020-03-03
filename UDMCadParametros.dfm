@@ -4525,6 +4525,16 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_SerPRECO_CUSTO_MATERIAL: TStringField
+      FieldName = 'PRECO_CUSTO_MATERIAL'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_SerORIGEM_PERC_PISCOFINS: TStringField
+      FieldName = 'ORIGEM_PERC_PISCOFINS'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ser: TClientDataSet
     Aggregates = <>
@@ -4645,6 +4655,16 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_SerUSA_CALC_COMPLETO: TStringField
       FieldName = 'USA_CALC_COMPLETO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_SerPRECO_CUSTO_MATERIAL: TStringField
+      FieldName = 'PRECO_CUSTO_MATERIAL'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_SerORIGEM_PERC_PISCOFINS: TStringField
+      FieldName = 'ORIGEM_PERC_PISCOFINS'
       FixedChar = True
       Size = 1
     end

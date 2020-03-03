@@ -47,6 +47,8 @@ type
     RxDBComboBox121: TRxDBComboBox;
     RxDBComboBox159: TRxDBComboBox;
     RxDBComboBox165: TRxDBComboBox;
+    Label1: TLabel;
+    ComboOrigemPisCofins: TRxDBComboBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
