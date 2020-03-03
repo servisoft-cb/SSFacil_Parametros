@@ -19,7 +19,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1290
+    Width = 1282
     Height = 35
     Align = alTop
     Color = 8404992
@@ -74,8 +74,8 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
   object pnlGeral: TPanel
     Left = 0
     Top = 35
-    Width = 1290
-    Height = 537
+    Width = 1282
+    Height = 529
     Align = alClient
     TabOrder = 1
     object Label10: TLabel
@@ -563,8 +563,8 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       ValueUnchecked = 'N'
     end
     object DBCheckBox3: TDBCheckBox
-      Left = 643
-      Top = 228
+      Left = 642
+      Top = 229
       Width = 463
       Height = 17
       Caption = 
@@ -577,7 +577,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       ValueUnchecked = 'N'
     end
     object DBCheckBox4: TDBCheckBox
-      Left = 643
+      Left = 642
       Top = 247
       Width = 463
       Height = 17
@@ -589,7 +589,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       ValueUnchecked = 'N'
     end
     object DBCheckBox5: TDBCheckBox
-      Left = 644
+      Left = 642
       Top = 263
       Width = 463
       Height = 17
@@ -601,7 +601,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       ValueUnchecked = 'N'
     end
     object DBCheckBox6: TDBCheckBox
-      Left = 644
+      Left = 642
       Top = 279
       Width = 463
       Height = 17
@@ -626,7 +626,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       TabOrder = 29
     end
     object DBCheckBox7: TDBCheckBox
-      Left = 645
+      Left = 642
       Top = 295
       Width = 463
       Height = 17

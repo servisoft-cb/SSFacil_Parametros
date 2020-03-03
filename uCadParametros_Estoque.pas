@@ -127,9 +127,9 @@ begin
   fDMCadParametros.cdsParametros.CancelUpdates;
   if (fDMCadParametros.cdsParametros_Est.Active) then
     fDMCadParametros.cdsParametros_Est.CancelUpdates;
-  pnlGeral.Enabled         := not(pnlGeral.Enabled);
-  btnConfirmar.Enabled     := not(btnConfirmar.Enabled);
-  btnAlterar.Enabled       := not(btnAlterar.Enabled);
+  pnlGeral.Enabled     := not(pnlGeral.Enabled);
+  btnConfirmar.Enabled := not(btnConfirmar.Enabled);
+  btnAlterar.Enabled   := not(btnAlterar.Enabled);
 end;
 
 procedure TfrmCadParametros_Estoque.FormShow(Sender: TObject);
