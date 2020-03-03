@@ -4,8 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, Dialogs, StdCtrls, Buttons, ExtCtrls,
-  UDMCadParametros, DB, rsDBUtils, NxCollection, DBCtrls, RxLookup, Mask, RxDBComb,
-  RzPanel, RzTabs;
+  UDMCadParametros, DB, rsDBUtils, NxCollection, DBCtrls, RxLookup, Mask, RxDBComb, RzPanel, RzTabs;
 
 type
   TfrmCadParametros_Prod = class(TForm)
