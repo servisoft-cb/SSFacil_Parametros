@@ -2504,6 +2504,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_GeralEMPRESA_RESTAURANTE: TStringField
+      FieldName = 'EMPRESA_RESTAURANTE'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Geral: TClientDataSet
     Aggregates = <>
@@ -2675,6 +2680,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_GeralPERMITE_CNPJ_DUP: TStringField
       FieldName = 'PERMITE_CNPJ_DUP'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_GeralEMPRESA_RESTAURANTE: TStringField
+      FieldName = 'EMPRESA_RESTAURANTE'
       FixedChar = True
       Size = 1
     end

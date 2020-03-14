@@ -1728,6 +1728,8 @@ type
     sdsParametros_SerORIGEM_PERC_PISCOFINS: TStringField;
     cdsParametros_SerPRECO_CUSTO_MATERIAL: TStringField;
     cdsParametros_SerORIGEM_PERC_PISCOFINS: TStringField;
+    sdsParametros_GeralEMPRESA_RESTAURANTE: TStringField;
+    cdsParametros_GeralEMPRESA_RESTAURANTE: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

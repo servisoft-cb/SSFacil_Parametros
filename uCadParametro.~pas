@@ -46,20 +46,13 @@ type
     RxDBComboBox5: TRxDBComboBox;
     DBEdit4: TDBEdit;
     RxDBComboBox12: TRxDBComboBox;
-    DBCheckBox1: TDBCheckBox;
-    DBCheckBox2: TDBCheckBox;
     RxDBLookupCombo7: TRxDBLookupCombo;
     RxDBLookupCombo8: TRxDBLookupCombo;
     RxDBComboBox25: TRxDBComboBox;
     RxDBComboBox30: TRxDBComboBox;
     RxDBComboBox35: TRxDBComboBox;
-    DBCheckBox7: TDBCheckBox;
-    DBCheckBox8: TDBCheckBox;
-    DBCheckBox9: TDBCheckBox;
     RxDBComboBox54: TRxDBComboBox;
     DBEdit3: TDBEdit;
-    DBCheckBox10: TDBCheckBox;
-    DBCheckBox11: TDBCheckBox;
     DBCheckBox12: TDBCheckBox;
     DBCheckBox13: TDBCheckBox;
     RxDBComboBox65: TRxDBComboBox;
@@ -68,10 +61,6 @@ type
     RxDBComboBox79: TRxDBComboBox;
     RxDBComboBox85: TRxDBComboBox;
     RxDBComboBox57: TRxDBComboBox;
-    DBCheckBox17: TDBCheckBox;
-    DBCheckBox18: TDBCheckBox;
-    DBCheckBox28: TDBCheckBox;
-    DBCheckBox29: TDBCheckBox;
     DirectoryEdit6: TDirectoryEdit;
     DBCheckBox20: TDBCheckBox;
     DBCheckBox23: TDBCheckBox;
@@ -82,7 +71,6 @@ type
     DBCheckBox76: TDBCheckBox;
     DBCheckBox83: TDBCheckBox;
     DirectoryEdit9: TDirectoryEdit;
-    DBCheckBox109: TDBCheckBox;
     DBCheckBox118: TDBCheckBox;
     BitBtn2: TBitBtn;
     DBEdit31: TDBEdit;
@@ -90,7 +78,6 @@ type
     dbEditPESSOA_CIDADE_PADRAO: TDBEdit;
     dbEditPESSOA_PAIS_PADRAO: TDBEdit;
     DirectoryEdit13: TDirectoryEdit;
-    DBCheckBox155: TDBCheckBox;
     DBCheckBox161: TDBCheckBox;
     DBCheckBox164: TDBCheckBox;
     RxDBComboBox167: TRxDBComboBox;
@@ -114,7 +101,6 @@ type
     DBMemo2: TDBMemo;
     Label1: TLabel;
     RxDBLookupCombo1: TRxDBLookupCombo;
-    DBCheckBox3: TDBCheckBox;
     DBCheckBox4: TDBCheckBox;
     DBCheckBox5: TDBCheckBox;
     Label3: TLabel;
@@ -122,6 +108,23 @@ type
     DBCheckBox6: TDBCheckBox;
     DBCheckBox16: TDBCheckBox;
     DBCheckBox19: TDBCheckBox;
+    TS_TipoEmpresa: TRzTabSheet;
+    pnlTipoEmpresa: TPanel;
+    DBCheckBox2: TDBCheckBox;
+    DBCheckBox1: TDBCheckBox;
+    DBCheckBox7: TDBCheckBox;
+    DBCheckBox8: TDBCheckBox;
+    DBCheckBox9: TDBCheckBox;
+    DBCheckBox18: TDBCheckBox;
+    DBCheckBox28: TDBCheckBox;
+    DBCheckBox109: TDBCheckBox;
+    DBCheckBox10: TDBCheckBox;
+    DBCheckBox11: TDBCheckBox;
+    DBCheckBox17: TDBCheckBox;
+    DBCheckBox29: TDBCheckBox;
+    DBCheckBox155: TDBCheckBox;
+    DBCheckBox3: TDBCheckBox;
+    DBCheckBox21: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
@@ -156,7 +159,8 @@ begin
   fDMCadParametros.cdsParametros_Geral.Edit;
   btnAlterar.Enabled := False;
   btnConfirmar.Enabled := True;
-  pnlGeral.Enabled := True;
+  pnlGeral.Enabled       := True;
+  pnlTipoEmpresa.Enabled := True;
 end;
 
 procedure TfrmCadParametro.FormDestroy(Sender: TObject);
@@ -273,9 +277,10 @@ begin
   fDMCadParametros.prc_Gravar_FCI;
   fDMCadParametros.prc_Gravar_MDFe;
 
-  pnlGeral.Enabled := not (pnlGeral.Enabled);
-  btnConfirmar.Enabled := not (btnConfirmar.Enabled);
-  btnAlterar.Enabled := not (btnAlterar.Enabled);
+  pnlGeral.Enabled       := not (pnlGeral.Enabled);
+  pnlTipoEmpresa.Enabled := not (pnlTipoEmpresa.Enabled);
+  btnConfirmar.Enabled   := not (btnConfirmar.Enabled);
+  btnAlterar.Enabled     := not (btnAlterar.Enabled);
 end;
 
 procedure TfrmCadParametro.FormClose(Sender: TObject; var Action: TCloseAction);
@@ -290,9 +295,10 @@ begin
   if MessageDlg('Deseja cancelar alteração/inclusão do registro?', mtConfirmation, [mbYes, mbNo], 0) = mrNo then
     exit;
   fDMCadParametros.cdsParametros.CancelUpdates;
-  btnConfirmar.Enabled := not (btnConfirmar.Enabled);
-  btnAlterar.Enabled := not (btnAlterar.Enabled);
-  pnlGeral.Enabled := not (pnlGeral.Enabled);
+  btnConfirmar.Enabled   := not (btnConfirmar.Enabled);
+  btnAlterar.Enabled     := not (btnAlterar.Enabled);
+  pnlGeral.Enabled       := not (pnlGeral.Enabled);
+  pnlTipoEmpresa.Enabled := not (pnlTipoEmpresa.Enabled);
 end;
 
 end.
