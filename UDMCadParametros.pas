@@ -1730,6 +1730,10 @@ type
     cdsParametros_SerORIGEM_PERC_PISCOFINS: TStringField;
     sdsParametros_GeralEMPRESA_RESTAURANTE: TStringField;
     cdsParametros_GeralEMPRESA_RESTAURANTE: TStringField;
+    sdsParametros_PedUSA_RESERVA_EST: TStringField;
+    cdsParametros_PedUSA_RESERVA_EST: TStringField;
+    sdsParametros_EstACEITAR_DOC_SEM_VLR: TStringField;
+    cdsParametros_EstACEITAR_DOC_SEM_VLR: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

@@ -5237,6 +5237,11 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'SENHA_EXCLUIR_ORC'
       Size = 10
     end
+    object sdsParametros_PedUSA_RESERVA_EST: TStringField
+      FieldName = 'USA_RESERVA_EST'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
@@ -5622,6 +5627,11 @@ object DMCadParametros: TDMCadParametros
     object cdsParametros_PedSENHA_EXCLUIR_ORC: TStringField
       FieldName = 'SENHA_EXCLUIR_ORC'
       Size = 10
+    end
+    object cdsParametros_PedUSA_RESERVA_EST: TStringField
+      FieldName = 'USA_RESERVA_EST'
+      FixedChar = True
+      Size = 1
     end
   end
   object dsParametros_Ped: TDataSource
@@ -7621,6 +7631,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_EstACEITAR_DOC_SEM_VLR: TStringField
+      FieldName = 'ACEITAR_DOC_SEM_VLR'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Est: TClientDataSet
     Aggregates = <>
@@ -7756,6 +7771,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_EstGERAR_REG_H020: TStringField
       FieldName = 'GERAR_REG_H020'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_EstACEITAR_DOC_SEM_VLR: TStringField
+      FieldName = 'ACEITAR_DOC_SEM_VLR'
       FixedChar = True
       Size = 1
     end

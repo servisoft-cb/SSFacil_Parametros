@@ -61,6 +61,7 @@ type
     Label1: TLabel;
     RxDBLookupCombo1: TRxDBLookupCombo;
     DBCheckBox7: TDBCheckBox;
+    DBCheckBox8: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);

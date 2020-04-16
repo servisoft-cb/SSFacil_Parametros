@@ -19,7 +19,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1282
+    Width = 1290
     Height = 35
     Align = alTop
     Color = 8404992
@@ -74,8 +74,8 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
   object pnlGeral: TPanel
     Left = 0
     Top = 35
-    Width = 1282
-    Height = 529
+    Width = 1290
+    Height = 537
     Align = alClient
     TabOrder = 1
     object Label10: TLabel
@@ -634,6 +634,18 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       DataField = 'GERAR_REG_H020'
       DataSource = DMCadParametros.dsParametros_Est
       TabOrder = 30
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox8: TDBCheckBox
+      Left = 642
+      Top = 311
+      Width = 463
+      Height = 17
+      Caption = 'Aceita o Documento de Estoque sem Pre'#231'o'
+      DataField = 'ACEITAR_DOC_SEM_VLR'
+      DataSource = DMCadParametros.dsParametros_Est
+      TabOrder = 31
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end

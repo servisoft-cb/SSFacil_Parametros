@@ -163,6 +163,7 @@ type
     Label5: TLabel;
     DBEdit2: TDBEdit;
     Label6: TLabel;
+    DBCheckBox14: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);

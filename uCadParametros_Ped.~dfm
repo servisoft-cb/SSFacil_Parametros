@@ -1464,6 +1464,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           PasswordChar = '*'
           TabOrder = 84
         end
+        object DBCheckBox14: TDBCheckBox
+          Left = 987
+          Top = 458
+          Width = 235
+          Height = 17
+          Caption = 'Usa Reserva de Pedido no Estoque'
+          DataField = 'USA_RESERVA_EST'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 85
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
       end
       object TabSheet9: TRzTabSheet
         Caption = 'Pedido - Complemento'
