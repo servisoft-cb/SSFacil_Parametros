@@ -7499,7 +7499,7 @@ object DMCadParametros: TDMCadParametros
     Params = <>
     SQLConnection = dmDatabase.scoDados
     Left = 328
-    Top = 368
+    Top = 369
     object sdsParametros_EstID: TIntegerField
       FieldName = 'ID'
       ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
@@ -7638,6 +7638,11 @@ object DMCadParametros: TDMCadParametros
     end
     object sdsParametros_EstUSA_PRECO_VENDA_SAIDA: TStringField
       FieldName = 'USA_PRECO_VENDA_SAIDA'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_EstUSA_PRODUTO_EST: TStringField
+      FieldName = 'USA_PRODUTO_EST'
       FixedChar = True
       Size = 1
     end
@@ -7786,6 +7791,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_EstUSA_PRECO_VENDA_SAIDA: TStringField
       FieldName = 'USA_PRECO_VENDA_SAIDA'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_EstUSA_PRODUTO_EST: TStringField
+      FieldName = 'USA_PRODUTO_EST'
       FixedChar = True
       Size = 1
     end

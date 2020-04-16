@@ -1734,6 +1734,8 @@ type
     cdsParametros_PedUSA_RESERVA_EST: TStringField;
     sdsParametros_EstACEITAR_DOC_SEM_VLR: TStringField;
     cdsParametros_EstACEITAR_DOC_SEM_VLR: TStringField;
+    sdsParametros_EstUSA_PRECO_VENDA_SAIDA: TStringField;
+    cdsParametros_EstUSA_PRECO_VENDA_SAIDA: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

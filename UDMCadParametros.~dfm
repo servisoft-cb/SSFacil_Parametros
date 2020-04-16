@@ -7636,6 +7636,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_EstUSA_PRECO_VENDA_SAIDA: TStringField
+      FieldName = 'USA_PRECO_VENDA_SAIDA'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Est: TClientDataSet
     Aggregates = <>
@@ -7776,6 +7781,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_EstACEITAR_DOC_SEM_VLR: TStringField
       FieldName = 'ACEITAR_DOC_SEM_VLR'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_EstUSA_PRECO_VENDA_SAIDA: TStringField
+      FieldName = 'USA_PRECO_VENDA_SAIDA'
       FixedChar = True
       Size = 1
     end

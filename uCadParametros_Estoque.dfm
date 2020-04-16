@@ -677,5 +677,19 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
         'P'
         'M')
     end
+    object DBCheckBox16: TDBCheckBox
+      Left = 643
+      Top = 328
+      Width = 446
+      Height = 16
+      Caption = 
+        'Usa o Produto Estoque, (Esse '#233' o produto que vai ser gravado no ' +
+        'estoque)'
+      DataField = 'USA_PRODUTO_EST'
+      DataSource = DMCadParametros.dsParametros_Est
+      TabOrder = 33
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
   end
 end
