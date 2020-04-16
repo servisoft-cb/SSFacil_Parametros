@@ -213,6 +213,14 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       Alignment = taRightJustify
       Caption = 'Filial da Baixa do Material (Lote_Mat_Prod_Est):'
     end
+    object Label2: TLabel
+      Left = 5
+      Top = 313
+      Width = 271
+      Height = 13
+      Alignment = taRightJustify
+      Caption = 'Usar Pre'#231'o de Venda quando for Sa'#237'da no Doc. no Tipo:'
+    end
     object RxDBComboBox31: TRxDBComboBox
       Left = 278
       Top = 18
@@ -648,6 +656,26 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       TabOrder = 31
       ValueChecked = 'S'
       ValueUnchecked = 'N'
+    end
+    object RxDBComboBox1: TRxDBComboBox
+      Left = 278
+      Top = 305
+      Width = 184
+      Height = 21
+      Style = csDropDownList
+      DataField = 'USA_PRECO_VENDA_SAIDA'
+      DataSource = DMCadParametros.dsParametros_Est
+      EnableValues = True
+      ItemHeight = 13
+      Items.Strings = (
+        'A=Ambos'
+        'P=Produtos'
+        'M=Material')
+      TabOrder = 32
+      Values.Strings = (
+        'A'
+        'P'
+        'M')
     end
   end
 end
