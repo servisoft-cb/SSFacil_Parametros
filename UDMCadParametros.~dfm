@@ -7646,6 +7646,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_EstUSA_TRANSF_FILIAL: TStringField
+      FieldName = 'USA_TRANSF_FILIAL'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Est: TClientDataSet
     Aggregates = <>
@@ -7796,6 +7801,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_EstUSA_PRODUTO_EST: TStringField
       FieldName = 'USA_PRODUTO_EST'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_EstUSA_TRANSF_FILIAL: TStringField
+      FieldName = 'USA_TRANSF_FILIAL'
       FixedChar = True
       Size = 1
     end
