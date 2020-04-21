@@ -1736,6 +1736,8 @@ type
     cdsParametros_EstACEITAR_DOC_SEM_VLR: TStringField;
     sdsParametros_EstUSA_PRECO_VENDA_SAIDA: TStringField;
     cdsParametros_EstUSA_PRECO_VENDA_SAIDA: TStringField;
+    sdsParametros_EstUSA_PRODUTO_EST: TStringField;
+    cdsParametros_EstUSA_PRODUTO_EST: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

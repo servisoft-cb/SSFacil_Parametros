@@ -191,7 +191,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     end
     object Label22: TLabel
       Left = 6
-      Top = 353
+      Top = 385
       Width = 270
       Height = 13
       Alignment = taRightJustify
@@ -199,7 +199,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     end
     object Label92: TLabel
       Left = 106
-      Top = 375
+      Top = 407
       Width = 170
       Height = 13
       Alignment = taRightJustify
@@ -420,7 +420,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     end
     object DirectoryEdit12: TDirectoryEdit
       Left = 278
-      Top = 346
+      Top = 378
       Width = 574
       Height = 21
       InitialDir = 'C:\'
@@ -431,7 +431,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     end
     object DBEdit35: TDBEdit
       Left = 278
-      Top = 367
+      Top = 399
       Width = 325
       Height = 21
       DataField = 'NOME_ARQ'
@@ -688,6 +688,18 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       DataField = 'USA_PRODUTO_EST'
       DataSource = DMCadParametros.dsParametros_Est
       TabOrder = 33
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox9: TDBCheckBox
+      Left = 643
+      Top = 344
+      Width = 446
+      Height = 16
+      Caption = 'Usa Transfer'#234'ncia entre Filiais'
+      DataField = 'USA_TRANSF_FILIAL'
+      DataSource = DMCadParametros.dsParametros_Est
+      TabOrder = 34
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
