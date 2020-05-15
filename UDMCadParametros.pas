@@ -1742,6 +1742,8 @@ type
     cdsParametros_EstUSA_TRANSF_FILIAL: TStringField;
     sdsParametros_GeralUSA_NFCE_LOCAL: TStringField;
     cdsParametros_GeralUSA_NFCE_LOCAL: TStringField;
+    sdsParametros_FinUSA_ADTO: TStringField;
+    cdsParametros_FinUSA_ADTO: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

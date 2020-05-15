@@ -6662,6 +6662,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_FinUSA_ADTO: TStringField
+      FieldName = 'USA_ADTO'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
@@ -6885,6 +6890,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_FinUSA_ID_SAGE_INT: TStringField
       FieldName = 'USA_ID_SAGE_INT'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_FinUSA_ADTO: TStringField
+      FieldName = 'USA_ADTO'
       FixedChar = True
       Size = 1
     end
