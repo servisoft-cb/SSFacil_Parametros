@@ -1744,6 +1744,8 @@ type
     cdsParametros_GeralUSA_NFCE_LOCAL: TStringField;
     sdsParametros_FinUSA_ADTO: TStringField;
     cdsParametros_FinUSA_ADTO: TStringField;
+    sdsParametros_GeralEMPRESA_CONSTRUCAOCIVIL: TStringField;
+    cdsParametros_GeralEMPRESA_CONSTRUCAOCIVIL: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

@@ -20,7 +20,7 @@ object frmCadParametro: TfrmCadParametro
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1374
+    Width = 1366
     Height = 35
     Align = alTop
     Color = 8404992
@@ -75,11 +75,11 @@ object frmCadParametro: TfrmCadParametro
   object pc_Principal: TRzPageControl
     Left = 0
     Top = 35
-    Width = 1374
-    Height = 678
-    ActivePage = ts_Geral
+    Width = 1366
+    Height = 671
+    ActivePage = TS_TipoEmpresa
     Align = alClient
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 1
     FixedDimension = 19
     object ts_Geral: TRzTabSheet
@@ -87,8 +87,8 @@ object frmCadParametro: TfrmCadParametro
       object pnlGeral: TPanel
         Left = 0
         Top = 0
-        Width = 1370
-        Height = 655
+        Width = 1362
+        Height = 648
         Align = alClient
         Enabled = False
         TabOrder = 0
@@ -1157,8 +1157,8 @@ object frmCadParametro: TfrmCadParametro
       object pnlTipoEmpresa: TPanel
         Left = 0
         Top = 0
-        Width = 1370
-        Height = 655
+        Width = 1362
+        Height = 648
         Align = alClient
         Enabled = False
         TabOrder = 0
@@ -1339,6 +1339,18 @@ object frmCadParametro: TfrmCadParametro
           DataField = 'EMPRESA_RESTAURANTE'
           DataSource = DMCadParametros.dsParametros_Geral
           TabOrder = 14
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox24: TDBCheckBox
+          Left = 22
+          Top = 235
+          Width = 188
+          Height = 17
+          Caption = 'Contru'#231#227'o C'#237'vil'
+          DataField = 'EMPRESA_CONSTRUCAOCIVIL'
+          DataSource = DMCadParametros.dsParametros_Geral
+          TabOrder = 15
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
