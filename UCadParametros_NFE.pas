@@ -111,6 +111,7 @@ type
     DBCheckBox3: TDBCheckBox;
     DBCheckBox6: TDBCheckBox;
     DBCheckBox4: TDBCheckBox;
+    DBCheckBox5: TDBCheckBox;
     procedure btnConfirmarClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);

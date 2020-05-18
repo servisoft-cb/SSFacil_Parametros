@@ -1746,6 +1746,8 @@ type
     cdsParametros_FinUSA_ADTO: TStringField;
     sdsParametros_GeralEMPRESA_CONSTRUCAOCIVIL: TStringField;
     cdsParametros_GeralEMPRESA_CONSTRUCAOCIVIL: TStringField;
+    sdsParametros_NFeIMP_TAMANHO_FINAL: TStringField;
+    cdsParametros_NFeIMP_TAMANHO_FINAL: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

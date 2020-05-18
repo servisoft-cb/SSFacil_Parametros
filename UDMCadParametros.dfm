@@ -3018,6 +3018,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_NFeIMP_TAMANHO_FINAL: TStringField
+      FieldName = 'IMP_TAMANHO_FINAL'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_NFe: TClientDataSet
     Aggregates = <>
@@ -3317,6 +3322,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_NFeCONTROLAR_ENVIO_EMAIL: TStringField
       FieldName = 'CONTROLAR_ENVIO_EMAIL'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_NFeIMP_TAMANHO_FINAL: TStringField
+      FieldName = 'IMP_TAMANHO_FINAL'
       FixedChar = True
       Size = 1
     end

@@ -584,7 +584,7 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
         object DBCheckBox4: TDBCheckBox
           Left = 135
           Top = 300
-          Width = 267
+          Width = 336
           Height = 17
           Caption = 'Controlar se Envia ou n'#227'o o EMAIL na NFe'
           DataField = 'CONTROLAR_ENVIO_EMAIL'
