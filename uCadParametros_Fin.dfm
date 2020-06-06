@@ -1111,11 +1111,11 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       ValueUnchecked = 'N'
     end
     object DBCheckBox7: TDBCheckBox
-      Left = 856
+      Left = 857
       Top = 436
       Width = 377
       Height = 17
-      Caption = 'Usa Adiantamento Cliente/Fornecedor'
+      Caption = 'Usa Adiantamento Clientes (Saldo Cr'#233'dito)'
       DataField = 'USA_ADTO'
       DataSource = DMCadParametros.dsParametros_Fin
       TabOrder = 57

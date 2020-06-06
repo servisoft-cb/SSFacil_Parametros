@@ -109,6 +109,8 @@ type
     RxDBLookupCombo7: TRxDBLookupCombo;
     Label2: TLabel;
     RxDBComboBox1: TRxDBComboBox;
+    Label3: TLabel;
+    RxDBLookupCombo8: TRxDBLookupCombo;
     procedure btnAlterarClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
@@ -158,6 +160,17 @@ end;
 
 procedure TfrmCadParametros_NotaFiscal.prc_Gravar_Registro;
 begin
+  if fDMCadParametros.cdsParametros_NFeID_CONTA_ADTO.AsInteger > 0 then
+  begin
+     fDMCadParametros.cdsContas.locate('ID',fDMCadParametros.cdsParametros_NFeID_CONTA_ADTO.AsInteger,[loCaseInsensitive]);
+     if fDMCadParametros.cdsContasTIPO_CONTA.AsString <> 'A' then
+     begin
+       MessageDlg('*** Tipo da conta não é de adiantamento!', mtError, [mbOk], 0);
+       RxDBLookupCombo8.SetFocus;
+       exit;
+     end;
+  end;
+
   fDMCadParametros.prc_Gravar;
   if fDMCadParametros.cdsParametros.State in [dsEdit, dsInsert] then
   begin

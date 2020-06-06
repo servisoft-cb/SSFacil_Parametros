@@ -2,7 +2,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
   Left = 48
   Top = 24
   Width = 1279
-  Height = 640
+  Height = 685
   Caption = 'frmCadParametros_NotaFiscal'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -75,13 +75,13 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     Left = 0
     Top = 35
     Width = 1271
-    Height = 574
+    Height = 619
     Align = alClient
     Enabled = False
     TabOrder = 1
     object Label35: TLabel
       Left = 174
-      Top = 10
+      Top = 9
       Width = 134
       Height = 13
       Alignment = taRightJustify
@@ -89,7 +89,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label36: TLabel
       Left = 182
-      Top = 32
+      Top = 30
       Width = 126
       Height = 13
       Alignment = taRightJustify
@@ -97,7 +97,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label37: TLabel
       Left = 54
-      Top = 56
+      Top = 52
       Width = 254
       Height = 13
       Alignment = taRightJustify
@@ -105,7 +105,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label38: TLabel
       Left = 12
-      Top = 99
+      Top = 119
       Width = 296
       Height = 13
       Alignment = taRightJustify
@@ -113,7 +113,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label40: TLabel
       Left = 24
-      Top = 143
+      Top = 163
       Width = 284
       Height = 13
       Alignment = taRightJustify
@@ -121,7 +121,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label45: TLabel
       Left = 25
-      Top = 77
+      Top = 73
       Width = 283
       Height = 13
       Alignment = taRightJustify
@@ -129,7 +129,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label54: TLabel
       Left = 101
-      Top = 187
+      Top = 207
       Width = 207
       Height = 13
       Alignment = taRightJustify
@@ -137,7 +137,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label61: TLabel
       Left = 3
-      Top = 165
+      Top = 185
       Width = 305
       Height = 13
       Alignment = taRightJustify
@@ -145,7 +145,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label33: TLabel
       Left = 92
-      Top = 209
+      Top = 229
       Width = 216
       Height = 13
       Alignment = taRightJustify
@@ -153,7 +153,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label72: TLabel
       Left = 98
-      Top = 231
+      Top = 251
       Width = 210
       Height = 13
       Alignment = taRightJustify
@@ -161,7 +161,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label94: TLabel
       Left = 149
-      Top = 121
+      Top = 141
       Width = 159
       Height = 13
       Alignment = taRightJustify
@@ -169,7 +169,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label132: TLabel
       Left = 655
-      Top = 121
+      Top = 117
       Width = 133
       Height = 13
       Alignment = taRightJustify
@@ -177,7 +177,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label133: TLabel
       Left = 582
-      Top = 143
+      Top = 139
       Width = 206
       Height = 13
       Alignment = taRightJustify
@@ -185,7 +185,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label140: TLabel
       Left = 686
-      Top = 165
+      Top = 161
       Width = 102
       Height = 13
       Alignment = taRightJustify
@@ -193,7 +193,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label146: TLabel
       Left = 555
-      Top = 187
+      Top = 183
       Width = 233
       Height = 13
       Alignment = taRightJustify
@@ -201,7 +201,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label171: TLabel
       Left = 522
-      Top = 209
+      Top = 205
       Width = 266
       Height = 13
       Alignment = taRightJustify
@@ -209,7 +209,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label184: TLabel
       Left = 508
-      Top = 231
+      Top = 227
       Width = 280
       Height = 13
       Alignment = taRightJustify
@@ -217,7 +217,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label214: TLabel
       Left = 778
-      Top = 10
+      Top = 9
       Width = 90
       Height = 13
       Alignment = taRightJustify
@@ -225,7 +225,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label225: TLabel
       Left = 705
-      Top = 31
+      Top = 29
       Width = 163
       Height = 13
       Alignment = taRightJustify
@@ -233,7 +233,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label240: TLabel
       Left = 8
-      Top = 254
+      Top = 271
       Width = 300
       Height = 13
       Alignment = taRightJustify
@@ -241,7 +241,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label249: TLabel
       Left = 767
-      Top = 54
+      Top = 50
       Width = 101
       Height = 13
       Alignment = taRightJustify
@@ -249,7 +249,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object Label250: TLabel
       Left = 694
-      Top = 75
+      Top = 71
       Width = 174
       Height = 13
       Alignment = taRightJustify
@@ -304,9 +304,17 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Alignment = taRightJustify
       Caption = 'Enviar ICMS Substituto:'
     end
+    object Label3: TLabel
+      Left = 195
+      Top = 95
+      Width = 113
+      Height = 13
+      Alignment = taRightJustify
+      Caption = 'ID Conta Adiantamento:'
+    end
     object DBEdit5: TDBEdit
       Left = 310
-      Top = 2
+      Top = 1
       Width = 265
       Height = 21
       DataField = 'ESPECIE_NOTA'
@@ -315,7 +323,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object DBEdit6: TDBEdit
       Left = 310
-      Top = 24
+      Top = 22
       Width = 265
       Height = 21
       DataField = 'MARCA_NOTA'
@@ -324,7 +332,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBLookupCombo4: TRxDBLookupCombo
       Left = 310
-      Top = 47
+      Top = 43
       Width = 329
       Height = 21
       DropDownCount = 8
@@ -337,7 +345,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBLookupCombo5: TRxDBLookupCombo
       Left = 310
-      Top = 91
+      Top = 111
       Width = 329
       Height = 21
       DropDownCount = 8
@@ -350,7 +358,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox21: TRxDBComboBox
       Left = 310
-      Top = 135
+      Top = 155
       Width = 145
       Height = 21
       Style = csDropDownList
@@ -368,7 +376,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBLookupCombo6: TRxDBLookupCombo
       Left = 310
-      Top = 69
+      Top = 65
       Width = 329
       Height = 21
       DropDownCount = 8
@@ -381,7 +389,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox26: TRxDBComboBox
       Left = 310
-      Top = 179
+      Top = 199
       Width = 145
       Height = 21
       Style = csDropDownList
@@ -399,7 +407,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox33: TRxDBComboBox
       Left = 310
-      Top = 157
+      Top = 177
       Width = 145
       Height = 21
       Style = csDropDownList
@@ -417,7 +425,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox19: TRxDBComboBox
       Left = 310
-      Top = 201
+      Top = 221
       Width = 184
       Height = 21
       Style = csDropDownList
@@ -435,7 +443,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox43: TRxDBComboBox
       Left = 310
-      Top = 223
+      Top = 243
       Width = 184
       Height = 21
       Style = csDropDownList
@@ -453,7 +461,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox58: TRxDBComboBox
       Left = 310
-      Top = 113
+      Top = 133
       Width = 145
       Height = 21
       Style = csDropDownList
@@ -471,9 +479,9 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object GroupBox1: TGroupBox
       Left = 32
-      Top = 292
+      Top = 300
       Width = 776
-      Height = 121
+      Height = 116
       Caption = ' Lei da Transpar'#234'ncia '
       TabOrder = 11
       object Label87: TLabel
@@ -486,7 +494,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object Label109: TLabel
         Left = 102
-        Top = 38
+        Top = 37
         Width = 84
         Height = 13
         Alignment = taRightJustify
@@ -494,7 +502,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object Label110: TLabel
         Left = 119
-        Top = 60
+        Top = 59
         Width = 67
         Height = 13
         Alignment = taRightJustify
@@ -502,7 +510,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object Label111: TLabel
         Left = 387
-        Top = 105
+        Top = 100
         Width = 174
         Height = 13
         Alignment = taRightJustify
@@ -511,7 +519,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object Label148: TLabel
         Left = 433
-        Top = 38
+        Top = 37
         Width = 128
         Height = 13
         Alignment = taRightJustify
@@ -519,7 +527,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object Label149: TLabel
         Left = 369
-        Top = 81
+        Top = 79
         Width = 192
         Height = 13
         Alignment = taRightJustify
@@ -527,7 +535,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object Label150: TLabel
         Left = 50
-        Top = 81
+        Top = 79
         Width = 136
         Height = 13
         Alignment = taRightJustify
@@ -563,7 +571,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object RxDBComboBox66: TRxDBComboBox
         Left = 187
-        Top = 30
+        Top = 29
         Width = 184
         Height = 21
         Style = csDropDownList
@@ -581,7 +589,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object DBEdit15: TDBEdit
         Left = 187
-        Top = 52
+        Top = 51
         Width = 563
         Height = 21
         DataField = 'LEI_TRANSPARENCIA_TEXTO_ITEM'
@@ -590,7 +598,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object RxDBComboBox67: TRxDBComboBox
         Left = 567
-        Top = 97
+        Top = 92
         Width = 74
         Height = 21
         Style = csDropDownList
@@ -609,7 +617,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object RxDBComboBox94: TRxDBComboBox
         Left = 567
-        Top = 30
+        Top = 29
         Width = 184
         Height = 21
         Style = csDropDownList
@@ -627,7 +635,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object RxDBComboBox95: TRxDBComboBox
         Left = 567
-        Top = 73
+        Top = 71
         Width = 184
         Height = 21
         Style = csDropDownList
@@ -645,7 +653,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       end
       object RxDBComboBox96: TRxDBComboBox
         Left = 187
-        Top = 73
+        Top = 71
         Width = 74
         Height = 21
         Style = csDropDownList
@@ -682,7 +690,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox80: TRxDBComboBox
       Left = 790
-      Top = 113
+      Top = 109
       Width = 184
       Height = 21
       Style = csDropDownList
@@ -700,7 +708,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox81: TRxDBComboBox
       Left = 790
-      Top = 135
+      Top = 131
       Width = 184
       Height = 21
       Style = csDropDownList
@@ -718,7 +726,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox88: TRxDBComboBox
       Left = 790
-      Top = 157
+      Top = 153
       Width = 184
       Height = 21
       Style = csDropDownList
@@ -736,7 +744,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox93: TRxDBComboBox
       Left = 790
-      Top = 179
+      Top = 175
       Width = 184
       Height = 21
       Style = csDropDownList
@@ -754,7 +762,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox115: TRxDBComboBox
       Left = 790
-      Top = 201
+      Top = 197
       Width = 184
       Height = 21
       Style = csDropDownList
@@ -772,7 +780,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox122: TRxDBComboBox
       Left = 790
-      Top = 223
+      Top = 219
       Width = 184
       Height = 21
       Style = csDropDownList
@@ -843,7 +851,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox139: TRxDBComboBox
       Left = 871
-      Top = 2
+      Top = 1
       Width = 77
       Height = 21
       Style = csDropDownList
@@ -861,7 +869,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox120: TRxDBComboBox
       Left = 871
-      Top = 23
+      Top = 21
       Width = 140
       Height = 21
       Style = csDropDownList
@@ -885,9 +893,9 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object DBMemo6: TDBMemo
       Left = 310
-      Top = 248
+      Top = 267
       Width = 665
-      Height = 44
+      Height = 37
       DataField = 'OBS_DADOS_ADI_DESONERACAO'
       DataSource = DMCadParametros.dsParametros_NFe
       ScrollBars = ssVertical
@@ -907,7 +915,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox151: TRxDBComboBox
       Left = 871
-      Top = 46
+      Top = 42
       Width = 77
       Height = 21
       Style = csDropDownList
@@ -925,7 +933,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object RxDBComboBox152: TRxDBComboBox
       Left = 871
-      Top = 67
+      Top = 63
       Width = 142
       Height = 21
       Style = csDropDownList
@@ -1130,7 +1138,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
     end
     object DBCheckBox299: TDBCheckBox
       Left = 872
-      Top = 92
+      Top = 88
       Width = 137
       Height = 17
       Caption = 'Soma Frete no IPI'
@@ -1236,6 +1244,19 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
         '1'
         'A'
         'N')
+    end
+    object RxDBLookupCombo8: TRxDBLookupCombo
+      Left = 310
+      Top = 87
+      Width = 329
+      Height = 21
+      DropDownCount = 8
+      DataField = 'ID_CONTA_ADTO'
+      DataSource = DMCadParametros.dsParametros_NFe
+      LookupField = 'ID'
+      LookupDisplay = 'NOME'
+      LookupSource = DMCadParametros.dsContas
+      TabOrder = 51
     end
   end
 end

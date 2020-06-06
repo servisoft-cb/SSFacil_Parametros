@@ -1748,6 +1748,9 @@ type
     cdsParametros_GeralEMPRESA_CONSTRUCAOCIVIL: TStringField;
     sdsParametros_NFeIMP_TAMANHO_FINAL: TStringField;
     cdsParametros_NFeIMP_TAMANHO_FINAL: TStringField;
+    sdsParametros_NFeID_CONTA_ADTO: TIntegerField;
+    cdsParametros_NFeID_CONTA_ADTO: TIntegerField;
+    cdsContasTIPO_CONTA: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

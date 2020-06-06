@@ -3023,6 +3023,9 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_NFeID_CONTA_ADTO: TIntegerField
+      FieldName = 'ID_CONTA_ADTO'
+    end
   end
   object cdsParametros_NFe: TClientDataSet
     Aggregates = <>
@@ -3329,6 +3332,9 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'IMP_TAMANHO_FINAL'
       FixedChar = True
       Size = 1
+    end
+    object cdsParametros_NFeID_CONTA_ADTO: TIntegerField
+      FieldName = 'ID_CONTA_ADTO'
     end
   end
   object dsParametros_NFe: TDataSource
@@ -5719,7 +5725,7 @@ object DMCadParametros: TDMCadParametros
   object sdsContas: TSQLDataSet
     NoMetadata = True
     GetMetadata = False
-    CommandText = 'SELECT ID, NOME'#13#10'FROM CONTAS'#13#10
+    CommandText = 'SELECT ID, NOME, TIPO_CONTA'#13#10'FROM CONTAS'#13#10
     MaxBlobSize = -1
     Params = <>
     SQLConnection = dmDatabase.scoDados
@@ -5736,7 +5742,7 @@ object DMCadParametros: TDMCadParametros
     IndexFieldNames = 'NOME'
     Params = <>
     ProviderName = 'dspContas'
-    Left = 1048
+    Left = 1047
     Top = 166
     object cdsContasID: TIntegerField
       FieldName = 'ID'
@@ -5745,6 +5751,11 @@ object DMCadParametros: TDMCadParametros
     object cdsContasNOME: TStringField
       FieldName = 'NOME'
       Size = 30
+    end
+    object cdsContasTIPO_CONTA: TStringField
+      FieldName = 'TIPO_CONTA'
+      FixedChar = True
+      Size = 1
     end
   end
   object dsContas: TDataSource
