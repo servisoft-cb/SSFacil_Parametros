@@ -3932,6 +3932,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_ProdUSA_QTD_MEDIA: TStringField
+      FieldName = 'USA_QTD_MEDIA'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Prod: TClientDataSet
     Aggregates = <>
@@ -4194,6 +4199,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_ProdUSA_APLICACAO: TStringField
       FieldName = 'USA_APLICACAO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_ProdUSA_QTD_MEDIA: TStringField
+      FieldName = 'USA_QTD_MEDIA'
       FixedChar = True
       Size = 1
     end
@@ -5278,6 +5288,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedUSA_QTD_PECA: TStringField
+      FieldName = 'USA_QTD_PECA'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
@@ -5666,6 +5681,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_PedUSA_RESERVA_EST: TStringField
       FieldName = 'USA_RESERVA_EST'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedUSA_QTD_PECA: TStringField
+      FieldName = 'USA_QTD_PECA'
       FixedChar = True
       Size = 1
     end

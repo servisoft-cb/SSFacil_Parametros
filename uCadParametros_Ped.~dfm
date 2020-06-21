@@ -1476,6 +1476,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
+        object DBCheckBox15: TDBCheckBox
+          Left = 987
+          Top = 474
+          Width = 235
+          Height = 17
+          Caption = 'Usa Qtd. de Pe'#231'a (Referente APP Venda)'
+          DataField = 'USA_RESERVA_EST'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 86
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
       end
       object TabSheet9: TRzTabSheet
         Caption = 'Pedido - Complemento'

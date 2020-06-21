@@ -144,6 +144,7 @@ type
     DBCheckBox15: TDBCheckBox;
     Label1: TLabel;
     RxDBComboBox1: TRxDBComboBox;
+    DBCheckBox16: TDBCheckBox;
     procedure FormShow(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);

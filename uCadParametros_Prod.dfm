@@ -531,6 +531,18 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
+        object DBCheckBox16: TDBCheckBox
+          Left = 28
+          Top = 426
+          Width = 349
+          Height = 16
+          Caption = 'Usa Qtde M'#233'dia no Produto (vai mostrar no Pedido)'
+          DataField = 'USA_QTD_MEDIA'
+          DataSource = DMCadParametros.dsParametros_Prod
+          TabOrder = 30
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
       end
     end
     object TS_Mostra: TRzTabSheet

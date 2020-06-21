@@ -1751,6 +1751,8 @@ type
     sdsParametros_NFeID_CONTA_ADTO: TIntegerField;
     cdsParametros_NFeID_CONTA_ADTO: TIntegerField;
     cdsContasTIPO_CONTA: TStringField;
+    sdsParametros_ProdUSA_QTD_MEDIA: TStringField;
+    cdsParametros_ProdUSA_QTD_MEDIA: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
