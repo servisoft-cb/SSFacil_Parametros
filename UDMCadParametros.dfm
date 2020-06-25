@@ -5827,7 +5827,7 @@ object DMCadParametros: TDMCadParametros
     Params = <>
     SQLConnection = dmDatabase.scoDados
     Left = 336
-    Top = 200
+    Top = 201
     object sdsParametros_LoteID: TIntegerField
       FieldName = 'ID'
       ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
@@ -5958,13 +5958,18 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_LoteLEITURA_UNICA_BAIXA: TStringField
+      FieldName = 'LEITURA_UNICA_BAIXA'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Lote: TClientDataSet
     Aggregates = <>
     Params = <>
     ProviderName = 'dspParametros_Lote'
-    Left = 399
-    Top = 201
+    Left = 401
+    Top = 202
     object cdsParametros_LoteID: TIntegerField
       FieldName = 'ID'
       ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
@@ -6092,6 +6097,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_LoteGERAR_MAT_POR_LOTE: TStringField
       FieldName = 'GERAR_MAT_POR_LOTE'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_LoteLEITURA_UNICA_BAIXA: TStringField
+      FieldName = 'LEITURA_UNICA_BAIXA'
       FixedChar = True
       Size = 1
     end

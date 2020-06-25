@@ -75,6 +75,7 @@ type
     RxDBComboBox1: TRxDBComboBox;
     DBCheckBox2: TDBCheckBox;
     dbckGerar_Mat_Por_Lote: TDBCheckBox;
+    DBCheckBox3: TDBCheckBox;
     procedure FormShow(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);

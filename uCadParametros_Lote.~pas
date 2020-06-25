@@ -75,6 +75,7 @@ type
     RxDBComboBox1: TRxDBComboBox;
     DBCheckBox2: TDBCheckBox;
     dbckGerar_Mat_Por_Lote: TDBCheckBox;
+    DBCheckBox3: TDBCheckBox;
     procedure FormShow(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
@@ -112,8 +113,7 @@ begin
   fDMCadparametros.qParametros_Usuario.Close;
   fDMCadparametros.qParametros_Usuario.ParamByName('USUARIO').AsString := vUsuario;
   fDMCadparametros.qParametros_Usuario.Open;
-  dbckGerar_Mat_Por_Lote.Visible := fDMCadparametros.qParametros_UsuarioPERMITE_ALT_LOTE_MAT.AsString; 
-
+  dbckGerar_Mat_Por_Lote.Visible := (fDMCadparametros.qParametros_UsuarioPERMITE_ALT_LOTE_MAT.AsString = 'S');
   prc_Opcao_Textil;
 end;
 

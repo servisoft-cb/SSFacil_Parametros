@@ -1755,6 +1755,8 @@ type
     cdsParametros_ProdUSA_QTD_MEDIA: TStringField;
     sdsParametros_PedUSA_QTD_PECA: TStringField;
     cdsParametros_PedUSA_QTD_PECA: TStringField;
+    sdsParametros_LoteLEITURA_UNICA_BAIXA: TStringField;
+    cdsParametros_LoteLEITURA_UNICA_BAIXA: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
