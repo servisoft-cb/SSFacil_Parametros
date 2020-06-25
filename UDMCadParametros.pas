@@ -1757,6 +1757,8 @@ type
     cdsParametros_PedUSA_QTD_PECA: TStringField;
     sdsParametros_LoteLEITURA_UNICA_BAIXA: TStringField;
     cdsParametros_LoteLEITURA_UNICA_BAIXA: TStringField;
+    sdsParametros_PedGRAVAR_ORC_PED_CLIENTE: TStringField;
+    cdsParametros_PedGRAVAR_ORC_PED_CLIENTE: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

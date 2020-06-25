@@ -1482,7 +1482,7 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           Width = 235
           Height = 17
           Caption = 'Usa Qtd. de Pe'#231'a (Referente APP Venda)'
-          DataField = 'USA_RESERVA_EST'
+          DataField = 'USA_QTD_PECA'
           DataSource = DMCadParametros.dsParametros_Ped
           TabOrder = 86
           ValueChecked = 'S'

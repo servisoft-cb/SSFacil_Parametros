@@ -5293,6 +5293,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedGRAVAR_ORC_PED_CLIENTE: TStringField
+      FieldName = 'GRAVAR_ORC_PED_CLIENTE'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
@@ -5686,6 +5691,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_PedUSA_QTD_PECA: TStringField
       FieldName = 'USA_QTD_PECA'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedGRAVAR_ORC_PED_CLIENTE: TStringField
+      FieldName = 'GRAVAR_ORC_PED_CLIENTE'
       FixedChar = True
       Size = 1
     end

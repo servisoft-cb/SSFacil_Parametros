@@ -1477,7 +1477,7 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           ValueUnchecked = 'N'
         end
         object DBCheckBox15: TDBCheckBox
-          Left = 987
+          Left = 986
           Top = 474
           Width = 235
           Height = 17
@@ -1485,6 +1485,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           DataField = 'USA_QTD_PECA'
           DataSource = DMCadParametros.dsParametros_Ped
           TabOrder = 86
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox16: TDBCheckBox
+          Left = 986
+          Top = 490
+          Width = 250
+          Height = 17
+          Caption = 'Gravar o N'#186' do Or'#231'amento no Pedido_Cliente'
+          DataField = 'GRAVAR_ORC_PED_CLIENTE'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 87
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end

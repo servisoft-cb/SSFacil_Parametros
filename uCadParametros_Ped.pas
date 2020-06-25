@@ -165,6 +165,7 @@ type
     Label6: TLabel;
     DBCheckBox14: TDBCheckBox;
     DBCheckBox15: TDBCheckBox;
+    DBCheckBox16: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
