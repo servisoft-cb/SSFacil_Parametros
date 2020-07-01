@@ -5298,6 +5298,10 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedEND_ARQ_REC_PED: TStringField
+      FieldName = 'END_ARQ_REC_PED'
+      Size = 200
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
@@ -5698,6 +5702,10 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'GRAVAR_ORC_PED_CLIENTE'
       FixedChar = True
       Size = 1
+    end
+    object cdsParametros_PedEND_ARQ_REC_PED: TStringField
+      FieldName = 'END_ARQ_REC_PED'
+      Size = 200
     end
   end
   object dsParametros_Ped: TDataSource

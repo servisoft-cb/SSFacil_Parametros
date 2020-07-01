@@ -166,6 +166,8 @@ type
     DBCheckBox14: TDBCheckBox;
     DBCheckBox15: TDBCheckBox;
     DBCheckBox16: TDBCheckBox;
+    Label8: TLabel;
+    dirEnd_Arq_Rec: TDirectoryEdit;
     procedure btnAlterarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
@@ -198,6 +200,15 @@ begin
       fDMCadParametros.cdsParametros_Ped.Edit;
     fDMCadParametros.cdsParametros_PedEND_PDF_PEDIDO.Value := dirEndPedido.Text;
   end;
+  if fDMCadParametros.cdsParametros_PedEND_ARQ_REC_PED.Value <> dirEnd_Arq_Rec.Text then
+  begin
+    if not(fDMCadParametros.cdsParametros_Ped.State in [dsEdit,dsInsert]) then
+      fDMCadParametros.cdsParametros_Ped.Edit;
+    fDMCadParametros.cdsParametros_PedEND_ARQ_REC_PED.Value := dirEnd_Arq_Rec.Text;
+    if copy(dirEnd_Arq_Rec.Text,Length(dirEnd_Arq_Rec.Text),1) <> '\' then
+      fDMCadParametros.cdsParametros_PedEND_ARQ_REC_PED.Value := fDMCadParametros.cdsParametros_PedEND_ARQ_REC_PED.Value + '\';
+  end;
+
   fDMCadParametros.prc_Gravar;
   if fDMCadParametros.cdsParametros.State in [dsEdit, dsInsert] then
   begin
@@ -258,7 +269,8 @@ begin
   oDBUtils.SetDataSourceProperties(Self,fDMCadParametros);
   fDMCadParametros.prc_Consultar;
   fDMCadParametros.prc_Consultar_Ped;
-  dirEndPedido.Text  := fDMCadParametros.cdsParametros_PedEND_PDF_PEDIDO.AsString;
+  dirEndPedido.Text   := fDMCadParametros.cdsParametros_PedEND_PDF_PEDIDO.AsString;
+  dirEnd_Arq_Rec.Text := fDMCadParametros.cdsParametros_PedEND_ARQ_REC_PED.AsString;
 
   DBCheckBox6.Visible := (fDMCadParametros.cdsParametrosUSA_APROVACAO_PED.AsString = 'S');
 end;

@@ -84,9 +84,9 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
       Top = 1
       Width = 1266
       Height = 591
-      ActivePage = TabSheet8
+      ActivePage = TabSheet10
       Align = alClient
-      TabIndex = 0
+      TabIndex = 2
       TabOrder = 0
       FixedDimension = 19
       object TabSheet8: TRzTabSheet
@@ -1570,6 +1570,14 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
             Alignment = taRightJustify
             Caption = 'Endere'#231'o para Salvar Pedido:'
           end
+          object Label8: TLabel
+            Left = 344
+            Top = 132
+            Width = 189
+            Height = 13
+            Alignment = taRightJustify
+            Caption = 'Endere'#231'o para Salvar Rec. Pagamento:'
+          end
           object DBCheckBox101: TDBCheckBox
             Left = 16
             Top = 5
@@ -1764,6 +1772,17 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
             TabOrder = 13
             ValueChecked = 'S'
             ValueUnchecked = 'N'
+          end
+          object dirEnd_Arq_Rec: TDirectoryEdit
+            Left = 535
+            Top = 125
+            Width = 536
+            Height = 21
+            InitialDir = 'C:\'
+            MultipleDirs = True
+            NumGlyphs = 1
+            TabOrder = 14
+            Text = 'C:\'
           end
         end
       end
