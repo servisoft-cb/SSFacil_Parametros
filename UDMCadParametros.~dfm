@@ -3937,6 +3937,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_ProdUSA_PRECO_VAREJO: TStringField
+      FieldName = 'USA_PRECO_VAREJO'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Prod: TClientDataSet
     Aggregates = <>
@@ -4204,6 +4209,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_ProdUSA_QTD_MEDIA: TStringField
       FieldName = 'USA_QTD_MEDIA'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_ProdUSA_PRECO_VAREJO: TStringField
+      FieldName = 'USA_PRECO_VAREJO'
       FixedChar = True
       Size = 1
     end
