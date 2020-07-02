@@ -1759,6 +1759,8 @@ type
     cdsParametros_LoteLEITURA_UNICA_BAIXA: TStringField;
     sdsParametros_PedGRAVAR_ORC_PED_CLIENTE: TStringField;
     cdsParametros_PedGRAVAR_ORC_PED_CLIENTE: TStringField;
+    sdsParametros_PedEND_ARQ_REC_PED: TStringField;
+    cdsParametros_PedEND_ARQ_REC_PED: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

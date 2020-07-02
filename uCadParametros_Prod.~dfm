@@ -537,7 +537,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Width = 349
           Height = 16
           Caption = 'Usa Qtde M'#233'dia no Produto (vai mostrar no Pedido)'
-          DataField = 'USA_SEL_COMB_ETIQUETA'
+          DataField = 'USA_QTD_MEDIA'
           DataSource = DMCadParametros.dsParametros_Prod
           TabOrder = 30
           ValueChecked = 'S'

@@ -1761,6 +1761,8 @@ type
     cdsParametros_PedGRAVAR_ORC_PED_CLIENTE: TStringField;
     sdsParametros_PedEND_ARQ_REC_PED: TStringField;
     cdsParametros_PedEND_ARQ_REC_PED: TStringField;
+    sdsParametros_ProdUSA_PRECO_VAREJO: TStringField;
+    cdsParametros_ProdUSA_PRECO_VAREJO: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
