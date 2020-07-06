@@ -139,7 +139,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object Label98: TLabel
       Left = 501
-      Top = 290
+      Top = 329
       Width = 120
       Height = 13
       Alignment = taRightJustify
@@ -147,7 +147,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object Label113: TLabel
       Left = 529
-      Top = 312
+      Top = 351
       Width = 92
       Height = 13
       Alignment = taRightJustify
@@ -235,7 +235,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object Label243: TLabel
       Left = 516
-      Top = 334
+      Top = 373
       Width = 105
       Height = 13
       Alignment = taRightJustify
@@ -275,7 +275,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object Label253: TLabel
       Left = 503
-      Top = 357
+      Top = 396
       Width = 118
       Height = 13
       Alignment = taRightJustify
@@ -323,7 +323,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object DBEdit14: TDBEdit
       Left = 226
-      Top = 55
+      Top = 56
       Width = 121
       Height = 21
       DataField = 'PERC_JUROS_PADRAO'
@@ -436,23 +436,23 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object dbedtSenhaCredito: TDBEdit
       Left = 623
-      Top = 298
+      Top = 322
       Width = 116
       Height = 21
       DataField = 'SENHA_CREDITO'
       DataSource = DMCadParametros.dsParametros
       PasswordChar = '*'
-      TabOrder = 39
+      TabOrder = 40
     end
     object dbedtSenhaExcluirVale: TDBEdit
       Left = 623
-      Top = 320
+      Top = 344
       Width = 116
       Height = 21
       DataField = 'SENHA_EXCLUIR_VALE'
       DataSource = DMCadParametros.dsParametros
       PasswordChar = '*'
-      TabOrder = 40
+      TabOrder = 41
     end
     object rxdbAlerta_Vale: TRxDBComboBox
       Left = 303
@@ -582,13 +582,13 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object DBCheckBox22: TDBCheckBox
       Left = 584
-      Top = 63
+      Top = 79
       Width = 281
       Height = 17
       Caption = 'Mostrar no menu a '#250'ltima remessa gerada para banco'
       DataField = 'MOSTRAR_ULT_REMESSA'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 24
+      TabOrder = 25
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -622,13 +622,13 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object DBCheckBox24: TDBCheckBox
       Left = 584
-      Top = 77
+      Top = 93
       Width = 281
       Height = 17
       Caption = 'Controlar se o banco pode fazer remessa/dep'#243'sito'
       DataField = 'CONTROLAR_BANCO_REM_DEP'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 25
+      TabOrder = 26
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -643,47 +643,47 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object DBCheckBox80: TDBCheckBox
       Left = 584
-      Top = 92
+      Top = 108
       Width = 280
       Height = 17
       Caption = 'Mostrar o valor da multa nas duplicatas'
       DataField = 'MOSTRAR_VLR_MULTA_DUP'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 26
+      TabOrder = 27
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
     object DBCheckBox82: TDBCheckBox
       Left = 584
-      Top = 106
+      Top = 122
       Width = 353
       Height = 17
       Caption = 'Usa regime de caixa no lan'#231'amento dos t'#237'tulos manualmente'
       DataField = 'USA_REGIME_CAIXA_DUP'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 27
+      TabOrder = 28
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
     object DBEdit27: TDBEdit
       Left = 623
-      Top = 342
+      Top = 366
       Width = 116
       Height = 21
       DataField = 'SENHA_RECIBO'
       DataSource = DMCadParametros.dsParametros_Fin
       PasswordChar = '*'
-      TabOrder = 41
+      TabOrder = 42
     end
     object DBCheckBox89: TDBCheckBox
       Left = 584
-      Top = 119
+      Top = 135
       Width = 353
       Height = 17
       Caption = 'Imprimir o nosso n'#250'mero no relat'#243'rio de contas a receber/pagar'
       DataField = 'IMP_NOSSO_NUMERO'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 28
+      TabOrder = 29
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -711,37 +711,37 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object DBCheckBox99: TDBCheckBox
       Left = 584
-      Top = 134
+      Top = 150
       Width = 353
       Height = 17
       Caption = 'Mostrar o tipo de cr'#233'dito no cadastro de clientes'
       DataField = 'MOSTRAR_TIPO_CRED'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 29
+      TabOrder = 30
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
     object DBCheckBox108: TDBCheckBox
       Left = 584
-      Top = 148
+      Top = 164
       Width = 353
       Height = 17
       Caption = 'Usa desconto no vale'
       DataField = 'USA_DESCONTO_VALE'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 30
+      TabOrder = 31
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
     object DBCheckBox110: TDBCheckBox
       Left = 584
-      Top = 162
+      Top = 178
       Width = 353
       Height = 17
       Caption = 'Usa Tabela de Pre'#231'o Promocional'
       DataField = 'USA_TABPRECO_PROM'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 31
+      TabOrder = 32
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -789,42 +789,42 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object DBCheckBox112: TDBCheckBox
       Left = 584
-      Top = 176
+      Top = 192
       Width = 353
       Height = 17
       Caption = 'Copiar o desconto do Vale para a Nota'
       DataField = 'COPIAR_DESC_VALE'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 32
+      TabOrder = 33
       ValueChecked = 'S'
       ValueUnchecked = 'N'
       Visible = False
     end
     object DBEdit29: TDBEdit
       Left = 623
-      Top = 365
+      Top = 389
       Width = 116
       Height = 21
       DataField = 'SENHA_LIBERAR_DESC'
       DataSource = DMCadParametros.dsParametros_Fin
       PasswordChar = '*'
-      TabOrder = 42
+      TabOrder = 43
     end
     object DBCheckBox119: TDBCheckBox
       Left = 584
-      Top = 190
+      Top = 206
       Width = 353
       Height = 17
       Caption = 'Controle de pre'#231'o por usu'#225'rio'
       DataField = 'CONTROLE_DIG_PRECO'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 33
+      TabOrder = 34
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
     object DBCheckBox120: TDBCheckBox
       Left = 584
-      Top = 203
+      Top = 219
       Width = 441
       Height = 17
       Caption = 
@@ -832,7 +832,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         'dor/Avalista)'
       DataField = 'REMESSA_FILIAL_DIF'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 34
+      TabOrder = 35
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -856,13 +856,13 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object chkProtestarCliente: TDBCheckBox
       Left = 584
-      Top = 217
+      Top = 233
       Width = 97
       Height = 17
       Caption = 'Protestar Cliente'
       DataField = 'PROTESTAR_CLIENTE'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 35
+      TabOrder = 36
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -886,13 +886,13 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object DBCheckBox200: TDBCheckBox
       Left = 584
-      Top = 231
-      Width = 377
+      Top = 247
+      Width = 230
       Height = 17
       Caption = 'Exigir Conta de Or'#231'amento nas Duplicatas'
       DataField = 'EXIGIR_CONTA_ORC_DUP'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 36
+      TabOrder = 37
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -904,7 +904,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Usa Op'#231#227'o NGR nas duplicatas'
       DataField = 'USA_NGR'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 46
+      TabOrder = 47
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -916,7 +916,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Usa aprova'#231#227'o do contas a pagar'
       DataField = 'USA_APROVA_DUP'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 47
+      TabOrder = 48
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -928,7 +928,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Usa Cliente no Custo'
       DataField = 'USA_CLIENTE_CUSTO'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 48
+      TabOrder = 49
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -940,31 +940,31 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Infomar manualmente a M'#227'o de Obra no Custo'
       DataField = 'INFORMA_MOBRA_MAN'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 49
+      TabOrder = 50
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
     object DBCheckBox256: TDBCheckBox
       Left = 584
-      Top = 247
-      Width = 377
+      Top = 263
+      Width = 230
       Height = 17
       Caption = 'Usa % na Condi'#231#227'o de Pagamento'
       DataField = 'USA_PERC_CONDPGTO'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 37
+      TabOrder = 38
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
     object DBCheckBox257: TDBCheckBox
       Left = 584
-      Top = 263
-      Width = 233
+      Top = 279
+      Width = 230
       Height = 17
       Caption = 'Arredondar o valor da Tabela de Pre'#231'o'
       DataField = 'ARREDONDA_PRECO_TAB'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 38
+      TabOrder = 39
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -976,7 +976,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Mant'#233'm duplica cancelada/devolvida no sistema'
       DataField = 'MANTER_DUP_CANC'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 43
+      TabOrder = 44
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -988,7 +988,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Controla na Condi'#231#227'o de Pagamento os Impostos e o Frete'
       DataField = 'CONDPGTO_FRETE_IMP'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 44
+      TabOrder = 45
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1000,7 +1000,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Usa Centro de Custo nas Duplicatas'
       DataField = 'USA_CCUSTO_DUP'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 45
+      TabOrder = 46
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1026,7 +1026,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Mostrar Endere'#231'o no cadastro de Centro de Custo'
       DataField = 'USA_END_CCUSTO'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 50
+      TabOrder = 51
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1038,7 +1038,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Aceita Inf. Zero no % do Centro de Custo nas Contas de Or'#231'amento'
       DataField = 'INF_ZERO_PERC_CC'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 51
+      TabOrder = 52
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1050,7 +1050,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Controla Contrato pelo Centro de Custo'
       DataField = 'CONTROLA_CONTRATO_CCUSTO'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 52
+      TabOrder = 53
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1062,7 +1062,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Caixa Vira a Noite (bares e eventos)'
       DataField = 'CAIXA_VIRA_NOITE'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 53
+      TabOrder = 54
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1078,7 +1078,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       LookupField = 'ID'
       LookupDisplay = 'NOME'
       LookupSource = DMCadParametros.dsTab_Preco
-      TabOrder = 54
+      TabOrder = 55
     end
     object RxDBComboBox1: TRxDBComboBox
       Left = 226
@@ -1093,7 +1093,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Items.Strings = (
         'Nosso N'#250'mero'
         'Notas / ID')
-      TabOrder = 55
+      TabOrder = 56
       Values.Strings = (
         'N'
         'I')
@@ -1106,7 +1106,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Usa ID da Sage na Integra'#231#227'o das Notas de Entrada'
       DataField = 'USA_ID_SAGE_INT'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 56
+      TabOrder = 57
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1118,7 +1118,19 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       Caption = 'Usa Adiantamento Clientes (Saldo Cr'#233'dito)'
       DataField = 'USA_ADTO'
       DataSource = DMCadParametros.dsParametros_Fin
-      TabOrder = 57
+      TabOrder = 58
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox8: TDBCheckBox
+      Left = 584
+      Top = 64
+      Width = 233
+      Height = 17
+      Caption = 'Quitar t'#237'tulo quando for a Vista'
+      DataField = 'QUITAR_AVISTA_AUT'
+      DataSource = DMCadParametros.dsParametros
+      TabOrder = 24
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end

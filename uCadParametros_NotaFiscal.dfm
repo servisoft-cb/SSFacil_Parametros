@@ -127,14 +127,6 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Alignment = taRightJustify
       Caption = 'Banco padr'#227'o para enviar remessa de t'#237'tulos e imp. boletos:'
     end
-    object Label54: TLabel
-      Left = 101
-      Top = 207
-      Width = 207
-      Height = 13
-      Alignment = taRightJustify
-      Caption = 'Quitar autom'#225'tico a nota quando for a vista:'
-    end
     object Label61: TLabel
       Left = 3
       Top = 185
@@ -387,24 +379,6 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       LookupSource = DMCadParametros.dsContas
       TabOrder = 5
     end
-    object RxDBComboBox26: TRxDBComboBox
-      Left = 310
-      Top = 199
-      Width = 145
-      Height = 21
-      Style = csDropDownList
-      DataField = 'QUITAR_AVISTA_AUT'
-      DataSource = DMCadParametros.dsParametros
-      EnableValues = True
-      ItemHeight = 13
-      Items.Strings = (
-        'Sim'
-        'N'#227'o')
-      TabOrder = 6
-      Values.Strings = (
-        'S'
-        'N')
-    end
     object RxDBComboBox33: TRxDBComboBox
       Left = 310
       Top = 177
@@ -418,7 +392,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'Sim'
         'N'#227'o')
-      TabOrder = 7
+      TabOrder = 6
       Values.Strings = (
         'S'
         'N')
@@ -436,7 +410,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 8
+      TabOrder = 7
       Values.Strings = (
         'S'
         'N')
@@ -454,7 +428,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 9
+      TabOrder = 8
       Values.Strings = (
         'S'
         'N')
@@ -472,7 +446,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 10
+      TabOrder = 9
       Values.Strings = (
         'S'
         'N')
@@ -483,7 +457,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Width = 776
       Height = 116
       Caption = ' Lei da Transpar'#234'ncia '
-      TabOrder = 11
+      TabOrder = 10
       object Label87: TLabel
         Left = 23
         Top = 16
@@ -701,7 +675,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 12
+      TabOrder = 11
       Values.Strings = (
         'S'
         'N')
@@ -719,7 +693,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 13
+      TabOrder = 12
       Values.Strings = (
         'S'
         'N')
@@ -737,7 +711,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 14
+      TabOrder = 13
       Values.Strings = (
         'S'
         'N')
@@ -755,7 +729,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 15
+      TabOrder = 14
       Values.Strings = (
         'S'
         'N')
@@ -773,7 +747,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 16
+      TabOrder = 15
       Values.Strings = (
         'S'
         'N')
@@ -791,7 +765,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 17
+      TabOrder = 16
       Values.Strings = (
         'S'
         'N')
@@ -804,7 +778,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Usa % ICMS Org'#227'o P'#250'blico UF interno (venda interestadual)'
       DataField = 'USA_PERC_ORGAO_PUBLICO'
       DataSource = DMCadParametros.dsParametros
-      TabOrder = 18
+      TabOrder = 17
       ValueChecked = 'S'
       ValueUnchecked = 'N'
       Visible = False
@@ -819,7 +793,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
         'odutos Lista Camex )'
       DataField = 'USA_PERC_ORGAO_PUBLICO_IMP'
       DataSource = DMCadParametros.dsParametros
-      TabOrder = 19
+      TabOrder = 18
       ValueChecked = 'S'
       ValueUnchecked = 'N'
       Visible = False
@@ -832,7 +806,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Imprimir o endere'#231'o de entrega somente nos dados adicionais'
       DataField = 'MOSTRAR_END_ENTREGA_DADOS_ADI'
       DataSource = DMCadParametros.dsParametros
-      TabOrder = 20
+      TabOrder = 19
       ValueChecked = 'S'
       ValueUnchecked = 'N'
       Visible = False
@@ -845,7 +819,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Alertar na nota se o frete for destin'#225'tario sem valor'
       DataField = 'ALERTA_FRETE_DEST'
       DataSource = DMCadParametros.dsParametros
-      TabOrder = 21
+      TabOrder = 20
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -862,7 +836,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 22
+      TabOrder = 21
       Values.Strings = (
         'S'
         'N')
@@ -883,7 +857,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
         'Ambos'
         'Por Finalidade'
         'Consumidor Final')
-      TabOrder = 23
+      TabOrder = 22
       Values.Strings = (
         '1'
         '2'
@@ -899,7 +873,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       DataField = 'OBS_DADOS_ADI_DESONERACAO'
       DataSource = DMCadParametros.dsParametros_NFe
       ScrollBars = ssVertical
-      TabOrder = 24
+      TabOrder = 23
     end
     object DBCheckBox87: TDBCheckBox
       Left = 32
@@ -909,7 +883,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Descontar ICMS Desonerado do Valor Total da Nota Fiscal'
       DataField = 'DESC_ICMS_DESONERADO'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 25
+      TabOrder = 24
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -926,7 +900,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Items.Strings = (
         'SIM'
         'N'#195'O')
-      TabOrder = 26
+      TabOrder = 25
       Values.Strings = (
         'S'
         'N')
@@ -945,7 +919,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
         'Contribuinte'
         'N'#227'o Contribuinte/Isento'
         'Ambos')
-      TabOrder = 27
+      TabOrder = 26
       Values.Strings = (
         '1'
         '2'
@@ -963,7 +937,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       LookupField = 'ID'
       LookupDisplay = 'NOME'
       LookupSource = DMCadParametros.dsOperacao_Nota
-      TabOrder = 28
+      TabOrder = 27
     end
     object RxDBLookupCombo2: TRxDBLookupCombo
       Left = 671
@@ -976,7 +950,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       LookupField = 'ID'
       LookupDisplay = 'NOME'
       LookupSource = DMCadParametros.dsOperacao_Nota
-      TabOrder = 29
+      TabOrder = 28
     end
     object RxDBLookupCombo3: TRxDBLookupCombo
       Left = 671
@@ -989,7 +963,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       LookupField = 'ID'
       LookupDisplay = 'NOME'
       LookupSource = DMCadParametros.dsOperacao_Nota
-      TabOrder = 30
+      TabOrder = 29
     end
     object RxDBLookupCombo14: TRxDBLookupCombo
       Left = 671
@@ -1002,7 +976,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       LookupField = 'ID'
       LookupDisplay = 'NOME'
       LookupSource = DMCadParametros.dsOperacao_Nota
-      TabOrder = 31
+      TabOrder = 30
     end
     object DBCheckBox131: TDBCheckBox
       Left = 32
@@ -1012,7 +986,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Permitir alterar o nome do produto na nota fiscal'
       DataField = 'ALTERAR_NOME_PROD'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 32
+      TabOrder = 31
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1024,7 +998,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Mostrar o campo (Pedido Cliente) no Item da nota'
       DataField = 'MOSTRAR_OC_NO_ITEM'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 33
+      TabOrder = 32
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1036,7 +1010,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Mostrar o campo (OS/Remessa) no Item da nota'
       DataField = 'MOSTRAR_OS_NO_ITEM'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 34
+      TabOrder = 33
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1048,7 +1022,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Na consulta do faturamento, motrar o frete'
       DataField = 'MOSTRAR_VLR_FRETE_CONS'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 35
+      TabOrder = 34
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1060,7 +1034,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Na consulta do faturamento, mostrar as devolu'#231#245'es'
       DataField = 'MOSTRAR_VLR_DEVOL_CONS'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 36
+      TabOrder = 35
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1072,7 +1046,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Avisar que gerou GNRE'
       DataField = 'AVISA_GNRE'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 37
+      TabOrder = 36
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1084,7 +1058,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Permite Importar Pedido sem Informar o Cliente'
       DataField = 'PERMITE_IMPORTAR_S_CLIENTE'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 38
+      TabOrder = 37
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1096,7 +1070,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Calcular o Volume pela quantidade do Produto'
       DataField = 'CALC_VOLUME_QTD'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 39
+      TabOrder = 38
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1108,7 +1082,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Usa Pr'#233' Faturamento'
       DataField = 'USA_PREFAT'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 40
+      TabOrder = 39
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1120,7 +1094,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Imprimir Valor Total no Rodap'#233' do Vale'
       DataField = 'IMPRIMIR_TOTAL_VALE'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 41
+      TabOrder = 40
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1132,7 +1106,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Descontar ICMS Desonerado da base do Pis e Cofins'
       DataField = 'DESCONTA_ICMS_DESON'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 42
+      TabOrder = 41
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1144,7 +1118,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Soma Frete no IPI'
       DataField = 'SOMAR_FRETE_IPI'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 43
+      TabOrder = 42
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1158,7 +1132,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
         'or mesmo regime'
       DataField = 'USA_CST_ICMS_NTE'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 44
+      TabOrder = 43
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1170,7 +1144,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Usa Lei (dados adicionais) por NCM'
       DataField = 'USA_LEI_NCM'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 45
+      TabOrder = 44
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1182,7 +1156,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Usa a Regra de Produto Por Cliente (CST ICMS)'
       DataField = 'USA_REGRA_CLI_PROD'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 46
+      TabOrder = 45
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1194,7 +1168,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Permite Repetir o Pedido/Item na mesma Nota'
       DataField = 'COPIA_PEDIDO_REP'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 47
+      TabOrder = 46
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1206,7 +1180,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       Caption = 'Calcular o Simples mesmo que o Destinat'#225'rio seja do Simples'
       DataField = 'CALC_SIMPLES_CLI'
       DataSource = DMCadParametros.dsParametros_NFe
-      TabOrder = 48
+      TabOrder = 47
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
@@ -1221,7 +1195,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       LookupField = 'ID'
       LookupDisplay = 'COD_CST;PERCENTUAL;NOME'
       LookupSource = DMCadParametros.dsCSTIcms
-      TabOrder = 49
+      TabOrder = 48
     end
     object RxDBComboBox1: TRxDBComboBox
       Left = 934
@@ -1238,7 +1212,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
         '1- Contribuinte Final'
         'A- Ambos'
         'N- N'#227'o Enviar')
-      TabOrder = 50
+      TabOrder = 49
       Values.Strings = (
         '0'
         '1'
@@ -1256,7 +1230,7 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       LookupField = 'ID'
       LookupDisplay = 'NOME'
       LookupSource = DMCadParametros.dsContas
-      TabOrder = 51
+      TabOrder = 50
     end
   end
 end

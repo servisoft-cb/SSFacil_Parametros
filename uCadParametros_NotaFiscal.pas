@@ -20,7 +20,6 @@ type
     Label38: TLabel;
     Label40: TLabel;
     Label45: TLabel;
-    Label54: TLabel;
     Label61: TLabel;
     Label33: TLabel;
     Label72: TLabel;
@@ -46,7 +45,6 @@ type
     RxDBLookupCombo5: TRxDBLookupCombo;
     RxDBComboBox21: TRxDBComboBox;
     RxDBLookupCombo6: TRxDBLookupCombo;
-    RxDBComboBox26: TRxDBComboBox;
     RxDBComboBox33: TRxDBComboBox;
     RxDBComboBox19: TRxDBComboBox;
     RxDBComboBox43: TRxDBComboBox;
