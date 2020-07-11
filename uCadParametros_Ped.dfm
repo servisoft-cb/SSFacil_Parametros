@@ -84,9 +84,9 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
       Top = 1
       Width = 1266
       Height = 591
-      ActivePage = TabSheet10
+      ActivePage = TabSheet8
       Align = alClient
-      TabIndex = 2
+      TabIndex = 0
       TabOrder = 0
       FixedDimension = 19
       object TabSheet8: TRzTabSheet
@@ -1497,6 +1497,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           DataField = 'GRAVAR_ORC_PED_CLIENTE'
           DataSource = DMCadParametros.dsParametros_Ped
           TabOrder = 87
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox17: TDBCheckBox
+          Left = 986
+          Top = 506
+          Width = 250
+          Height = 17
+          Caption = 'Mostrar Anexo no Pedido'
+          DataField = 'MOSTRAR_ANEXO'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 88
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end

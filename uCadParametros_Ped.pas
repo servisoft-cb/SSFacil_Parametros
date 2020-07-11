@@ -168,6 +168,7 @@ type
     DBCheckBox16: TDBCheckBox;
     Label8: TLabel;
     dirEnd_Arq_Rec: TDirectoryEdit;
+    DBCheckBox17: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);

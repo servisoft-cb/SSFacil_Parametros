@@ -1763,6 +1763,8 @@ type
     cdsParametros_PedEND_ARQ_REC_PED: TStringField;
     sdsParametros_ProdUSA_PRECO_VAREJO: TStringField;
     cdsParametros_ProdUSA_PRECO_VAREJO: TStringField;
+    sdsParametros_RecXMLUTILIZA_DFE_ACBR: TStringField;
+    cdsParametros_RecXMLUTILIZA_DFE_ACBR: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

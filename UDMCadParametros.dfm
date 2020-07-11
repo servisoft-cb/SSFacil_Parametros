@@ -5322,12 +5322,17 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'END_ARQ_REC_PED'
       Size = 200
     end
+    object sdsParametros_PedMOSTRAR_ANEXO: TStringField
+      FieldName = 'MOSTRAR_ANEXO'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
     Params = <>
     ProviderName = 'dspParametros_Ped'
-    Left = 105
+    Left = 106
     Top = 387
     object cdsParametros_PedID: TIntegerField
       FieldName = 'ID'
@@ -5726,6 +5731,11 @@ object DMCadParametros: TDMCadParametros
     object cdsParametros_PedEND_ARQ_REC_PED: TStringField
       FieldName = 'END_ARQ_REC_PED'
       Size = 200
+    end
+    object cdsParametros_PedMOSTRAR_ANEXO: TStringField
+      FieldName = 'MOSTRAR_ANEXO'
+      FixedChar = True
+      Size = 1
     end
   end
   object dsParametros_Ped: TDataSource
