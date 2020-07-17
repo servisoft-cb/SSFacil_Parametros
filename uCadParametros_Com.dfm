@@ -251,5 +251,17 @@ object frmCadParametros_Com: TfrmCadParametros_Com
       ValueUnchecked = 'N'
       OnClick = DBCheckBox1Click
     end
+    object DBCheckBox2: TDBCheckBox
+      Left = 192
+      Top = 141
+      Width = 386
+      Height = 17
+      Caption = 'Avisar que n'#227'o foi informado o % de Comiss'#227'o no Item'
+      DataField = 'AVISAR_SEM_COMISSAO'
+      DataSource = DMCadParametros.dsParametros_Com
+      TabOrder = 8
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
   end
 end

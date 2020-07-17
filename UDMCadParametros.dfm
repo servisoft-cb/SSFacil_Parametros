@@ -5327,6 +5327,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedUSA_UNIDADE_CLIENTE: TStringField
+      FieldName = 'USA_UNIDADE_CLIENTE'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
@@ -5734,6 +5739,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_PedMOSTRAR_ANEXO: TStringField
       FieldName = 'MOSTRAR_ANEXO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedUSA_UNIDADE_CLIENTE: TStringField
+      FieldName = 'USA_UNIDADE_CLIENTE'
       FixedChar = True
       Size = 1
     end
@@ -6495,6 +6505,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_ComAVISAR_SEM_COMISSAO: TStringField
+      FieldName = 'AVISAR_SEM_COMISSAO'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Com: TClientDataSet
     Aggregates = <>
@@ -6529,6 +6544,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_ComUSA_CONFIG_IND: TStringField
       FieldName = 'USA_CONFIG_IND'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_ComAVISAR_SEM_COMISSAO: TStringField
+      FieldName = 'AVISAR_SEM_COMISSAO'
       FixedChar = True
       Size = 1
     end

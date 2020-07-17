@@ -1269,9 +1269,9 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
         object DBCheckBox1: TDBCheckBox
           Left = 640
           Top = 533
-          Width = 457
+          Width = 334
           Height = 17
-          Caption = 'Zerar a Data de Entrega Na Aprova'#231#227'o do Or'#231'amento para o Pedido'
+          Caption = 'Zerar a Dt de Entrega Na Aprova'#231#227'o do Or'#231'amento para o Pedido'
           DataField = 'DTENTREGA_ZERADA_ORC'
           DataSource = DMCadParametros.dsParametros_Ped
           TabOrder = 70
@@ -1509,6 +1509,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           DataField = 'MOSTRAR_ANEXO'
           DataSource = DMCadParametros.dsParametros_Ped
           TabOrder = 88
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox18: TDBCheckBox
+          Left = 986
+          Top = 522
+          Width = 250
+          Height = 17
+          Caption = 'Usa Unidade Padr'#227'o no Cliente'
+          DataField = 'USA_UNIDADE_CLIENTE'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 89
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end

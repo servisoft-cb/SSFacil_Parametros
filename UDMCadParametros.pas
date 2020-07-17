@@ -1767,6 +1767,10 @@ type
     cdsParametros_RecXMLUTILIZA_DFE_ACBR: TStringField;
     sdsParametros_PedMOSTRAR_ANEXO: TStringField;
     cdsParametros_PedMOSTRAR_ANEXO: TStringField;
+    sdsParametros_PedUSA_UNIDADE_CLIENTE: TStringField;
+    cdsParametros_PedUSA_UNIDADE_CLIENTE: TStringField;
+    sdsParametros_ComAVISAR_SEM_COMISSAO: TStringField;
+    cdsParametros_ComAVISAR_SEM_COMISSAO: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

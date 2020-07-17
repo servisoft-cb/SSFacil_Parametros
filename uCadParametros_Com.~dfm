@@ -173,7 +173,7 @@ object frmCadParametros_Com: TfrmCadParametros_Com
       TabOrder = 2
     end
     object RxDBComboBox137: TRxDBComboBox
-      Left = 617
+      Left = 618
       Top = 33
       Width = 145
       Height = 21
@@ -250,6 +250,18 @@ object frmCadParametros_Com: TfrmCadParametros_Com
       ValueChecked = 'S'
       ValueUnchecked = 'N'
       OnClick = DBCheckBox1Click
+    end
+    object DBCheckBox2: TDBCheckBox
+      Left = 192
+      Top = 141
+      Width = 386
+      Height = 17
+      Caption = 'Avisar que n'#227'o foi informado o % de Comiss'#227'o no Item'
+      DataField = 'MOSTRAR_PED'
+      DataSource = DMCadParametros.dsParametros_Com
+      TabOrder = 8
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
     end
   end
 end
