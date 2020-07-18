@@ -1771,6 +1771,8 @@ type
     cdsParametros_PedUSA_UNIDADE_CLIENTE: TStringField;
     sdsParametros_ComAVISAR_SEM_COMISSAO: TStringField;
     cdsParametros_ComAVISAR_SEM_COMISSAO: TStringField;
+    sdsParametros_PedMOSTRAR_ITENS_CONS: TStringField;
+    cdsParametros_PedMOSTRAR_ITENS_CONS: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

@@ -1773,6 +1773,10 @@ type
     cdsParametros_ComAVISAR_SEM_COMISSAO: TStringField;
     sdsParametros_PedMOSTRAR_ITENS_CONS: TStringField;
     cdsParametros_PedMOSTRAR_ITENS_CONS: TStringField;
+    sdsParametros_OCATUALIZAR_PRECO: TStringField;
+    sdsParametros_OCATUALIZAR_PRECO_VENDA: TStringField;
+    cdsParametros_OCATUALIZAR_PRECO: TStringField;
+    cdsParametros_OCATUALIZAR_PRECO_VENDA: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

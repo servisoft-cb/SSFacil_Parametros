@@ -7278,6 +7278,16 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_OCATUALIZAR_PRECO: TStringField
+      FieldName = 'ATUALIZAR_PRECO'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_OCATUALIZAR_PRECO_VENDA: TStringField
+      FieldName = 'ATUALIZAR_PRECO_VENDA'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_OC: TClientDataSet
     Aggregates = <>
@@ -7321,6 +7331,16 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_OCPERMITE_ALT_NOMEPROD: TStringField
       FieldName = 'PERMITE_ALT_NOMEPROD'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_OCATUALIZAR_PRECO: TStringField
+      FieldName = 'ATUALIZAR_PRECO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_OCATUALIZAR_PRECO_VENDA: TStringField
+      FieldName = 'ATUALIZAR_PRECO_VENDA'
       FixedChar = True
       Size = 1
     end

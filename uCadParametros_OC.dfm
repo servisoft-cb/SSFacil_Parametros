@@ -19,7 +19,7 @@ object frmCadParametros_OC: TfrmCadParametros_OC
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1227
+    Width = 1235
     Height = 35
     Align = alTop
     Color = 8404992
@@ -74,8 +74,8 @@ object frmCadParametros_OC: TfrmCadParametros_OC
   object pnlGeral: TPanel
     Left = 0
     Top = 35
-    Width = 1227
-    Height = 535
+    Width = 1235
+    Height = 543
     Align = alClient
     TabOrder = 1
     object Label127: TLabel
@@ -88,7 +88,7 @@ object frmCadParametros_OC: TfrmCadParametros_OC
     end
     object Label226: TLabel
       Left = 50
-      Top = 156
+      Top = 252
       Width = 106
       Height = 13
       Alignment = taRightJustify
@@ -113,7 +113,7 @@ object frmCadParametros_OC: TfrmCadParametros_OC
         'PE')
     end
     object DBCheckBox33: TDBCheckBox
-      Left = 159
+      Left = 158
       Top = 42
       Width = 245
       Height = 17
@@ -127,7 +127,7 @@ object frmCadParametros_OC: TfrmCadParametros_OC
     end
     object DBMemo5: TDBMemo
       Left = 158
-      Top = 153
+      Top = 249
       Width = 749
       Height = 142
       DataField = 'OBS_OC'
@@ -136,7 +136,7 @@ object frmCadParametros_OC: TfrmCadParametros_OC
       TabOrder = 7
     end
     object DBCheckBox70: TDBCheckBox
-      Left = 159
+      Left = 158
       Top = 60
       Width = 263
       Height = 17
@@ -148,7 +148,7 @@ object frmCadParametros_OC: TfrmCadParametros_OC
       ValueUnchecked = 'N'
     end
     object DBCheckBox90: TDBCheckBox
-      Left = 159
+      Left = 158
       Top = 78
       Width = 522
       Height = 17
@@ -160,7 +160,7 @@ object frmCadParametros_OC: TfrmCadParametros_OC
       ValueUnchecked = 'N'
     end
     object DBCheckBox160: TDBCheckBox
-      Left = 159
+      Left = 158
       Top = 95
       Width = 314
       Height = 17
@@ -172,7 +172,7 @@ object frmCadParametros_OC: TfrmCadParametros_OC
       ValueUnchecked = 'N'
     end
     object DBCheckBox1: TDBCheckBox
-      Left = 159
+      Left = 158
       Top = 113
       Width = 314
       Height = 17
@@ -197,7 +197,7 @@ object frmCadParametros_OC: TfrmCadParametros_OC
       Visible = False
     end
     object DBCheckBox3: TDBCheckBox
-      Left = 159
+      Left = 158
       Top = 131
       Width = 314
       Height = 17
@@ -205,6 +205,30 @@ object frmCadParametros_OC: TfrmCadParametros_OC
       DataField = 'PERMITE_ALT_NOMEPROD'
       DataSource = DMCadParametros.dsParametros_OC
       TabOrder = 8
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox4: TDBCheckBox
+      Left = 158
+      Top = 147
+      Width = 314
+      Height = 17
+      Caption = 'Atualiza o Pre'#231'o de Custo no Cadastro da OC'
+      DataField = 'ATUALIZAR_PRECO'
+      DataSource = DMCadParametros.dsParametros_OC
+      TabOrder = 9
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox5: TDBCheckBox
+      Left = 158
+      Top = 163
+      Width = 314
+      Height = 17
+      Caption = 'Atualiza o Pre'#231'o de Venda no Cadastro da OC'
+      DataField = 'ATUALIZAR_PRECO_VENDA'
+      DataSource = DMCadParametros.dsParametros_OC
+      TabOrder = 10
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
