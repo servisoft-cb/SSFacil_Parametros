@@ -5332,6 +5332,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedMOSTRAR_ITENS_CONS: TStringField
+      FieldName = 'MOSTRAR_ITENS_CONS'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
@@ -5744,6 +5749,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_PedUSA_UNIDADE_CLIENTE: TStringField
       FieldName = 'USA_UNIDADE_CLIENTE'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedMOSTRAR_ITENS_CONS: TStringField
+      FieldName = 'MOSTRAR_ITENS_CONS'
       FixedChar = True
       Size = 1
     end

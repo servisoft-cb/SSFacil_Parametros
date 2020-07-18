@@ -1524,6 +1524,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
+        object DBCheckBox19: TDBCheckBox
+          Left = 986
+          Top = 537
+          Width = 255
+          Height = 17
+          Caption = 'Mostrar os Itens na Tela de Consulta Or'#231'amento'
+          DataField = 'MOSTRAR_ITENS_CONS'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 90
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
       end
       object TabSheet9: TRzTabSheet
         Caption = 'Pedido - Complemento'
