@@ -3,9 +3,8 @@ unit uCadParametros_Ped;
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, DBCtrls, Mask, RxLookup, RxDBComb, RzTabs, Buttons,
-  ExtCtrls, UDMCadParametros, DB, rsDBUtils, ToolEdit;
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, Dialogs, StdCtrls, DBCtrls, Mask, RxLookup,
+  RxDBComb, RzTabs, Buttons, ExtCtrls, UDMCadParametros, DB, rsDBUtils, ToolEdit;
 
 type
   TfrmCadParametros_Ped = class(TForm)
@@ -171,6 +170,9 @@ type
     DBCheckBox17: TDBCheckBox;
     DBCheckBox18: TDBCheckBox;
     DBCheckBox19: TDBCheckBox;
+    DBCheckBox20: TDBCheckBox;
+    DBCheckBox22: TDBCheckBox;
+    DBCheckBox23: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
