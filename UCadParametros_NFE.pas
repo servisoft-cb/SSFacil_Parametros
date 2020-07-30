@@ -3,9 +3,8 @@ unit UCadParametros_NFE;
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, DBCtrls, RxLookup, ToolEdit, Mask, RxDBComb, RzTabs,
-  Buttons, ExtCtrls, UDMCadParametros, DB, rsDBUtils;
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, Dialogs, StdCtrls, DBCtrls, RxLookup, ToolEdit,
+  Mask, RxDBComb, RzTabs, Buttons, ExtCtrls, UDMCadParametros, DB, rsDBUtils;
 
 type
   TfrmCadParametros_NFE = class(TForm)
@@ -112,6 +111,7 @@ type
     DBCheckBox6: TDBCheckBox;
     DBCheckBox4: TDBCheckBox;
     DBCheckBox5: TDBCheckBox;
+    DBCheckBox7: TDBCheckBox;
     procedure btnConfirmarClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);

@@ -19,14 +19,14 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1319
-    Height = 35
+    Width = 1311
+    Height = 31
     Align = alTop
     Color = 8404992
     TabOrder = 0
     object btnConfirmar: TBitBtn
-      Left = 80
-      Top = 5
+      Left = 81
+      Top = 3
       Width = 75
       Height = 25
       Caption = '&Confirmar'
@@ -41,8 +41,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
       OnClick = btnConfirmarClick
     end
     object btnCancelar: TBitBtn
-      Left = 155
-      Top = 5
+      Left = 157
+      Top = 3
       Width = 75
       Height = 25
       Caption = 'Ca&ncelar'
@@ -57,7 +57,7 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
     end
     object btnAlterar: TBitBtn
       Left = 5
-      Top = 5
+      Top = 3
       Width = 75
       Height = 25
       Caption = 'Alterar'
@@ -73,21 +73,21 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
   end
   object pnlGeral: TPanel
     Left = 0
-    Top = 35
-    Width = 1319
-    Height = 588
+    Top = 31
+    Width = 1311
+    Height = 584
     Align = alClient
     Enabled = False
     TabOrder = 1
     object RzPageControl3: TRzPageControl
       Left = 1
       Top = 1
-      Width = 1317
-      Height = 586
-      ActivePage = TS_NFE_Imp
+      Width = 1309
+      Height = 582
+      ActivePage = TS_NFE_Geral
       ActivePageDefault = TS_NFE_Geral
       Align = alClient
-      TabIndex = 1
+      TabIndex = 0
       TabOrder = 0
       FixedDimension = 19
       object TS_NFE_Geral: TRzTabSheet
@@ -117,7 +117,7 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           Caption = 'Local Servidor NFe:'
         end
         object Label25: TLabel
-          Left = 40
+          Left = 39
           Top = 130
           Width = 92
           Height = 13
@@ -125,7 +125,7 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           Caption = 'S'#233'rie Normal (NFe):'
         end
         object Label26: TLabel
-          Left = 11
+          Left = 10
           Top = 152
           Width = 121
           Height = 13
@@ -133,7 +133,7 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           Caption = 'S'#233'rie Conting'#234'ncia (NFe):'
         end
         object Label3: TLabel
-          Left = 48
+          Left = 46
           Top = 174
           Width = 85
           Height = 13
@@ -956,8 +956,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           TabOrder = 4
         end
         object DBCheckBox236: TDBCheckBox
-          Left = 822
-          Top = 152
+          Left = 790
+          Top = 125
           Width = 291
           Height = 17
           Caption = 'Na c'#243'pia do pedido, respeitar os impostos da nota'
@@ -968,8 +968,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           ValueUnchecked = 'P'
         end
         object DBCheckBox218: TDBCheckBox
-          Left = 822
-          Top = 136
+          Left = 790
+          Top = 109
           Width = 314
           Height = 17
           Caption = 'Usar o c'#243'digo do produto do pedido nas inf. compl. qdo EDI'
@@ -980,8 +980,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           ValueUnchecked = 'N'
         end
         object DBCheckBox211: TDBCheckBox
-          Left = 822
-          Top = 121
+          Left = 790
+          Top = 94
           Width = 355
           Height = 17
           Caption = 'Usar o nome do produto da nota de entrada (qdo. beneficiamento)'
@@ -992,8 +992,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           ValueUnchecked = 'N'
         end
         object DBCheckBox159: TDBCheckBox
-          Left = 822
-          Top = 105
+          Left = 790
+          Top = 78
           Width = 314
           Height = 17
           Caption = 'Usa o nome do produto do cliente/fornecedor'
@@ -1004,8 +1004,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           ValueUnchecked = 'N'
         end
         object DBCheckBox91: TDBCheckBox
-          Left = 822
-          Top = 90
+          Left = 790
+          Top = 63
           Width = 315
           Height = 17
           Caption = 'Ajustar varia'#231#227'o na c'#243'pia do pedido para a Nota'
@@ -1017,8 +1017,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           ValueUnchecked = 'N'
         end
         object DBCheckBox79: TDBCheckBox
-          Left = 822
-          Top = 74
+          Left = 790
+          Top = 47
           Width = 283
           Height = 17
           Caption = 'Copiar a Q.Restante para a Q.A Devolver nas N.Benef.'
@@ -1029,8 +1029,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           ValueUnchecked = 'N'
         end
         object DBCheckBox65: TDBCheckBox
-          Left = 822
-          Top = 59
+          Left = 790
+          Top = 32
           Width = 230
           Height = 17
           Caption = 'Usa sele'#231#227'o dos pedidos agrupadas'
@@ -1041,8 +1041,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           ValueUnchecked = 'N'
         end
         object DBCheckBox64: TDBCheckBox
-          Left = 822
-          Top = 44
+          Left = 790
+          Top = 17
           Width = 230
           Height = 17
           Caption = 'Gravar tamanhos na tabela NotaFiscal_Tam'
@@ -1129,8 +1129,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           TabOrder = 15
         end
         object DBCheckBox272: TDBCheckBox
-          Left = 822
-          Top = 168
+          Left = 790
+          Top = 141
           Width = 291
           Height = 17
           Caption = 'Mostrar a op'#231#227'o de IBPT Vencido no in'#237'cio do Menu'
@@ -1141,8 +1141,8 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           ValueUnchecked = 'N'
         end
         object DBCheckBox282: TDBCheckBox
-          Left = 822
-          Top = 183
+          Left = 790
+          Top = 156
           Width = 291
           Height = 17
           Caption = 'Copiar Recibo para a Nota Fiscal'
@@ -1153,14 +1153,26 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           ValueUnchecked = 'N'
         end
         object DBCheckBox3: TDBCheckBox
-          Left = 822
-          Top = 199
+          Left = 790
+          Top = 172
           Width = 291
           Height = 17
           Caption = 'Controlar o Cliente que vai faturar conforme a Filial'
           DataField = 'USA_CLIENTE_FAT_FIL'
           DataSource = DMCadParametros.dsParametros_NFe
           TabOrder = 18
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox7: TDBCheckBox
+          Left = 790
+          Top = 188
+          Width = 291
+          Height = 17
+          Caption = 'Copiar o frete do pedido'
+          DataField = 'COPIAR_VLR_FRETE_PED'
+          DataSource = DMCadParametros.dsParametros_NFe
+          TabOrder = 19
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
