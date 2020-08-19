@@ -19,7 +19,7 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1260
+    Width = 1268
     Height = 35
     Align = alTop
     Color = 8404992
@@ -74,16 +74,16 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
   object pnlGeral: TPanel
     Left = 0
     Top = 35
-    Width = 1260
-    Height = 585
+    Width = 1268
+    Height = 593
     Align = alClient
     Enabled = False
     TabOrder = 1
     object RzPageControl4: TRzPageControl
       Left = 1
       Top = 1
-      Width = 1258
-      Height = 583
+      Width = 1266
+      Height = 591
       ActivePage = TabSheet8
       Align = alClient
       TabIndex = 0
@@ -1572,6 +1572,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
+        object DBCheckBox24: TDBCheckBox
+          Left = 641
+          Top = 538
+          Width = 334
+          Height = 17
+          Caption = 'Mostrar o Tipo de Cobran'#231'a'
+          DataField = 'MOSTRAR_TIPO_COBR'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 94
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
       end
       object TabSheet9: TRzTabSheet
         Caption = 'Pedido - Complemento'
@@ -1597,8 +1609,8 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
         object pnlImpressao: TPanel
           Left = 0
           Top = 0
-          Width = 1254
-          Height = 560
+          Width = 1262
+          Height = 568
           Align = alClient
           Enabled = False
           TabOrder = 0
@@ -1863,8 +1875,8 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
         object pnlPedido_Proc: TPanel
           Left = 0
           Top = 0
-          Width = 1254
-          Height = 560
+          Width = 1262
+          Height = 568
           Align = alClient
           Enabled = False
           TabOrder = 0

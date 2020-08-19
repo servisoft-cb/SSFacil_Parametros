@@ -5337,6 +5337,21 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedUSA_PEDIDO_MENSAL: TStringField
+      FieldName = 'USA_PEDIDO_MENSAL'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_PedGRAVAR_FRETE_NO_RECIBO: TStringField
+      FieldName = 'GRAVAR_FRETE_NO_RECIBO'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_PedGRAVAR_OBS_NO_RECIBO: TStringField
+      FieldName = 'GRAVAR_OBS_NO_RECIBO'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
@@ -5754,6 +5769,21 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_PedMOSTRAR_ITENS_CONS: TStringField
       FieldName = 'MOSTRAR_ITENS_CONS'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedUSA_PEDIDO_MENSAL: TStringField
+      FieldName = 'USA_PEDIDO_MENSAL'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedGRAVAR_FRETE_NO_RECIBO: TStringField
+      FieldName = 'GRAVAR_FRETE_NO_RECIBO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedGRAVAR_OBS_NO_RECIBO: TStringField
+      FieldName = 'GRAVAR_OBS_NO_RECIBO'
       FixedChar = True
       Size = 1
     end

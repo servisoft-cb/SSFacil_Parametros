@@ -1783,6 +1783,8 @@ type
     cdsParametros_PedUSA_PEDIDO_MENSAL: TStringField;
     cdsParametros_PedGRAVAR_FRETE_NO_RECIBO: TStringField;
     cdsParametros_PedGRAVAR_OBS_NO_RECIBO: TStringField;
+    sdsParametros_PedMOSTRAR_TIPO_COBR: TStringField;
+    cdsParametros_PedMOSTRAR_TIPO_COBR: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

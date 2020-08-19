@@ -1777,6 +1777,12 @@ type
     sdsParametros_OCATUALIZAR_PRECO_VENDA: TStringField;
     cdsParametros_OCATUALIZAR_PRECO: TStringField;
     cdsParametros_OCATUALIZAR_PRECO_VENDA: TStringField;
+    sdsParametros_PedUSA_PEDIDO_MENSAL: TStringField;
+    sdsParametros_PedGRAVAR_FRETE_NO_RECIBO: TStringField;
+    sdsParametros_PedGRAVAR_OBS_NO_RECIBO: TStringField;
+    cdsParametros_PedUSA_PEDIDO_MENSAL: TStringField;
+    cdsParametros_PedGRAVAR_FRETE_NO_RECIBO: TStringField;
+    cdsParametros_PedGRAVAR_OBS_NO_RECIBO: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
