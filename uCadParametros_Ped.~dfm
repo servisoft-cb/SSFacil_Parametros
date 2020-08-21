@@ -1573,7 +1573,7 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           ValueUnchecked = 'N'
         end
         object DBCheckBox24: TDBCheckBox
-          Left = 640
+          Left = 641
           Top = 538
           Width = 334
           Height = 17

@@ -4922,8 +4922,8 @@ object DMCadParametros: TDMCadParametros
     MaxBlobSize = -1
     Params = <>
     SQLConnection = dmDatabase.scoDados
-    Left = 40
-    Top = 386
+    Left = 41
+    Top = 387
     object sdsParametros_PedID: TIntegerField
       FieldName = 'ID'
       ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
@@ -5349,6 +5349,11 @@ object DMCadParametros: TDMCadParametros
     end
     object sdsParametros_PedGRAVAR_OBS_NO_RECIBO: TStringField
       FieldName = 'GRAVAR_OBS_NO_RECIBO'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_PedMOSTRAR_TIPO_COBR: TStringField
+      FieldName = 'MOSTRAR_TIPO_COBR'
       FixedChar = True
       Size = 1
     end
@@ -5784,6 +5789,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_PedGRAVAR_OBS_NO_RECIBO: TStringField
       FieldName = 'GRAVAR_OBS_NO_RECIBO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedMOSTRAR_TIPO_COBR: TStringField
+      FieldName = 'MOSTRAR_TIPO_COBR'
       FixedChar = True
       Size = 1
     end

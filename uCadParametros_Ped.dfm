@@ -1584,6 +1584,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
+        object DBCheckBox25: TDBCheckBox
+          Left = 986
+          Top = 537
+          Width = 255
+          Height = 17
+          Caption = 'Avisar que n'#227'o foi informada a Transportadora'
+          DataField = 'AVISAR_TRANSPORTADORA'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 95
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
       end
       object TabSheet9: TRzTabSheet
         Caption = 'Pedido - Complemento'
