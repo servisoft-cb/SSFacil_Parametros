@@ -173,6 +173,8 @@ type
     DBCheckBox20: TDBCheckBox;
     DBCheckBox22: TDBCheckBox;
     DBCheckBox23: TDBCheckBox;
+    DBCheckBox24: TDBCheckBox;
+    DBCheckBox25: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);

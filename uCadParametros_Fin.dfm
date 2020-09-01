@@ -690,7 +690,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     object RxDBComboBox147: TRxDBComboBox
       Left = 303
       Top = 463
-      Width = 602
+      Width = 530
       Height = 21
       Style = csDropDownList
       DataField = 'TIPO_GERACAO_REM'
@@ -1131,6 +1131,30 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       DataField = 'QUITAR_AVISTA_AUT'
       DataSource = DMCadParametros.dsParametros
       TabOrder = 24
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox9: TDBCheckBox
+      Left = 857
+      Top = 452
+      Width = 377
+      Height = 17
+      Caption = 'Avisar que n'#227'o foi informado a Condi'#231#227'o de Pagamento'
+      DataField = 'AVISAR_CONDPAGTO'
+      DataSource = DMCadParametros.dsParametros_Fin
+      TabOrder = 59
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox10: TDBCheckBox
+      Left = 857
+      Top = 469
+      Width = 377
+      Height = 17
+      Caption = 'Avisar que n'#227'o foi informado a Forma de Pagamento'
+      DataField = 'AVISAR_TIPO_COBRANCA'
+      DataSource = DMCadParametros.dsParametros_Fin
+      TabOrder = 60
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
