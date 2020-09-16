@@ -1785,6 +1785,12 @@ type
     cdsParametros_PedGRAVAR_OBS_NO_RECIBO: TStringField;
     sdsParametros_PedMOSTRAR_TIPO_COBR: TStringField;
     cdsParametros_PedMOSTRAR_TIPO_COBR: TStringField;
+    sdsParametros_FinAVISAR_CONDPAGTO: TStringField;
+    sdsParametros_FinAVISAR_TIPO_COBRANCA: TStringField;
+    cdsParametros_FinAVISAR_CONDPAGTO: TStringField;
+    cdsParametros_FinAVISAR_TIPO_COBRANCA: TStringField;
+    sdsParametros_PedAVISAR_TRANSPORTADORA: TStringField;
+    cdsParametros_PedAVISAR_TRANSPORTADORA: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

@@ -438,5 +438,17 @@ object frmCadParametros_RecXML: TfrmCadParametros_RecXML
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
+    object DBCheckBox4: TDBCheckBox
+      Left = 273
+      Top = 432
+      Width = 360
+      Height = 17
+      Caption = 'Avisar quando tem Produto Novo'
+      DataField = 'AVISAR_PRODUTO_NOVO'
+      DataSource = DMCadParametros.dsParametros_RecXML
+      TabOrder = 20
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
   end
 end
