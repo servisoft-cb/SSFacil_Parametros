@@ -1791,6 +1791,8 @@ type
     cdsParametros_FinAVISAR_TIPO_COBRANCA: TStringField;
     sdsParametros_PedAVISAR_TRANSPORTADORA: TStringField;
     cdsParametros_PedAVISAR_TRANSPORTADORA: TStringField;
+    sdsParametros_RecXMLAVISAR_PRODUTO_NOVO: TStringField;
+    cdsParametros_RecXMLAVISAR_PRODUTO_NOVO: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

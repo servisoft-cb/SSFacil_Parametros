@@ -76,9 +76,9 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
     Top = 35
     Width = 1293
     Height = 622
-    ActivePage = TS_Usa
+    ActivePage = TS_Gerar
     Align = alClient
-    TabIndex = 0
+    TabIndex = 2
     TabOrder = 1
     FixedDimension = 19
     object TS_Usa: TRzTabSheet
@@ -1081,6 +1081,20 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
+        object DBCheckBox18: TDBCheckBox
+          Left = 123
+          Top = 276
+          Width = 405
+          Height = 16
+          Caption = 
+            'Gerar C'#243'd de Barras pelo ID do Produto (Usado para imprimir etiq' +
+            'uetas Cupom)'
+          DataField = 'GERAR_COD_BARRA_INT'
+          DataSource = DMCadParametros.dsParametros_Prod
+          TabOrder = 12
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
       end
     end
     object TS_Preco: TRzTabSheet
@@ -1376,6 +1390,18 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           DataField = 'ATUALIZAR_CUSTO_POR_COR'
           DataSource = DMCadParametros.dsParametros_Prod
           TabOrder = 14
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox17: TDBCheckBox
+          Left = 313
+          Top = 327
+          Width = 294
+          Height = 17
+          Caption = 'Usa Pre'#231'o Varejo'
+          DataField = 'USA_PRECO_VAREJO'
+          DataSource = DMCadParametros.dsParametros_Prod
+          TabOrder = 15
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end

@@ -3425,6 +3425,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_RecXMLAVISAR_PRODUTO_NOVO: TStringField
+      FieldName = 'AVISAR_PRODUTO_NOVO'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_RecXML: TClientDataSet
     Aggregates = <>
@@ -3498,6 +3503,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_RecXMLUTILIZA_DFE_ACBR: TStringField
       FieldName = 'UTILIZA_DFE_ACBR'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_RecXMLAVISAR_PRODUTO_NOVO: TStringField
+      FieldName = 'AVISAR_PRODUTO_NOVO'
       FixedChar = True
       Size = 1
     end

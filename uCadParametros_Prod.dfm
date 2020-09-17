@@ -76,9 +76,9 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
     Top = 35
     Width = 1293
     Height = 622
-    ActivePage = TS_Preco
+    ActivePage = TS_Gerar
     Align = alClient
-    TabIndex = 3
+    TabIndex = 2
     TabOrder = 1
     FixedDimension = 19
     object TS_Usa: TRzTabSheet
@@ -1078,6 +1078,20 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           DataField = 'COPIAR_COMB'
           DataSource = DMCadParametros.dsParametros_Prod
           TabOrder = 11
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox18: TDBCheckBox
+          Left = 123
+          Top = 276
+          Width = 405
+          Height = 16
+          Caption = 
+            'Gerar C'#243'd de Barras pelo ID do Produto (Usado para imprimir etiq' +
+            'uetas Cupom)'
+          DataField = 'GERAR_CODBARRA_ID'
+          DataSource = DMCadParametros.dsParametros_Prod
+          TabOrder = 12
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
