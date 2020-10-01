@@ -3962,6 +3962,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_ProdGERAR_CODBARRA_ID: TStringField
+      FieldName = 'GERAR_CODBARRA_ID'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Prod: TClientDataSet
     Aggregates = <>
@@ -4234,6 +4239,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_ProdUSA_PRECO_VAREJO: TStringField
       FieldName = 'USA_PRECO_VAREJO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_ProdGERAR_CODBARRA_ID: TStringField
+      FieldName = 'GERAR_CODBARRA_ID'
       FixedChar = True
       Size = 1
     end

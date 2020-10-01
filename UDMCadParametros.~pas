@@ -1793,6 +1793,8 @@ type
     cdsParametros_PedAVISAR_TRANSPORTADORA: TStringField;
     sdsParametros_RecXMLAVISAR_PRODUTO_NOVO: TStringField;
     cdsParametros_RecXMLAVISAR_PRODUTO_NOVO: TStringField;
+    sdsParametros_ProdGERAR_CODBARRA_ID: TStringField;
+    cdsParametros_ProdGERAR_CODBARRA_ID: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

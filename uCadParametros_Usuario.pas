@@ -54,6 +54,7 @@ type
     Label1: TLabel;
     RxDBComboBox1: TRxDBComboBox;
     DBCheckBox4: TDBCheckBox;
+    DBCheckBox5: TDBCheckBox;
     procedure btnNFeClick(Sender: TObject);
     procedure pnlUsuarioEnter(Sender: TObject);
     procedure FormShow(Sender: TObject);

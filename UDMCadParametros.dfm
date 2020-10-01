@@ -7598,6 +7598,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_UsuarioPERMITE_ALT_PRECO_PED: TStringField
+      FieldName = 'PERMITE_ALT_PRECO_PED'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Usuario: TClientDataSet
     Aggregates = <>
@@ -7746,6 +7751,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_UsuarioPERMITE_ALT_LOTE_MAT: TStringField
       FieldName = 'PERMITE_ALT_LOTE_MAT'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_UsuarioPERMITE_ALT_PRECO_PED: TStringField
+      FieldName = 'PERMITE_ALT_PRECO_PED'
       FixedChar = True
       Size = 1
     end
