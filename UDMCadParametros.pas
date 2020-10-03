@@ -1799,6 +1799,8 @@ type
     cdsParametros_UsuarioPERMITE_ALT_PRECO_PED: TStringField;
     sdsParametros_GeralUSA_EMAIL_ACBR: TStringField;
     cdsParametros_GeralUSA_EMAIL_ACBR: TStringField;
+    sdsParametros_UsuarioSENHA_CUPOM: TStringField;
+    cdsParametros_UsuarioSENHA_CUPOM: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

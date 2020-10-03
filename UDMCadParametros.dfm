@@ -7613,6 +7613,9 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_UsuarioSENHA_CUPOM: TStringField
+      FieldName = 'SENHA_CUPOM'
+    end
   end
   object cdsParametros_Usuario: TClientDataSet
     Aggregates = <>
@@ -7768,6 +7771,9 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'PERMITE_ALT_PRECO_PED'
       FixedChar = True
       Size = 1
+    end
+    object cdsParametros_UsuarioSENHA_CUPOM: TStringField
+      FieldName = 'SENHA_CUPOM'
     end
   end
   object dsParametros_Usuario: TDataSource

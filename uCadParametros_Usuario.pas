@@ -55,6 +55,10 @@ type
     RxDBComboBox1: TRxDBComboBox;
     DBCheckBox4: TDBCheckBox;
     DBCheckBox5: TDBCheckBox;
+    Label2: TLabel;
+    dbedtSenha: TDBEdit;
+    SpeedButton1: TSpeedButton;
+    Edit1: TEdit;
     procedure btnNFeClick(Sender: TObject);
     procedure pnlUsuarioEnter(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -63,6 +67,7 @@ type
     procedure btnAlterarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
   private
     { Private declarations }
     fDMCadParametros: TDMCadParametros;
@@ -184,6 +189,15 @@ begin
   pnlUsuario.Enabled       := not(pnlUsuario.Enabled);
   btnConfirmar.Enabled     := not(btnConfirmar.Enabled);
   btnAlterar.Enabled       := not(btnAlterar.Enabled);
+end;
+
+procedure TfrmCadParametros_Usuario.SpeedButton1Click(Sender: TObject);
+begin
+  if dbedtSenha.PasswordChar = '*' then
+    dbedtSenha.PasswordChar := #0
+  else
+    dbedtSenha.PasswordChar := '*';
+  dbedtSenha.Update;  
 end;
 
 end.

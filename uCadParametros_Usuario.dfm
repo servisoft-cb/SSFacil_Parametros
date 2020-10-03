@@ -1,6 +1,6 @@
 object frmCadParametros_Usuario: TfrmCadParametros_Usuario
-  Left = 29
-  Top = 21
+  Left = 60
+  Top = 49
   Width = 1314
   Height = 667
   Caption = 'frmCadParametros_Usuario'
@@ -19,7 +19,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1306
+    Width = 1298
     Height = 35
     Align = alTop
     Color = 8404992
@@ -74,14 +74,14 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
   object pnlGeral: TPanel
     Left = 0
     Top = 35
-    Width = 1306
-    Height = 601
+    Width = 1298
+    Height = 593
     Align = alClient
     TabOrder = 1
     object pnlTransfereUsr: TPanel
       Left = 1
       Top = 1
-      Width = 1304
+      Width = 1296
       Height = 41
       Align = alTop
       Color = clSilver
@@ -155,7 +155,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
       Left = 1
       Top = 42
       Width = 233
-      Height = 558
+      Height = 550
       Align = alLeft
       DataSource = DMCadParametros.dsParametros_Usuario
       Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgConfirmDelete, dgCancelOnExit]
@@ -199,8 +199,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
     object pnlUsuario: TPanel
       Left = 234
       Top = 42
-      Width = 1071
-      Height = 558
+      Width = 1063
+      Height = 550
       Align = alClient
       Enabled = False
       TabOrder = 2
@@ -231,7 +231,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
       end
       object Label233: TLabel
         Left = 88
-        Top = 168
+        Top = 150
         Width = 100
         Height = 13
         Alignment = taRightJustify
@@ -239,7 +239,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
       end
       object Label235: TLabel
         Left = 68
-        Top = 192
+        Top = 174
         Width = 120
         Height = 13
         Alignment = taRightJustify
@@ -260,6 +260,89 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Height = 13
         Alignment = taRightJustify
         Caption = 'Doc. Ajuste Estoque:'
+      end
+      object Label2: TLabel
+        Left = 118
+        Top = 195
+        Width = 70
+        Height = 13
+        Alignment = taRightJustify
+        Caption = 'Senha Cupom:'
+      end
+      object SpeedButton1: TSpeedButton
+        Left = 309
+        Top = 188
+        Width = 29
+        Height = 20
+        Glyph.Data = {
+          56080000424D560800000000000036000000280000001A0000001A0000000100
+          18000000000020080000C40E0000C40E00000000000000000000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCFCFCF3F3F3E0E0E0D1D1
+          D1D0D0D0DDDDDDF2F2F2FCFCFCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDC
+          DCDCA0A0A0656565525252505050535353535353505050515151656565A0A0A0
+          DDDDDDFFFFFFFFFFFFFFFFFFFFFFFFF2F2F2BEBEBEEFEFEF0000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFEEEEEE8D8D8D575757727272B3B3B3D7D7D7F1F1F1FFFF
+          FFFFFFFFF1F1F1D8D8D8B3B3B37272725858588C8C8CEFEFEFFFFFFFC4C4C468
+          6868646464E9E9E90000FFFFFFFFFFFFFFFFFFFFFFFFE2E2E2505050727272D0
+          D0D0FDFDFDFFFFFFFFFFFFFFFFFFFDFDFDFDFDFDFFFFFFFFFFFFFFFFFFFEFEFE
+          D2D2D27D7D7D5F5F5F7D7D7D5353539F9F9FEBEBEBFFFFFF0000FFFFFFFFFFFF
+          FFFFFFDBDBDB303030A1A1A1FFFFFFFFFFFFFFFFFFFFFFFFC4C4C45B5B5B3737
+          373737375A5A5AC1C1C1FFFFFFFFFFFFFFFFFFA6A6A6212121030303C1C1C1FF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFD3D3D3393939BABABAFFFFFFFFFFFFFF
+          FFFFFFFFFF8C8C8C454545A8A8A8F0F0F0F0F0F0A8A8A8494949959595CECECE
+          545454555555DDDDDDC6C6C63C3C3CD1D1D1FFFFFFFFFFFF0000FFFFFFEAEAEA
+          5A5A5A9C9C9CFFFFFFFFFFFFFFFFFFFFFFFFC4C4C4434343E6E6E6FFFFFFFFFF
+          FFFFFFFFFFFFFFB8B8B81616163F3F3FA9A9A9FCFCFCFFFFFFFFFFFF9C9C9C59
+          5959E8E8E8FFFFFF0000FFFFFF8F8F8F747474FBFBFBFFFFFFFFFFFFFFFFFFFF
+          FFFF5D5D5DA6A6A6FFFFFFFFFFFFFFFFFFF8F8F88E8E8E5A5A5A585858595959
+          FFFFFFFFFFFFFFFFFFFFFFFFFBFBFB7373738B8B8BFFFFFF0000DFDFDF525252
+          D7D7D7FFFFFFFFFFFFFFFFFFFFFFFFFAFAFA373737F0F0F0FFFFFFFFFFFFCECE
+          CE313131626262DADADAEEEEEE3B3B3BFBFBFBFFFFFFFFFFFFFFFFFFFFFFFFD7
+          D7D7515151DFDFDF0000E1E1E1515151D4D4D4FFFFFFFFFFFFFFFFFFFFFFFFFB
+          FBFB3B3B3BEEEEEEDBDBDB636363343434CDCDCDFFFFFFFFFFFFF0F0F0373737
+          FAFAFAFFFFFFFFFFFFFFFFFFFFFFFFD6D6D64F4F4FDFDFDF0000FFFFFF909090
+          717171FAFAFAFFFFFFFFFFFFFFFFFFFFFFFF5A5A5A5959595C5C5C8F8F8FF7F7
+          F7FFFFFFFFFFFFFFFFFFA7A7A75C5C5CFFFFFFFFFFFFFFFFFFFFFFFFFAFAFA71
+          71718E8E8EFFFFFF0000FFFFFFEAEAEA5C5C5C9B9B9BFFFFFFFFFFFFFCFCFCA7
+          A7A7434343181818B9B9B9FFFFFFFFFFFFFFFFFFFFFFFFE6E6E6454545C4C4C4
+          FFFFFFFFFFFFFFFFFFFFFFFF9C9C9C5C5C5CE9E9E9FFFFFF0000FFFFFFFFFFFF
+          D5D5D53F3F3FBEBEBEDCDCDC545454575757CFCFCF989898474747A5A5A5EFEF
+          EFF0F0F0A6A6A64343438C8C8CFFFFFFFFFFFFFFFFFFFFFFFFB9B9B9393939D5
+          D5D5FFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFC7C7C7070707212121A6A6A6FF
+          FFFFFFFFFFFFFFFFC5C5C55C5C5C3737373737375B5B5BC4C4C4FFFFFFFFFFFF
+          FFFFFFFFFFFFA1A1A1313131DBDBDBFFFFFFFFFFFFFFFFFF0000FFFFFFEBEBEB
+          9E9E9E4F4F4F7F7F7F6262627A7A7AD0D0D0FDFDFDFFFFFFFFFFFFFFFFFFFDFD
+          FDFDFDFDFFFFFFFFFFFFFFFFFFFEFEFECECECE6E6E6E4E4E4EE1E1E1FFFFFFFF
+          FFFFFFFFFFFFFFFF0000E9E9E9666666666666C3C3C3FFFFFFF0F0F08D8D8D57
+          5757727272AFAFAFD5D5D5F2F2F2FFFFFFFFFFFFF1F1F1D5D5D5AFAFAF727272
+          5959598D8D8DEDEDEDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000EFEFEFBFBFBF
+          F2F2F2FFFFFFFFFFFFFFFFFFFFFFFFDEDEDE9F9F9F6A6A6A5353534F4F4F5252
+          525353535050505252526969699E9E9EDEDEDEFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFDFDFDF2F2F2DDDDDDD0D0D0D0D0D0DEDEDEF3F3F3FCFCFCFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000}
+        OnClick = SpeedButton1Click
       end
       object RxDBComboBox86: TRxDBComboBox
         Left = 190
@@ -360,7 +443,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
       end
       object DBCheckBox25: TDBCheckBox
         Left = 190
-        Top = 137
+        Top = 126
         Width = 323
         Height = 17
         Caption = 'Alterar o Pre'#231'o de Custo no movimento do estoque'
@@ -372,7 +455,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
       end
       object DBEdit24: TDBEdit
         Left = 190
-        Top = 162
+        Top = 144
         Width = 115
         Height = 21
         DataField = 'SENHA_PEDIDO'
@@ -382,7 +465,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
       end
       object DBEdit26: TDBEdit
         Left = 190
-        Top = 184
+        Top = 166
         Width = 116
         Height = 21
         DataField = 'SENHA_CREDITO'
@@ -392,13 +475,13 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
       end
       object DBCheckBox115: TDBCheckBox
         Left = 190
-        Top = 209
+        Top = 213
         Width = 315
         Height = 17
         Caption = 'Mostrar os pedidos respeitando o seu usu'#225'rio'
         DataField = 'MOSTRAR_PED_USUARIO'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 8
+        TabOrder = 9
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -416,7 +499,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
           'Sim'
           'N'#227'o'
           'Somente para cima')
-        TabOrder = 9
+        TabOrder = 10
         Values.Strings = (
           'S'
           'N'
@@ -430,7 +513,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Mostrar o Custo na OS'
         DataField = 'MOSTRAR_CUSTO_OS'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 10
+        TabOrder = 12
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -442,7 +525,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Permitir alterar o Material na necessidade de compras'
         DataField = 'ALT_MATERIAL_NEC'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 11
+        TabOrder = 13
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -454,7 +537,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Permitir alterar o consumo na Necessidade de Compras'
         DataField = 'ALT_CONSUMO_NEC'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 12
+        TabOrder = 14
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -466,7 +549,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Permitir alterar o item com pedido com Ordem de Produ'#231#227'o gerada'
         DataField = 'ALT_IT_PED_COM_OP'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 13
+        TabOrder = 15
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -478,7 +561,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Solicita confirma'#231#227'o antes de enviar a NFe'
         DataField = 'CONFIRMA_ENVIO_NFE'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 14
+        TabOrder = 16
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -490,7 +573,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Utiliza Cadastro Pessoa Reduzido'
         DataField = 'UTILIZA_PESSOA_REDUZIDO'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 15
+        TabOrder = 17
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -502,7 +585,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Permite alterar o pedido depois de conferido o financeiro'
         DataField = 'ALT_FINANCEIRO_CONF'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 16
+        TabOrder = 18
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -514,7 +597,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Permite marcar o pedido como conferido o financeiro'
         DataField = 'CONFERE_FINANC'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 17
+        TabOrder = 19
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -526,7 +609,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Permitir alterar o C'#243'd. Produto do Cliente no Pedido'
         DataField = 'ALT_PROD_CLIENTE'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 18
+        TabOrder = 20
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -538,7 +621,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Permitir aprovar as duplicatas'
         DataField = 'PERMITE_APROVAR_DUP'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 19
+        TabOrder = 21
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -550,7 +633,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Permite Cancelar Pedido depois de gerado a Ordem de Produ'#231#227'o'
         DataField = 'PERMITE_CANC_PED_OP'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 20
+        TabOrder = 22
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -564,7 +647,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
           'l'#227'o'
         DataField = 'MOSTRAR_CONS_ETIQ'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 21
+        TabOrder = 23
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -576,7 +659,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Liberar baixa de tal'#227'o mesmo que o anterior n'#227'o esteja encerrada'
         DataField = 'LIBERA_TALAO_ANT'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 22
+        TabOrder = 24
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -588,7 +671,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Liberar Configura'#231#227'o do Representante (Descontos) individual'
         DataField = 'LIBERA_CONFIG_VENDEDOR'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 23
+        TabOrder = 25
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -600,7 +683,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Cupom - Mostrar barra de totais na consulta'
         DataField = 'CUPOM_TOTAIS'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 24
+        TabOrder = 26
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -618,7 +701,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
           'Entradas'
           'Sa'#237'das'
           'Ambos')
-        TabOrder = 25
+        TabOrder = 11
         Values.Strings = (
           'E'
           'S'
@@ -632,7 +715,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Permite alterar o tipo de grava'#231#227'o dos materiais no Lote'
         DataField = 'PERMITE_ALT_LOTE_MAT'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 26
+        TabOrder = 27
         ValueChecked = 'S'
         ValueUnchecked = 'N'
       end
@@ -644,9 +727,27 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         Caption = 'Permite alterar Pre'#231'o do Item do Pedido Parcialmente Faturado'
         DataField = 'PERMITE_ALT_PRECO_PED'
         DataSource = DMCadParametros.dsParametros_Usuario
-        TabOrder = 27
+        TabOrder = 28
         ValueChecked = 'S'
         ValueUnchecked = 'N'
+      end
+      object dbedtSenha: TDBEdit
+        Left = 190
+        Top = 187
+        Width = 116
+        Height = 21
+        DataField = 'SENHA_CUPOM'
+        DataSource = DMCadParametros.dsParametros_Usuario
+        PasswordChar = '*'
+        TabOrder = 8
+      end
+      object Edit1: TEdit
+        Left = 640
+        Top = 264
+        Width = 121
+        Height = 21
+        TabOrder = 29
+        Text = 'Edit1'
       end
     end
   end
