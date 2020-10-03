@@ -1,6 +1,6 @@
 object frmCadParametro: TfrmCadParametro
-  Left = -4
-  Top = 16
+  Left = -11
+  Top = -9
   Width = 1382
   Height = 744
   Caption = 'frmCadParametros - Par'#226'metros'
@@ -76,10 +76,10 @@ object frmCadParametro: TfrmCadParametro
     Left = 0
     Top = 35
     Width = 1366
-    Height = 671
-    ActivePage = TS_TipoEmpresa
+    Height = 670
+    ActivePage = ts_Geral
     Align = alClient
-    TabIndex = 1
+    TabIndex = 0
     TabOrder = 1
     FixedDimension = 19
     object ts_Geral: TRzTabSheet
@@ -88,7 +88,7 @@ object frmCadParametro: TfrmCadParametro
         Left = 0
         Top = 0
         Width = 1362
-        Height = 648
+        Height = 647
         Align = alClient
         Enabled = False
         TabOrder = 0
@@ -531,7 +531,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox12: TDBCheckBox
           Left = 500
-          Top = 183
+          Top = 168
           Width = 105
           Height = 17
           Caption = 'Usa SPED'
@@ -543,7 +543,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox13: TDBCheckBox
           Left = 500
-          Top = 200
+          Top = 185
           Width = 105
           Height = 17
           Caption = 'Usa FCI'
@@ -1062,7 +1062,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox4: TDBCheckBox
           Left = 500
-          Top = 217
+          Top = 202
           Width = 189
           Height = 17
           Caption = 'Controlar Agenda Por Funcion'#225'rio'
@@ -1074,7 +1074,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox5: TDBCheckBox
           Left = 500
-          Top = 265
+          Top = 253
           Width = 187
           Height = 17
           Caption = 'Empresa usa tabela de pre'#231'o'
@@ -1104,7 +1104,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox6: TDBCheckBox
           Left = 500
-          Top = 232
+          Top = 219
           Width = 189
           Height = 17
           Caption = 'Mostrar Doc.Estoque no Hist.Cliente'
@@ -1116,7 +1116,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox16: TDBCheckBox
           Left = 500
-          Top = 249
+          Top = 236
           Width = 189
           Height = 17
           Caption = 'Usa CAE no cadastro de Pessoas'
@@ -1140,13 +1140,25 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox22: TDBCheckBox
           Left = 500
-          Top = 283
+          Top = 270
           Width = 187
           Height = 17
           Caption = 'Usa NFCe Local (Com Base local)'
           DataField = 'USA_NFCE_LOCAL'
           DataSource = DMCadParametros.dsParametros_Geral
           TabOrder = 59
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox25: TDBCheckBox
+          Left = 500
+          Top = 287
+          Width = 187
+          Height = 17
+          Caption = 'Usa Envio Email ACBr'
+          DataField = 'USA_EMAIL_ACBR'
+          DataSource = DMCadParametros.dsParametros_Geral
+          TabOrder = 60
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -1158,7 +1170,7 @@ object frmCadParametro: TfrmCadParametro
         Left = 0
         Top = 0
         Width = 1362
-        Height = 648
+        Height = 647
         Align = alClient
         Enabled = False
         TabOrder = 0

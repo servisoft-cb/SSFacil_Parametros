@@ -1797,6 +1797,8 @@ type
     cdsParametros_ProdGERAR_CODBARRA_ID: TStringField;
     sdsParametros_UsuarioPERMITE_ALT_PRECO_PED: TStringField;
     cdsParametros_UsuarioPERMITE_ALT_PRECO_PED: TStringField;
+    sdsParametros_GeralUSA_EMAIL_ACBR: TStringField;
+    cdsParametros_GeralUSA_EMAIL_ACBR: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

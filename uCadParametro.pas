@@ -127,6 +127,7 @@ type
     DBCheckBox21: TDBCheckBox;
     DBCheckBox22: TDBCheckBox;
     DBCheckBox24: TDBCheckBox;
+    DBCheckBox25: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);

@@ -2519,6 +2519,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_GeralUSA_EMAIL_ACBR: TStringField
+      FieldName = 'USA_EMAIL_ACBR'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Geral: TClientDataSet
     Aggregates = <>
@@ -2705,6 +2710,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_GeralEMPRESA_CONSTRUCAOCIVIL: TStringField
       FieldName = 'EMPRESA_CONSTRUCAOCIVIL'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_GeralUSA_EMAIL_ACBR: TStringField
+      FieldName = 'USA_EMAIL_ACBR'
       FixedChar = True
       Size = 1
     end
