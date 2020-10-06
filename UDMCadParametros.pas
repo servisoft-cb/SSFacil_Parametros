@@ -1801,6 +1801,8 @@ type
     cdsParametros_GeralUSA_EMAIL_ACBR: TStringField;
     sdsParametros_UsuarioSENHA_CUPOM: TStringField;
     cdsParametros_UsuarioSENHA_CUPOM: TStringField;
+    sdsParametros_EstINF_SALDO_INICIAL: TStringField;
+    cdsParametros_EstINF_SALDO_INICIAL: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

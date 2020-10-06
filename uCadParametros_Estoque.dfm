@@ -191,7 +191,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     end
     object Label22: TLabel
       Left = 6
-      Top = 385
+      Top = 393
       Width = 270
       Height = 13
       Alignment = taRightJustify
@@ -199,7 +199,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     end
     object Label92: TLabel
       Left = 106
-      Top = 407
+      Top = 415
       Width = 170
       Height = 13
       Alignment = taRightJustify
@@ -420,7 +420,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     end
     object DirectoryEdit12: TDirectoryEdit
       Left = 278
-      Top = 378
+      Top = 386
       Width = 574
       Height = 21
       InitialDir = 'C:\'
@@ -431,7 +431,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     end
     object DBEdit35: TDBEdit
       Left = 278
-      Top = 399
+      Top = 407
       Width = 325
       Height = 21
       DataField = 'NOME_ARQ'
@@ -700,6 +700,18 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       DataField = 'USA_TRANSF_FILIAL'
       DataSource = DMCadParametros.dsParametros_Est
       TabOrder = 34
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox10: TDBCheckBox
+      Left = 643
+      Top = 361
+      Width = 446
+      Height = 16
+      Caption = 'Informar Saldo Inicial no cadastro do Produto'
+      DataField = 'INF_SALDO_INICIAL'
+      DataSource = DMCadParametros.dsParametros_Est
+      TabOrder = 35
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
