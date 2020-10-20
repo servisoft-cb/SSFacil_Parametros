@@ -76,9 +76,9 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
     Top = 35
     Width = 1293
     Height = 622
-    ActivePage = TS_Gerar
+    ActivePage = TS_Usa
     Align = alClient
-    TabIndex = 2
+    TabIndex = 0
     TabOrder = 1
     FixedDimension = 19
     object TS_Usa: TRzTabSheet
@@ -1258,7 +1258,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
             'X')
         end
         object DBEdit28: TDBEdit
-          Left = 316
+          Left = 317
           Top = 135
           Width = 91
           Height = 21

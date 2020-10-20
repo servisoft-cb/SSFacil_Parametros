@@ -76,9 +76,9 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
     Top = 35
     Width = 1293
     Height = 622
-    ActivePage = TS_Gerar
+    ActivePage = TS_Usa
     Align = alClient
-    TabIndex = 2
+    TabIndex = 0
     TabOrder = 1
     FixedDimension = 19
     object TS_Usa: TRzTabSheet
@@ -1089,7 +1089,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 
             'Gerar C'#243'd de Barras pelo ID do Produto (Usado para imprimir etiq' +
             'uetas Cupom)'
-          DataField = 'GERAR_COD_BARRA_INT'
+          DataField = 'GERAR_CODBARRA_ID'
           DataSource = DMCadParametros.dsParametros_Prod
           TabOrder = 12
           ValueChecked = 'S'
