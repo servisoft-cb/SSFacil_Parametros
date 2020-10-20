@@ -20,7 +20,7 @@ object frmCadParametro: TfrmCadParametro
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1366
+    Width = 1374
     Height = 35
     Align = alTop
     Color = 8404992
@@ -75,8 +75,8 @@ object frmCadParametro: TfrmCadParametro
   object pc_Principal: TRzPageControl
     Left = 0
     Top = 35
-    Width = 1366
-    Height = 670
+    Width = 1374
+    Height = 678
     ActivePage = ts_Geral
     Align = alClient
     TabIndex = 0
@@ -87,8 +87,8 @@ object frmCadParametro: TfrmCadParametro
       object pnlGeral: TPanel
         Left = 0
         Top = 0
-        Width = 1362
-        Height = 647
+        Width = 1370
+        Height = 655
         Align = alClient
         Enabled = False
         TabOrder = 0
@@ -354,6 +354,14 @@ object frmCadParametro: TfrmCadParametro
           Height = 13
           Alignment = taRightJustify
           Caption = 'Usa Vendedor Interno:'
+        end
+        object Label6: TLabel
+          Left = 392
+          Top = 16
+          Width = 86
+          Height = 13
+          Alignment = taRightJustify
+          Caption = 'Esta'#231#227'o/Servidor:'
         end
         object RxDBComboBox4: TRxDBComboBox
           Left = 206
@@ -1161,6 +1169,24 @@ object frmCadParametro: TfrmCadParametro
           TabOrder = 60
           ValueChecked = 'S'
           ValueUnchecked = 'N'
+        end
+        object RxDBComboBox2: TRxDBComboBox
+          Left = 480
+          Top = 8
+          Width = 145
+          Height = 21
+          Style = csDropDownList
+          DataField = 'ESTACAO_SERVIDOR_NFCE'
+          DataSource = DMCadParametros.dsParametros_Geral
+          EnableValues = True
+          ItemHeight = 13
+          Items.Strings = (
+            'Esta'#231#227'o'
+            'Servidor')
+          TabOrder = 61
+          Values.Strings = (
+            'E'
+            'S')
         end
       end
     end

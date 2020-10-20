@@ -1,6 +1,6 @@
 object frmCadParametro: TfrmCadParametro
-  Left = -4
-  Top = 16
+  Left = -11
+  Top = -9
   Width = 1382
   Height = 744
   Caption = 'frmCadParametros - Par'#226'metros'
@@ -355,6 +355,14 @@ object frmCadParametro: TfrmCadParametro
           Alignment = taRightJustify
           Caption = 'Usa Vendedor Interno:'
         end
+        object Label6: TLabel
+          Left = 392
+          Top = 16
+          Width = 86
+          Height = 13
+          Alignment = taRightJustify
+          Caption = 'Esta'#231#227'o/Servidor:'
+        end
         object RxDBComboBox4: TRxDBComboBox
           Left = 206
           Top = 8
@@ -531,7 +539,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox12: TDBCheckBox
           Left = 500
-          Top = 183
+          Top = 168
           Width = 105
           Height = 17
           Caption = 'Usa SPED'
@@ -543,7 +551,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox13: TDBCheckBox
           Left = 500
-          Top = 200
+          Top = 185
           Width = 105
           Height = 17
           Caption = 'Usa FCI'
@@ -1062,7 +1070,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox4: TDBCheckBox
           Left = 500
-          Top = 217
+          Top = 202
           Width = 189
           Height = 17
           Caption = 'Controlar Agenda Por Funcion'#225'rio'
@@ -1074,7 +1082,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox5: TDBCheckBox
           Left = 500
-          Top = 265
+          Top = 253
           Width = 187
           Height = 17
           Caption = 'Empresa usa tabela de pre'#231'o'
@@ -1104,7 +1112,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox6: TDBCheckBox
           Left = 500
-          Top = 232
+          Top = 219
           Width = 189
           Height = 17
           Caption = 'Mostrar Doc.Estoque no Hist.Cliente'
@@ -1116,7 +1124,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox16: TDBCheckBox
           Left = 500
-          Top = 249
+          Top = 236
           Width = 189
           Height = 17
           Caption = 'Usa CAE no cadastro de Pessoas'
@@ -1140,7 +1148,7 @@ object frmCadParametro: TfrmCadParametro
         end
         object DBCheckBox22: TDBCheckBox
           Left = 500
-          Top = 283
+          Top = 270
           Width = 187
           Height = 17
           Caption = 'Usa NFCe Local (Com Base local)'
@@ -1150,6 +1158,36 @@ object frmCadParametro: TfrmCadParametro
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
+        object DBCheckBox25: TDBCheckBox
+          Left = 500
+          Top = 287
+          Width = 187
+          Height = 17
+          Caption = 'Usa Envio Email ACBr'
+          DataField = 'USA_EMAIL_ACBR'
+          DataSource = DMCadParametros.dsParametros_Geral
+          TabOrder = 60
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object RxDBComboBox2: TRxDBComboBox
+          Left = 480
+          Top = 8
+          Width = 145
+          Height = 21
+          Style = csDropDownList
+          DataField = 'ESTACAO_SERVIDOR_NFCE'
+          DataSource = DMCadParametros.dsParametros_Geral
+          EnableValues = True
+          ItemHeight = 13
+          Items.Strings = (
+            'Esta'#231#227'o'
+            'Servidor')
+          TabOrder = 61
+          Values.Strings = (
+            'E'
+            'S')
+        end
       end
     end
     object TS_TipoEmpresa: TRzTabSheet
@@ -1157,8 +1195,8 @@ object frmCadParametro: TfrmCadParametro
       object pnlTipoEmpresa: TPanel
         Left = 0
         Top = 0
-        Width = 1370
-        Height = 655
+        Width = 1362
+        Height = 647
         Align = alClient
         Enabled = False
         TabOrder = 0
@@ -1339,6 +1377,18 @@ object frmCadParametro: TfrmCadParametro
           DataField = 'EMPRESA_RESTAURANTE'
           DataSource = DMCadParametros.dsParametros_Geral
           TabOrder = 14
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox24: TDBCheckBox
+          Left = 22
+          Top = 235
+          Width = 188
+          Height = 17
+          Caption = 'Contru'#231#227'o C'#237'vil'
+          DataField = 'EMPRESA_CONSTRUCAOCIVIL'
+          DataSource = DMCadParametros.dsParametros_Geral
+          TabOrder = 15
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end

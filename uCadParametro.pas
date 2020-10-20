@@ -128,6 +128,8 @@ type
     DBCheckBox22: TDBCheckBox;
     DBCheckBox24: TDBCheckBox;
     DBCheckBox25: TDBCheckBox;
+    Label6: TLabel;
+    RxDBComboBox2: TRxDBComboBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
