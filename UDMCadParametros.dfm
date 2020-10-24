@@ -6610,12 +6610,17 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_ComUSAR_PERC_SEMI: TStringField
+      FieldName = 'USAR_PERC_SEMI'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Com: TClientDataSet
     Aggregates = <>
     Params = <>
     ProviderName = 'dspParametros_Com'
-    Left = 400
+    Left = 401
     Top = 259
     object cdsParametros_ComID: TIntegerField
       FieldName = 'ID'
@@ -6649,6 +6654,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_ComAVISAR_SEM_COMISSAO: TStringField
       FieldName = 'AVISAR_SEM_COMISSAO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_ComUSAR_PERC_SEMI: TStringField
+      FieldName = 'USAR_PERC_SEMI'
       FixedChar = True
       Size = 1
     end

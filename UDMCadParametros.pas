@@ -1805,6 +1805,8 @@ type
     cdsParametros_EstINF_SALDO_INICIAL: TStringField;
     sdsParametros_GeralESTACAO_SERVIDOR_NFCE: TStringField;
     cdsParametros_GeralESTACAO_SERVIDOR_NFCE: TStringField;
+    sdsParametros_ComUSAR_PERC_SEMI: TStringField;
+    cdsParametros_ComUSAR_PERC_SEMI: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

@@ -263,5 +263,17 @@ object frmCadParametros_Com: TfrmCadParametros_Com
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
+    object DBCheckBox3: TDBCheckBox
+      Left = 192
+      Top = 158
+      Width = 386
+      Height = 17
+      Caption = 'Usar Comiss'#227'o Pelo Semi Acabado  (Serve para empresa Textil)'
+      DataField = 'USAR_PERC_SEMI'
+      DataSource = DMCadParametros.dsParametros_Com
+      TabOrder = 9
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
   end
 end

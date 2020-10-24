@@ -1803,6 +1803,8 @@ type
     cdsParametros_UsuarioSENHA_CUPOM: TStringField;
     sdsParametros_EstINF_SALDO_INICIAL: TStringField;
     cdsParametros_EstINF_SALDO_INICIAL: TStringField;
+    sdsParametros_GeralESTACAO_SERVIDOR_NFCE: TStringField;
+    cdsParametros_GeralESTACAO_SERVIDOR_NFCE: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

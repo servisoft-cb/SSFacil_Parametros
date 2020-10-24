@@ -257,7 +257,7 @@ object frmCadParametros_Com: TfrmCadParametros_Com
       Width = 386
       Height = 17
       Caption = 'Avisar que n'#227'o foi informado o % de Comiss'#227'o no Item'
-      DataField = 'MOSTRAR_PED'
+      DataField = 'AVISAR_SEM_COMISSAO'
       DataSource = DMCadParametros.dsParametros_Com
       TabOrder = 8
       ValueChecked = 'S'
