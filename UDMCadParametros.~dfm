@@ -5402,12 +5402,21 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedLIB_ITEM_SEM_PROCESSO: TStringField
+      FieldName = 'LIB_ITEM_SEM_PROCESSO'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_PedSENHA_ALT_PEDIDO: TStringField
+      FieldName = 'SENHA_ALT_PEDIDO'
+      Size = 15
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
     Params = <>
     ProviderName = 'dspParametros_Ped'
-    Left = 106
+    Left = 105
     Top = 387
     object cdsParametros_PedID: TIntegerField
       FieldName = 'ID'
@@ -5846,6 +5855,15 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'AVISAR_TRANSPORTADORA'
       FixedChar = True
       Size = 1
+    end
+    object cdsParametros_PedLIB_ITEM_SEM_PROCESSO: TStringField
+      FieldName = 'LIB_ITEM_SEM_PROCESSO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedSENHA_ALT_PEDIDO: TStringField
+      FieldName = 'SENHA_ALT_PEDIDO'
+      Size = 15
     end
   end
   object dsParametros_Ped: TDataSource
@@ -6610,6 +6628,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_ComUSAR_PERC_SEMI: TStringField
+      FieldName = 'USAR_PERC_SEMI'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Com: TClientDataSet
     Aggregates = <>
@@ -6649,6 +6672,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_ComAVISAR_SEM_COMISSAO: TStringField
       FieldName = 'AVISAR_SEM_COMISSAO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_ComUSAR_PERC_SEMI: TStringField
+      FieldName = 'USAR_PERC_SEMI'
       FixedChar = True
       Size = 1
     end

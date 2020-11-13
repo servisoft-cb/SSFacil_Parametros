@@ -5402,12 +5402,17 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedLIB_ITEM_SEM_PROCESSO: TStringField
+      FieldName = 'LIB_ITEM_SEM_PROCESSO'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
     Params = <>
     ProviderName = 'dspParametros_Ped'
-    Left = 106
+    Left = 105
     Top = 387
     object cdsParametros_PedID: TIntegerField
       FieldName = 'ID'
@@ -5844,6 +5849,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_PedAVISAR_TRANSPORTADORA: TStringField
       FieldName = 'AVISAR_TRANSPORTADORA'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedLIB_ITEM_SEM_PROCESSO: TStringField
+      FieldName = 'LIB_ITEM_SEM_PROCESSO'
       FixedChar = True
       Size = 1
     end

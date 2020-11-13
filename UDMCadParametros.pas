@@ -1807,6 +1807,8 @@ type
     cdsParametros_GeralESTACAO_SERVIDOR_NFCE: TStringField;
     sdsParametros_ComUSAR_PERC_SEMI: TStringField;
     cdsParametros_ComUSAR_PERC_SEMI: TStringField;
+    sdsParametros_PedLIB_ITEM_SEM_PROCESSO: TStringField;
+    cdsParametros_PedLIB_ITEM_SEM_PROCESSO: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
