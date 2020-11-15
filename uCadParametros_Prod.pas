@@ -25,7 +25,6 @@ type
     RxDBComboBox91: TRxDBComboBox;
     RxDBComboBox102: TRxDBComboBox;
     DBCheckBox19: TDBCheckBox;
-    DBCheckBox68: TDBCheckBox;
     DBCheckBox85: TDBCheckBox;
     DBCheckBox86: TDBCheckBox;
     RxDBComboBox155: TRxDBComboBox;
@@ -147,6 +146,8 @@ type
     DBCheckBox16: TDBCheckBox;
     DBCheckBox17: TDBCheckBox;
     DBCheckBox18: TDBCheckBox;
+    Label5: TLabel;
+    RxDBComboBox5: TRxDBComboBox;
     procedure FormShow(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);

@@ -1258,7 +1258,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
             'X')
         end
         object DBEdit28: TDBEdit
-          Left = 316
+          Left = 317
           Top = 135
           Width = 91
           Height = 21
