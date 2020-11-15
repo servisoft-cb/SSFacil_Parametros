@@ -546,7 +546,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Height = 21
           Style = csDropDownList
           DataField = 'USA_PRODUTO_FILIAL'
-          DataSource = DMCadParametros.dsParametros
+          DataSource = DMCadParametros.dsParametros_Prod
           EnableValues = True
           ItemHeight = 13
           Items.Strings = (

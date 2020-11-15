@@ -131,10 +131,18 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Alignment = taRightJustify
           Caption = 'Informar Cor '#250'nica (RZ):'
         end
+        object Label5: TLabel
+          Left = 480
+          Top = 150
+          Width = 159
+          Height = 13
+          Alignment = taRightJustify
+          Caption = 'Usa cadastro de Produto por Filial'
+        end
         object RxDBComboBox70: TRxDBComboBox
           Left = 640
           Top = 29
-          Width = 184
+          Width = 221
           Height = 21
           Style = csDropDownList
           DataField = 'USA_PRODUTO_CLIENTE'
@@ -154,7 +162,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         object RxDBComboBox89: TRxDBComboBox
           Left = 640
           Top = 52
-          Width = 184
+          Width = 221
           Height = 21
           Style = csDropDownList
           DataField = 'INFORMAR_COR_MATERIAL'
@@ -172,7 +180,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         object RxDBComboBox91: TRxDBComboBox
           Left = 642
           Top = 118
-          Width = 184
+          Width = 221
           Height = 21
           Style = csDropDownList
           DataField = 'NUMERO_SERIE_INTERNO'
@@ -192,7 +200,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         object RxDBComboBox102: TRxDBComboBox
           Left = 640
           Top = 73
-          Width = 184
+          Width = 221
           Height = 21
           Style = csDropDownList
           DataField = 'INFORMAR_COR_PROD'
@@ -221,18 +229,6 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
-        object DBCheckBox68: TDBCheckBox
-          Left = 28
-          Top = 178
-          Width = 199
-          Height = 17
-          Caption = 'Usa cadastro de Produto por Filial'
-          DataField = 'USA_PRODUTO_FILIAL'
-          DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 5
-          ValueChecked = 'S'
-          ValueUnchecked = 'N'
-        end
         object DBCheckBox85: TDBCheckBox
           Left = 28
           Top = 195
@@ -241,7 +237,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa o campo medida no cadastro'
           DataField = 'USA_MEDIDA'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 6
+          TabOrder = 5
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -253,14 +249,14 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa a qtd. de embalagem  (com'#233'rcio)'
           DataField = 'USA_QTD_EMBALAGEM'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 7
+          TabOrder = 6
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
         object RxDBComboBox155: TRxDBComboBox
           Left = 641
           Top = 94
-          Width = 184
+          Width = 221
           Height = 21
           Style = csDropDownList
           DataField = 'INFORMAR_COR_MATERIAL_RZ'
@@ -271,7 +267,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
             'Material'
             'Produto'
             'N'#227'o')
-          TabOrder = 8
+          TabOrder = 7
           Values.Strings = (
             'S'
             'P'
@@ -285,7 +281,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Informar consumo por Combina'#231#227'o'
           DataField = 'USA_CONSUMO_COMB'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 9
+          TabOrder = 8
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -297,7 +293,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Pictograma'
           DataField = 'USA_PICTOGRAMA'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 10
+          TabOrder = 9
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -309,7 +305,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Tamanho Individual no cadastro do Produto'
           DataField = 'USA_TAM_INDIVIDUAL'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 11
+          TabOrder = 10
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -321,7 +317,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Lote Controle no Produto (Estoque por Lote)'
           DataField = 'USA_LOTE_PROD'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 12
+          TabOrder = 11
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -333,7 +329,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Largura x Altura x Espessura'
           DataField = 'USA_LARG'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 13
+          TabOrder = 12
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -345,7 +341,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Inf. C.Barra Manualmente'
           DataField = 'INF_CBARRA_MANUAL'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 14
+          TabOrder = 13
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -357,7 +353,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa a op'#231#227'o para excluir o produto selecionados'
           DataField = 'EXCLUI_PROD_SEL'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 15
+          TabOrder = 14
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -369,7 +365,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa a refer'#234'ncia 2 (sem a pontu'#231#227'o)'
           DataField = 'USA_REF2'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 16
+          TabOrder = 15
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -381,7 +377,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Tam. C'#225'lculo de Fios'
           DataField = 'MOSTRAR_TAM_CALC'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 17
+          TabOrder = 16
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -395,7 +391,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
             'produzido'
           DataField = 'USA_MAQUINA'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 18
+          TabOrder = 17
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -407,7 +403,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Constru'#231#227'o'
           DataField = 'USA_CONSTRUCAO'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 19
+          TabOrder = 18
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -419,7 +415,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa o CA Por Hist'#243'rico (Deixa gravado o CA Anterior)'
           DataField = 'USA_CA_HIST'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 20
+          TabOrder = 19
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -431,7 +427,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa C'#225'lculo Corrugado (Produto_Corrugado)'
           DataField = 'USA_CORRUGADO'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 21
+          TabOrder = 20
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -443,7 +439,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Consumo'
           DataField = 'USA_CONSUMO'
           DataSource = DMCadParametros.dsParametros
-          TabOrder = 22
+          TabOrder = 21
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -455,7 +451,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Grade'
           DataField = 'USA_GRADE'
           DataSource = DMCadParametros.dsParametros
-          TabOrder = 23
+          TabOrder = 22
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -467,7 +463,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usar C'#243'digo de Barras:'
           DataField = 'USA_COD_BARRAS'
           DataSource = DMCadParametros.dsParametros
-          TabOrder = 24
+          TabOrder = 23
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -479,7 +475,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa n'#250'mero de s'#233'rie'
           DataField = 'USA_NUM_SERIE_PROD'
           DataSource = DMCadParametros.dsParametros
-          TabOrder = 25
+          TabOrder = 24
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -491,7 +487,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa EDI (Recebimento de OC do Cliente)'
           DataField = 'USA_EDI'
           DataSource = DMCadParametros.dsParametros
-          TabOrder = 26
+          TabOrder = 25
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -503,7 +499,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa ID Material Consumo'
           DataField = 'USA_ID_MATERIAL_CONS'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 27
+          TabOrder = 26
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -515,7 +511,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Bitola'
           DataField = 'USA_BITOLA'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 28
+          TabOrder = 27
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -527,7 +523,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Sele'#231#227'o de Combina'#231#227'o para Etiquetas'
           DataField = 'USA_SEL_COMB_ETIQUETA'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 29
+          TabOrder = 28
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
@@ -539,9 +535,29 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Caption = 'Usa Qtde M'#233'dia no Produto (vai mostrar no Pedido)'
           DataField = 'USA_QTD_MEDIA'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 30
+          TabOrder = 29
           ValueChecked = 'S'
           ValueUnchecked = 'N'
+        end
+        object RxDBComboBox5: TRxDBComboBox
+          Left = 642
+          Top = 142
+          Width = 221
+          Height = 21
+          Style = csDropDownList
+          DataField = 'USA_PRODUTO_FILIAL'
+          DataSource = DMCadParametros.dsParametros
+          EnableValues = True
+          ItemHeight = 13
+          Items.Strings = (
+            'Somente a Filial informada'
+            'Com a Filial e Sem a Informa'#231#227'o'
+            'N'#227'o Controla por Filial')
+          TabOrder = 30
+          Values.Strings = (
+            'S'
+            'P'
+            'N')
         end
       end
     end
