@@ -250,7 +250,7 @@ begin
   pnlGeral.Enabled := True;
   pnlImpressao.Enabled := True;
   pnlPedido_Proc.Enabled := True;
-
+  pnlControle.Enabled    := True;
 end;
 
 procedure TfrmCadParametros_Ped.btnCancelarClick(Sender: TObject);
@@ -267,6 +267,7 @@ begin
   pnlPedido_Proc.Enabled := not (pnlPedido_Proc.Enabled);
   btnConfirmar.Enabled   := not(btnConfirmar.Enabled);
   btnAlterar.Enabled     := not(btnAlterar.Enabled);
+  pnlControle.Enabled    := not(pnlControle.Enabled);
 end;
 
 procedure TfrmCadParametros_Ped.btnConfirmarClick(Sender: TObject);

@@ -84,9 +84,9 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
       Top = 1
       Width = 1266
       Height = 591
-      ActivePage = TS_Controle
+      ActivePage = TabSheet1
       Align = alClient
-      TabIndex = 4
+      TabIndex = 3
       TabOrder = 0
       FixedDimension = 19
       object TabSheet8: TRzTabSheet
