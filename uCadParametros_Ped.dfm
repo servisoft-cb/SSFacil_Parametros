@@ -84,9 +84,9 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
       Top = 1
       Width = 1266
       Height = 591
-      ActivePage = TabSheet1
+      ActivePage = TS_Controle
       Align = alClient
-      TabIndex = 3
+      TabIndex = 4
       TabOrder = 0
       FixedDimension = 19
       object TabSheet8: TRzTabSheet
@@ -1530,16 +1530,16 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           Enabled = False
           TabOrder = 0
           object Label119: TLabel
-            Left = 902
-            Top = 12
+            Left = 532
+            Top = 199
             Width = 70
             Height = 13
             Alignment = taRightJustify
             Caption = 'Senha Pedido:'
           end
           object Label120: TLabel
-            Left = 1066
-            Top = 8
+            Left = 696
+            Top = 195
             Width = 117
             Height = 13
             Alignment = taRightJustify
@@ -1552,16 +1552,16 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
             ParentFont = False
           end
           object Label5: TLabel
-            Left = 883
-            Top = 36
+            Left = 513
+            Top = 223
             Width = 89
             Height = 13
             Alignment = taRightJustify
             Caption = 'Senha Or'#231'amento:'
           end
           object Label6: TLabel
-            Left = 1067
-            Top = 32
+            Left = 697
+            Top = 219
             Width = 117
             Height = 13
             Alignment = taRightJustify
@@ -1574,8 +1574,8 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
             ParentFont = False
           end
           object dbEdtSenha_Pedido: TDBEdit
-            Left = 974
-            Top = 3
+            Left = 604
+            Top = 190
             Width = 91
             Height = 21
             DataField = 'SENHA_PEDIDO'
@@ -1584,8 +1584,8 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
             TabOrder = 0
           end
           object DBEdit2: TDBEdit
-            Left = 974
-            Top = 27
+            Left = 604
+            Top = 214
             Width = 91
             Height = 21
             DataField = 'SENHA_EXCLUIR_ORC'
