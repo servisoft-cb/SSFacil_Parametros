@@ -7981,6 +7981,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_EstTRANSFERENCIA_PRECO: TStringField
+      FieldName = 'TRANSFERENCIA_PRECO'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Est: TClientDataSet
     Aggregates = <>
@@ -8141,6 +8146,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_EstINF_SALDO_INICIAL: TStringField
       FieldName = 'INF_SALDO_INICIAL'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_EstTRANSFERENCIA_PRECO: TStringField
+      FieldName = 'TRANSFERENCIA_PRECO'
       FixedChar = True
       Size = 1
     end

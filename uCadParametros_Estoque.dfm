@@ -221,6 +221,14 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       Alignment = taRightJustify
       Caption = 'Usar Pre'#231'o de Venda quando for Sa'#237'da no Doc. no Tipo:'
     end
+    object Label3: TLabel
+      Left = 126
+      Top = 337
+      Width = 150
+      Height = 13
+      Alignment = taRightJustify
+      Caption = 'Na Transfer'#234'ncia Usar o Pre'#231'o:'
+    end
     object RxDBComboBox31: TRxDBComboBox
       Left = 278
       Top = 18
@@ -714,6 +722,24 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       TabOrder = 35
       ValueChecked = 'S'
       ValueUnchecked = 'N'
+    end
+    object RxDBComboBox2: TRxDBComboBox
+      Left = 278
+      Top = 329
+      Width = 184
+      Height = 21
+      Style = csDropDownList
+      DataField = 'TRANSFERENCIA_PRECO'
+      DataSource = DMCadParametros.dsParametros_Est
+      EnableValues = True
+      ItemHeight = 13
+      Items.Strings = (
+        'C=Preco Custo'
+        'V=Preco Venda')
+      TabOrder = 36
+      Values.Strings = (
+        'C'
+        'V')
     end
   end
 end

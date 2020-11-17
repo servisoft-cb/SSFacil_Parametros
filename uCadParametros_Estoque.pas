@@ -67,6 +67,8 @@ type
     DBCheckBox16: TDBCheckBox;
     DBCheckBox9: TDBCheckBox;
     DBCheckBox10: TDBCheckBox;
+    Label3: TLabel;
+    RxDBComboBox2: TRxDBComboBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
