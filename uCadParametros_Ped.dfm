@@ -1990,18 +1990,6 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
             ValueChecked = 'S'
             ValueUnchecked = 'N'
           end
-          object DBCheckBox26: TDBCheckBox
-            Left = 602
-            Top = 155
-            Width = 255
-            Height = 17
-            Caption = 'Liberar item Pedido/Or'#231'amento sem Processos'
-            DataField = 'LIB_ITEM_SEM_PROCESSO'
-            DataSource = DMCadParametros.dsParametros_Ped
-            TabOrder = 35
-            ValueChecked = 'S'
-            ValueUnchecked = 'N'
-          end
         end
       end
     end
