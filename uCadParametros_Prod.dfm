@@ -77,9 +77,11 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
     Width = 1293
     Height = 622
     ActivePage = TS_Usa
+    ActivePageDefault = TS_Usa
     Align = alClient
     TabIndex = 0
     TabOrder = 1
+    OnChange = RzPageControl1Change
     FixedDimension = 19
     object TS_Usa: TRzTabSheet
       Caption = 'Usa no Produto'
@@ -1459,7 +1461,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         end
         object Label302: TLabel
           Left = 111
-          Top = 163
+          Top = 187
           Width = 92
           Height = 13
           Alignment = taRightJustify
@@ -1467,7 +1469,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         end
         object Label134: TLabel
           Left = 32
-          Top = 230
+          Top = 254
           Width = 171
           Height = 13
           Alignment = taRightJustify
@@ -1475,7 +1477,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         end
         object Label135: TLabel
           Left = 30
-          Top = 253
+          Top = 277
           Width = 173
           Height = 13
           Alignment = taRightJustify
@@ -1483,7 +1485,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         end
         object Label2: TLabel
           Left = 52
-          Top = 208
+          Top = 232
           Width = 151
           Height = 13
           Alignment = taRightJustify
@@ -1491,7 +1493,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         end
         object Label3: TLabel
           Left = 44
-          Top = 140
+          Top = 164
           Width = 159
           Height = 13
           Alignment = taRightJustify
@@ -1499,7 +1501,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         end
         object Label193: TLabel
           Left = 132
-          Top = 118
+          Top = 142
           Width = 71
           Height = 13
           Alignment = taRightJustify
@@ -1507,11 +1509,26 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         end
         object Label90: TLabel
           Left = 70
-          Top = 185
+          Top = 209
           Width = 133
           Height = 13
           Alignment = taRightJustify
           Caption = 'Qtd.D'#237'gitos N'#237'vel do Grupo:'
+        end
+        object Label6: TLabel
+          Left = 80
+          Top = 118
+          Width = 123
+          Height = 13
+          Alignment = taRightJustify
+          Caption = 'ID Produto Vale Presente:'
+        end
+        object Label7: TLabel
+          Left = 299
+          Top = 113
+          Width = 3
+          Height = 13
+          Caption = '.'
         end
         object DBEdit30: TDBEdit
           Left = 205
@@ -1520,7 +1537,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Height = 21
           DataField = 'ID_PRODUTO_GENERICO'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 0
+          TabOrder = 3
         end
         object DBEdit47: TDBEdit
           Left = 205
@@ -1530,7 +1547,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           DataField = 'SENHA_PROD_CUSTO'
           DataSource = DMCadParametros.dsParametros_Prod
           PasswordChar = '*'
-          TabOrder = 1
+          TabOrder = 0
         end
         object NxButton1: TNxButton
           Left = 314
@@ -1603,11 +1620,11 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           DataField = 'SENHA_ALT_PROD_MOV'
           DataSource = DMCadParametros.dsParametros_Prod
           PasswordChar = '*'
-          TabOrder = 3
+          TabOrder = 1
         end
         object RxDBLookupCombo34: TRxDBLookupCombo
           Left = 205
-          Top = 155
+          Top = 179
           Width = 150
           Height = 21
           DropDownCount = 8
@@ -1616,11 +1633,11 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           LookupField = 'ID'
           LookupDisplay = 'NOME'
           LookupSource = DMCadParametros.dsPosicao
-          TabOrder = 4
+          TabOrder = 7
         end
         object RxDBComboBox83: TRxDBComboBox
           Left = 205
-          Top = 222
+          Top = 246
           Width = 150
           Height = 21
           Style = csDropDownList
@@ -1634,7 +1651,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
             'Outros Itens (Ajuste Nota)'
             'Material Consumo'
             'Imobilizado')
-          TabOrder = 5
+          TabOrder = 10
           Values.Strings = (
             'P'
             'M'
@@ -1644,7 +1661,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         end
         object RxDBComboBox84: TRxDBComboBox
           Left = 205
-          Top = 245
+          Top = 269
           Width = 150
           Height = 21
           Style = csDropDownList
@@ -1658,7 +1675,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
             'Outros Itens (Ajuste Nota)'
             'Material Consumo'
             'Imobilizado')
-          TabOrder = 6
+          TabOrder = 11
           Values.Strings = (
             'P'
             'M'
@@ -1668,7 +1685,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         end
         object RxDBComboBox2: TRxDBComboBox
           Left = 205
-          Top = 200
+          Top = 224
           Width = 150
           Height = 21
           Style = csDropDownList
@@ -1680,7 +1697,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
             'SIM'
             'N'#195'O'
             'SIM/GEN'#201'RICO')
-          TabOrder = 7
+          TabOrder = 9
           Values.Strings = (
             'S'
             'N'
@@ -1688,7 +1705,7 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
         end
         object RxDBComboBox3: TRxDBComboBox
           Left = 205
-          Top = 133
+          Top = 158
           Width = 150
           Height = 21
           Style = csDropDownList
@@ -1699,14 +1716,14 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Items.Strings = (
             'Primeira'
             'Segunda')
-          TabOrder = 8
+          TabOrder = 6
           Values.Strings = (
             '1'
             '2')
         end
         object RxDBLookupCombo20: TRxDBLookupCombo
           Left = 205
-          Top = 111
+          Top = 135
           Width = 150
           Height = 21
           DropDownCount = 8
@@ -1715,11 +1732,11 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           LookupField = 'UNIDADE'
           LookupDisplay = 'UNIDADE'
           LookupSource = DMCadParametros.dsUnidade
-          TabOrder = 9
+          TabOrder = 5
         end
         object RxDBComboBox55: TRxDBComboBox
           Left = 205
-          Top = 178
+          Top = 202
           Width = 150
           Height = 21
           Style = csDropDownList
@@ -1730,22 +1747,32 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Items.Strings = (
             '2'
             '3')
-          TabOrder = 10
+          TabOrder = 8
           Values.Strings = (
             '2'
             '3')
         end
         object DBCheckBox113: TDBCheckBox
           Left = 216
-          Top = 282
+          Top = 306
           Width = 350
           Height = 17
           Caption = 'Ignorar o % no in'#237'cio da pesquisa do nome do produto'
           DataField = 'CONS_PROD_USA_PERC'
           DataSource = DMCadParametros.dsParametros_Prod
-          TabOrder = 11
+          TabOrder = 12
           ValueChecked = 'S'
           ValueUnchecked = 'N'
+        end
+        object DBEdit2: TDBEdit
+          Left = 205
+          Top = 111
+          Width = 91
+          Height = 21
+          DataField = 'ID_PRODUTO_VALE'
+          DataSource = DMCadParametros.dsParametros_Prod
+          TabOrder = 4
+          OnExit = DBEdit2Exit
         end
       end
     end

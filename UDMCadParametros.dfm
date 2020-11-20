@@ -3987,6 +3987,9 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_ProdID_PRODUTO_VALE: TIntegerField
+      FieldName = 'ID_PRODUTO_VALE'
+    end
   end
   object cdsParametros_Prod: TClientDataSet
     Aggregates = <>
@@ -4266,6 +4269,9 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'GERAR_CODBARRA_ID'
       FixedChar = True
       Size = 1
+    end
+    object cdsParametros_ProdID_PRODUTO_VALE: TIntegerField
+      FieldName = 'ID_PRODUTO_VALE'
     end
   end
   object dsParametros_Prod: TDataSource

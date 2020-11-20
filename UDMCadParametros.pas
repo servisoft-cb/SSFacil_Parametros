@@ -1809,6 +1809,8 @@ type
     cdsParametros_ComUSAR_PERC_SEMI: TStringField;
     sdsParametros_EstTRANSFERENCIA_PRECO: TStringField;
     cdsParametros_EstTRANSFERENCIA_PRECO: TStringField;
+    sdsParametros_ProdID_PRODUTO_VALE: TIntegerField;
+    cdsParametros_ProdID_PRODUTO_VALE: TIntegerField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

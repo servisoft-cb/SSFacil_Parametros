@@ -148,6 +148,9 @@ type
     DBCheckBox18: TDBCheckBox;
     Label5: TLabel;
     RxDBComboBox5: TRxDBComboBox;
+    Label6: TLabel;
+    DBEdit2: TDBEdit;
+    Label7: TLabel;
     procedure FormShow(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
@@ -156,6 +159,8 @@ type
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure NxButton1Click(Sender: TObject);
     procedure DBCheckBox204Click(Sender: TObject);
+    procedure DBEdit2Exit(Sender: TObject);
+    procedure RzPageControl1Change(Sender: TObject);
   private
     { Private declarations }
     fDMCadParametros: TDMCadParametros;
@@ -168,6 +173,8 @@ var
   frmCadParametros_Prod: TfrmCadParametros_Prod;
 
 implementation
+
+uses uUtilPadrao;
 
 {$R *.dfm}
 
@@ -260,6 +267,31 @@ procedure TfrmCadParametros_Prod.DBCheckBox204Click(Sender: TObject);
 begin
   Label291.Visible := DBCheckBox204.Checked;
   DBEdit43.Visible := DBCheckBox204.Checked;
+end;
+
+procedure TfrmCadParametros_Prod.DBEdit2Exit(Sender: TObject);
+var
+  vNomeAux : String;
+begin
+  vNomeAux       := '';
+  Label7.Caption := '';
+  if fDMCadParametros.cdsParametros_ProdID_PRODUTO_VALE.AsInteger > 0 then
+     vNomeAux := SQLLocate('PRODUTO','ID','NOME',fDMCadParametros.cdsParametros_ProdID_PRODUTO_VALE.AsString)
+  else
+    exit;
+  if trim(vNomeAux) = '' then
+  begin
+    MessageDlg('*** Código do produto não encontrado', mtError, [mbOk], 0);
+    if RzPanel4.Enabled then
+      DBEdit2.SetFocus;
+  end;
+  Label7.Caption := vNomeAux;
+end;
+
+procedure TfrmCadParametros_Prod.RzPageControl1Change(Sender: TObject);
+begin
+  if RzPageControl1.ActivePage = TS_Senha then
+    DBEdit2Exit(Sender);
 end;
 
 end.
