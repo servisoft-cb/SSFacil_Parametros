@@ -1811,6 +1811,8 @@ type
     cdsParametros_EstTRANSFERENCIA_PRECO: TStringField;
     sdsParametros_ProdID_PRODUTO_VALE: TIntegerField;
     cdsParametros_ProdID_PRODUTO_VALE: TIntegerField;
+    sdsParametros_FinGRAVAR_TAXA_BANC_RET: TStringField;
+    cdsParametros_FinGRAVAR_TAXA_BANC_RET: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

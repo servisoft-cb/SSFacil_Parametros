@@ -1158,5 +1158,17 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
+    object DBCheckBox11: TDBCheckBox
+      Left = 857
+      Top = 485
+      Width = 377
+      Height = 17
+      Caption = 'Gravar a taxa banc'#225'ria no retorno do banco'
+      DataField = 'GRAVAR_TAXA_BANC_RET'
+      DataSource = DMCadParametros.dsParametros_Fin
+      TabOrder = 61
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
   end
 end

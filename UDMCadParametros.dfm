@@ -6922,12 +6922,17 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_FinGRAVAR_TAXA_BANC_RET: TStringField
+      FieldName = 'GRAVAR_TAXA_BANC_RET'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
     Params = <>
     ProviderName = 'dspParametros_Fin'
-    Left = 112
+    Left = 113
     Top = 485
     object cdsParametros_FinID: TIntegerField
       FieldName = 'ID'
@@ -7160,6 +7165,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_FinAVISAR_TIPO_COBRANCA: TStringField
       FieldName = 'AVISAR_TIPO_COBRANCA'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_FinGRAVAR_TAXA_BANC_RET: TStringField
+      FieldName = 'GRAVAR_TAXA_BANC_RET'
       FixedChar = True
       Size = 1
     end
