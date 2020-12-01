@@ -106,12 +106,22 @@ type
     DBCheckBox9: TDBCheckBox;
     DBCheckBox10: TDBCheckBox;
     DBCheckBox11: TDBCheckBox;
+    Label4: TLabel;
+    RxDBLookupCombo3: TRxDBLookupCombo;
+    GroupBox1: TGroupBox;
+    DBCheckBox12: TDBCheckBox;
+    DBEdit1: TDBEdit;
+    Label5: TLabel;
+    SpeedButton1: TSpeedButton;
+    Label6: TLabel;
+    DBEdit2: TDBEdit;
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormDestroy(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
   private
     { Private declarations }
     fDMCadParametros: TDMCadParametros;
@@ -196,6 +206,12 @@ begin
   pnlGeral.Enabled         := not(pnlGeral.Enabled);
   btnConfirmar.Enabled     := not(btnConfirmar.Enabled);
   btnAlterar.Enabled       := not(btnAlterar.Enabled);
+end;
+
+procedure TfrmCadParametros_Fin.SpeedButton1Click(Sender: TObject);
+begin
+  MessageDlg('*** Esse valor informado , o sistema vai pagar CashBack apartir do valor informado!' +#13 +
+             '    Ex: Valor 100,00 , o sistema só vai pagar cashback com vendas igual ou superior a 100,00.', mtConfirmation, [mbOk], 0);
 end;
 
 end.

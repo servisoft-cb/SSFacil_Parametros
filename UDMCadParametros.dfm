@@ -6927,6 +6927,20 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_FinID_TABPRECO4: TIntegerField
+      FieldName = 'ID_TABPRECO4'
+    end
+    object sdsParametros_FinUSA_CASHBACK: TStringField
+      FieldName = 'USA_CASHBACK'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_FinVLR_CASHBACK: TFloatField
+      FieldName = 'VLR_CASHBACK'
+    end
+    object sdsParametros_FinPERC_CASHBACK: TFloatField
+      FieldName = 'PERC_CASHBACK'
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
@@ -7172,6 +7186,20 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'GRAVAR_TAXA_BANC_RET'
       FixedChar = True
       Size = 1
+    end
+    object cdsParametros_FinID_TABPRECO4: TIntegerField
+      FieldName = 'ID_TABPRECO4'
+    end
+    object cdsParametros_FinUSA_CASHBACK: TStringField
+      FieldName = 'USA_CASHBACK'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_FinVLR_CASHBACK: TFloatField
+      FieldName = 'VLR_CASHBACK'
+    end
+    object cdsParametros_FinPERC_CASHBACK: TFloatField
+      FieldName = 'PERC_CASHBACK'
     end
   end
   object dsParametros_Fin: TDataSource

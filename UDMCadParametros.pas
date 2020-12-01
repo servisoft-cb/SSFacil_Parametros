@@ -1813,6 +1813,14 @@ type
     cdsParametros_ProdID_PRODUTO_VALE: TIntegerField;
     sdsParametros_FinGRAVAR_TAXA_BANC_RET: TStringField;
     cdsParametros_FinGRAVAR_TAXA_BANC_RET: TStringField;
+    sdsParametros_FinID_TABPRECO4: TIntegerField;
+    sdsParametros_FinUSA_CASHBACK: TStringField;
+    sdsParametros_FinVLR_CASHBACK: TFloatField;
+    sdsParametros_FinPERC_CASHBACK: TFloatField;
+    cdsParametros_FinID_TABPRECO4: TIntegerField;
+    cdsParametros_FinUSA_CASHBACK: TStringField;
+    cdsParametros_FinVLR_CASHBACK: TFloatField;
+    cdsParametros_FinPERC_CASHBACK: TFloatField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
