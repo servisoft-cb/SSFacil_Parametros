@@ -1174,7 +1174,7 @@ object DMCadParametros: TDMCadParametros
     Params = <>
     ProviderName = 'dspParametros'
     Left = 97
-    Top = 5
+    Top = 6
     object cdsParametrosID: TIntegerField
       FieldName = 'ID'
       ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
@@ -2532,6 +2532,7 @@ object DMCadParametros: TDMCadParametros
   end
   object cdsParametros_Geral: TClientDataSet
     Aggregates = <>
+    IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_Geral'
     Left = 95
@@ -3049,6 +3050,7 @@ object DMCadParametros: TDMCadParametros
   end
   object cdsParametros_NFe: TClientDataSet
     Aggregates = <>
+    IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_NFe'
     Left = 106
@@ -3453,6 +3455,7 @@ object DMCadParametros: TDMCadParametros
   end
   object cdsParametros_RecXML: TClientDataSet
     Aggregates = <>
+    IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_RecXML'
     Left = 104
@@ -3645,6 +3648,7 @@ object DMCadParametros: TDMCadParametros
   end
   object cdsParametros_NTE: TClientDataSet
     Aggregates = <>
+    IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_NTE'
     Left = 104
@@ -3993,6 +3997,7 @@ object DMCadParametros: TDMCadParametros
   end
   object cdsParametros_Prod: TClientDataSet
     Aggregates = <>
+    IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_Prod'
     Left = 105
@@ -4660,6 +4665,7 @@ object DMCadParametros: TDMCadParametros
   end
   object cdsParametros_Ser: TClientDataSet
     Aggregates = <>
+    IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_Ser'
     Left = 102
@@ -5411,6 +5417,7 @@ object DMCadParametros: TDMCadParametros
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
+    IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_Ped'
     Left = 105
@@ -6475,6 +6482,7 @@ object DMCadParametros: TDMCadParametros
   end
   object cdsParametros_Cta_Orc: TClientDataSet
     Aggregates = <>
+    IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_Cta_Orc'
     Left = 112
@@ -6944,6 +6952,7 @@ object DMCadParametros: TDMCadParametros
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
+    IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_Fin'
     Left = 113
@@ -7329,6 +7338,7 @@ object DMCadParametros: TDMCadParametros
   end
   object cdsParametros_Imp: TClientDataSet
     Aggregates = <>
+    IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_Imp'
     Left = 113

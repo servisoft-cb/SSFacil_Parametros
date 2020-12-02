@@ -3,7 +3,7 @@ unit UDMCadParametros;
 interface
 
 uses
-  SysUtils, Classes, FMTBcd, DB, DBClient, Provider, SqlExpr;
+  SysUtils, Classes, FMTBcd, DB, DBClient, Provider, SqlExpr, LogTypes;
 
 type
   TDMCadParametros = class(TDataModule)
@@ -1824,6 +1824,8 @@ type
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
+    procedure DoLogAdditionalValues(ATableName: string; var AValues: TArrayLogData; var UserName: string);
+
   public
     { Public declarations }
     ctCommand: string;
@@ -1899,11 +1901,16 @@ var
 implementation
 
 uses
-  DmdDatabase, uUtilPadrao;
+  DmdDatabase, LogProvider, uUtilPadrao;
 
 {$R *.dfm}
 
 procedure TDMCadParametros.DataModuleCreate(Sender: TObject);
+var
+  i, x: Integer;
+  SR: TSearchRec;
+  vIndices: string;
+  aIndices: array of string;
 begin
   ctCommand := sdsParametros.CommandText;
   ctCommand_NFE := sdsParametros_NFe.CommandText;
@@ -1942,6 +1949,34 @@ begin
   cdsTab_Preco.Open;
   cdsUsuarios.Open;
   cdsFilial.Open;
+
+  //*** Logs Implantado na versão .353
+  LogProviderList.OnAdditionalValues := DoLogAdditionalValues;
+  for i := 0 to (Self.ComponentCount - 1) do
+  begin
+    if (Self.Components[i] is TClientDataSet) then
+    begin
+      SetLength(aIndices, 0);
+      vIndices := TClientDataSet(Components[i]).IndexFieldNames;
+      while (vIndices <> EmptyStr) do
+      begin
+        SetLength(aIndices, Length(aIndices) + 1);
+        x := Pos(';', vIndices);
+        if (x = 0) then
+        begin
+          aIndices[Length(aIndices) - 1] := vIndices;
+          vIndices := EmptyStr;
+        end
+        else
+        begin
+          aIndices[Length(aIndices) - 1] := Copy(vIndices, 1, x - 1);
+          vIndices := Copy(vIndices, x + 1, MaxInt);
+        end;
+      end;
+      LogProviderList.AddProvider(TClientDataSet(Self.Components[i]), TClientDataSet(Self.Components[i]).Name, aIndices);
+    end;
+  end;
+  //***********************
 end;
 
 procedure TDMCadParametros.prc_Gravar_FCI;
@@ -2400,6 +2435,12 @@ begin
     exit;
   cdsParametros_Custo.Post;
   cdsParametros_Custo.ApplyUpdates(0);
+end;
+
+procedure TDMCadParametros.DoLogAdditionalValues(ATableName: string;
+  var AValues: TArrayLogData; var UserName: string);
+begin
+  UserName := vUsuario;
 end;
 
 end.
