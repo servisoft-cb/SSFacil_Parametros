@@ -76,10 +76,10 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
     Top = 35
     Width = 1293
     Height = 622
-    ActivePage = TS_Usa
+    ActivePage = TS_Mostra
     ActivePageDefault = TS_Usa
     Align = alClient
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 1
     OnChange = RzPageControl1Change
     FixedDimension = 19
@@ -918,6 +918,18 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           Values.Strings = (
             'S'
             'N')
+        end
+        object DBCheckBox20: TDBCheckBox
+          Left = 245
+          Top = 324
+          Width = 383
+          Height = 16
+          Caption = 'Mostrar na Consulta (F2) a quantidade do estoque'
+          DataField = 'MOSTRAR_ESTOQUE_CONS'
+          DataSource = DMCadParametros.dsParametros_Prod
+          TabOrder = 14
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
         end
       end
     end

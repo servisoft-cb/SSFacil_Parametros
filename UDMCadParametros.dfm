@@ -3994,6 +3994,11 @@ object DMCadParametros: TDMCadParametros
     object sdsParametros_ProdID_PRODUTO_VALE: TIntegerField
       FieldName = 'ID_PRODUTO_VALE'
     end
+    object sdsParametros_ProdMOSTRAR_ESTOQUE_CONS: TStringField
+      FieldName = 'MOSTRAR_ESTOQUE_CONS'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Prod: TClientDataSet
     Aggregates = <>
@@ -4277,6 +4282,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_ProdID_PRODUTO_VALE: TIntegerField
       FieldName = 'ID_PRODUTO_VALE'
+    end
+    object cdsParametros_ProdMOSTRAR_ESTOQUE_CONS: TStringField
+      FieldName = 'MOSTRAR_ESTOQUE_CONS'
+      FixedChar = True
+      Size = 1
     end
   end
   object dsParametros_Prod: TDataSource

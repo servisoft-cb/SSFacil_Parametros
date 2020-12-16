@@ -151,6 +151,7 @@ type
     Label6: TLabel;
     DBEdit2: TDBEdit;
     Label7: TLabel;
+    DBCheckBox20: TDBCheckBox;
     procedure FormShow(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
