@@ -1254,5 +1254,17 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         TabOrder = 2
       end
     end
+    object DBCheckBox13: TDBCheckBox
+      Left = 857
+      Top = 502
+      Width = 377
+      Height = 17
+      Caption = 'Informar o valor pago nos t'#237'tulos selecionados'
+      DataField = 'INF_VLR_PAGO_SEL'
+      DataSource = DMCadParametros.dsParametros_Fin
+      TabOrder = 64
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
   end
 end

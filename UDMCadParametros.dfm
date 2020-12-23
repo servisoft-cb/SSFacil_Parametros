@@ -6959,6 +6959,11 @@ object DMCadParametros: TDMCadParametros
     object sdsParametros_FinPERC_CASHBACK: TFloatField
       FieldName = 'PERC_CASHBACK'
     end
+    object sdsParametros_FinINF_VLR_PAGO_SEL: TStringField
+      FieldName = 'INF_VLR_PAGO_SEL'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
@@ -7219,6 +7224,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_FinPERC_CASHBACK: TFloatField
       FieldName = 'PERC_CASHBACK'
+    end
+    object cdsParametros_FinINF_VLR_PAGO_SEL: TStringField
+      FieldName = 'INF_VLR_PAGO_SEL'
+      FixedChar = True
+      Size = 1
     end
   end
   object dsParametros_Fin: TDataSource

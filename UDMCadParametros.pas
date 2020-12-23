@@ -1823,6 +1823,8 @@ type
     cdsParametros_FinPERC_CASHBACK: TFloatField;
     sdsParametros_ProdMOSTRAR_ESTOQUE_CONS: TStringField;
     cdsParametros_ProdMOSTRAR_ESTOQUE_CONS: TStringField;
+    sdsParametros_FinINF_VLR_PAGO_SEL: TStringField;
+    cdsParametros_FinINF_VLR_PAGO_SEL: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

@@ -115,6 +115,7 @@ type
     SpeedButton1: TSpeedButton;
     Label6: TLabel;
     DBEdit2: TDBEdit;
+    DBCheckBox13: TDBCheckBox;
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormDestroy(Sender: TObject);
