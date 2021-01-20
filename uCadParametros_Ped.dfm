@@ -84,9 +84,9 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
       Top = 1
       Width = 1266
       Height = 591
-      ActivePage = TS_Controle
+      ActivePage = TabSheet8
       Align = alClient
-      TabIndex = 4
+      TabIndex = 0
       TabOrder = 0
       FixedDimension = 19
       object TabSheet8: TRzTabSheet
@@ -960,7 +960,7 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           ValueUnchecked = 'N'
         end
         object DBCheckBox292: TDBCheckBox
-          Left = 640
+          Left = 641
           Top = 290
           Width = 297
           Height = 17
@@ -1120,6 +1120,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           DataField = 'USA_UNIDADE_CLIENTE'
           DataSource = DMCadParametros.dsParametros_Ped
           TabOrder = 59
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox26: TDBCheckBox
+          Left = 641
+          Top = 306
+          Width = 297
+          Height = 17
+          Caption = 'Usa Adiantamento de Cliente no Pedido'
+          DataField = 'USAR_ADIANTAMENTO'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 60
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end

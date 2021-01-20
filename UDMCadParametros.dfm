@@ -5424,6 +5424,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedUSAR_ADIANTAMENTO: TStringField
+      FieldName = 'USAR_ADIANTAMENTO'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
@@ -5867,6 +5872,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_PedAVISAR_TRANSPORTADORA: TStringField
       FieldName = 'AVISAR_TRANSPORTADORA'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedUSAR_ADIANTAMENTO: TStringField
+      FieldName = 'USAR_ADIANTAMENTO'
       FixedChar = True
       Size = 1
     end
