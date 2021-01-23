@@ -1827,6 +1827,8 @@ type
     cdsParametros_FinINF_VLR_PAGO_SEL: TStringField;
     sdsParametros_PedUSAR_ADIANTAMENTO: TStringField;
     cdsParametros_PedUSAR_ADIANTAMENTO: TStringField;
+    sdsParametros_FinUSA_CONS_CCUSTOORC: TStringField;
+    cdsParametros_FinUSA_CONS_CCUSTOORC: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

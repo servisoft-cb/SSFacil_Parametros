@@ -6974,6 +6974,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_FinUSA_CONS_CCUSTOORC: TStringField
+      FieldName = 'USA_CONS_CCUSTOORC'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
@@ -7237,6 +7242,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_FinINF_VLR_PAGO_SEL: TStringField
       FieldName = 'INF_VLR_PAGO_SEL'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_FinUSA_CONS_CCUSTOORC: TStringField
+      FieldName = 'USA_CONS_CCUSTOORC'
       FixedChar = True
       Size = 1
     end
