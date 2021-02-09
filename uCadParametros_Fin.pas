@@ -117,6 +117,7 @@ type
     DBCheckBox13: TDBCheckBox;
     DBCheckBox108: TDBCheckBox;
     DBCheckBox14: TDBCheckBox;
+    DBCheckBox15: TDBCheckBox;
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormDestroy(Sender: TObject);

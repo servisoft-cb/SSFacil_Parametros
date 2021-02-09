@@ -1829,6 +1829,10 @@ type
     cdsParametros_PedUSAR_ADIANTAMENTO: TStringField;
     sdsParametros_FinUSA_CONS_CCUSTOORC: TStringField;
     cdsParametros_FinUSA_CONS_CCUSTOORC: TStringField;
+    sdsParametros_FinMOSTRAR_ABA_PREV: TStringField;
+    cdsParametros_FinMOSTRAR_ABA_PREV: TStringField;
+    sdsParametros_NTECONTROLAR_QTD_OS: TStringField;
+    cdsParametros_NTECONTROLAR_QTD_OS: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

@@ -3645,6 +3645,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_NTECONTROLAR_QTD_OS: TStringField
+      FieldName = 'CONTROLAR_QTD_OS'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_NTE: TClientDataSet
     Aggregates = <>
@@ -3695,6 +3700,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_NTEUSA_CENTRO_CUSTO: TStringField
       FieldName = 'USA_CENTRO_CUSTO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_NTECONTROLAR_QTD_OS: TStringField
+      FieldName = 'CONTROLAR_QTD_OS'
       FixedChar = True
       Size = 1
     end
@@ -6979,6 +6989,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_FinMOSTRAR_ABA_PREV: TStringField
+      FieldName = 'MOSTRAR_ABA_PREV'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
@@ -7247,6 +7262,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_FinUSA_CONS_CCUSTOORC: TStringField
       FieldName = 'USA_CONS_CCUSTOORC'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_FinMOSTRAR_ABA_PREV: TStringField
+      FieldName = 'MOSTRAR_ABA_PREV'
       FixedChar = True
       Size = 1
     end

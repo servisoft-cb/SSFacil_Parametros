@@ -19,7 +19,7 @@ object frmCadParametros_NTE: TfrmCadParametros_NTE
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1257
+    Width = 1265
     Height = 35
     Align = alTop
     Color = 8404992
@@ -74,8 +74,8 @@ object frmCadParametros_NTE: TfrmCadParametros_NTE
   object pnlGeral: TPanel
     Left = 0
     Top = 35
-    Width = 1257
-    Height = 522
+    Width = 1265
+    Height = 530
     Align = alClient
     Enabled = False
     TabOrder = 1
@@ -271,13 +271,25 @@ object frmCadParametros_NTE: TfrmCadParametros_NTE
     end
     object DBCheckBox276: TDBCheckBox
       Left = 542
-      Top = 127
+      Top = 129
       Width = 338
       Height = 17
       Caption = 'Usa Centro de Custo'
       DataField = 'USA_CENTRO_CUSTO'
       DataSource = DMCadParametros.dsParametros_NTE
       TabOrder = 11
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox1: TDBCheckBox
+      Left = 542
+      Top = 145
+      Width = 389
+      Height = 17
+      Caption = 'Controlar a qtde lan'#231'ada na OS com a lan'#231'ada na Nota de Entrada'
+      DataField = 'CONTROLAR_QTD_OS'
+      DataSource = DMCadParametros.dsParametros_NTE
+      TabOrder = 12
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end

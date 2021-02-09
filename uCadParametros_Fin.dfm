@@ -139,7 +139,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object Label98: TLabel
       Left = 501
-      Top = 329
+      Top = 353
       Width = 120
       Height = 13
       Alignment = taRightJustify
@@ -147,7 +147,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object Label113: TLabel
       Left = 529
-      Top = 351
+      Top = 375
       Width = 92
       Height = 13
       Alignment = taRightJustify
@@ -235,7 +235,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object Label243: TLabel
       Left = 516
-      Top = 373
+      Top = 397
       Width = 105
       Height = 13
       Alignment = taRightJustify
@@ -275,7 +275,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object Label253: TLabel
       Left = 503
-      Top = 396
+      Top = 420
       Width = 118
       Height = 13
       Alignment = taRightJustify
@@ -444,7 +444,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object dbedtSenhaCredito: TDBEdit
       Left = 623
-      Top = 322
+      Top = 346
       Width = 116
       Height = 21
       DataField = 'SENHA_CREDITO'
@@ -454,7 +454,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object dbedtSenhaExcluirVale: TDBEdit
       Left = 623
-      Top = 344
+      Top = 368
       Width = 116
       Height = 21
       DataField = 'SENHA_EXCLUIR_VALE'
@@ -675,7 +675,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object DBEdit27: TDBEdit
       Left = 623
-      Top = 366
+      Top = 390
       Width = 116
       Height = 21
       DataField = 'SENHA_RECIBO'
@@ -798,7 +798,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     end
     object DBEdit29: TDBEdit
       Left = 623
-      Top = 389
+      Top = 413
       Width = 116
       Height = 21
       DataField = 'SENHA_LIBERAR_DESC'
@@ -1275,6 +1275,18 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
       DataField = 'USA_CONS_CCUSTOORC'
       DataSource = DMCadParametros.dsParametros_Fin
       TabOrder = 65
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox15: TDBCheckBox
+      Left = 584
+      Top = 311
+      Width = 262
+      Height = 17
+      Caption = 'Mostrar aba de previs'#227'o nas contas de or'#231'amento'
+      DataField = 'MOSTRAR_ABA_PREV'
+      DataSource = DMCadParametros.dsParametros_Fin
+      TabOrder = 66
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
