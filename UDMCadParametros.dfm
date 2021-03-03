@@ -4009,6 +4009,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_ProdUSA_QTD_ROTULO_RFID: TStringField
+      FieldName = 'USA_QTD_ROTULO_RFID'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Prod: TClientDataSet
     Aggregates = <>
@@ -4295,6 +4300,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_ProdMOSTRAR_ESTOQUE_CONS: TStringField
       FieldName = 'MOSTRAR_ESTOQUE_CONS'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_ProdUSA_QTD_ROTULO_RFID: TStringField
+      FieldName = 'USA_QTD_ROTULO_RFID'
       FixedChar = True
       Size = 1
     end

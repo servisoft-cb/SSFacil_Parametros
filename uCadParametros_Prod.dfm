@@ -76,10 +76,10 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
     Top = 35
     Width = 1293
     Height = 622
-    ActivePage = TS_Mostra
+    ActivePage = TS_Usa
     ActivePageDefault = TS_Usa
     Align = alClient
-    TabIndex = 1
+    TabIndex = 0
     TabOrder = 1
     OnChange = RzPageControl1Change
     FixedDimension = 19
@@ -560,6 +560,18 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
             'S'
             'P'
             'N')
+        end
+        object DBCheckBox21: TDBCheckBox
+          Left = 28
+          Top = 444
+          Width = 349
+          Height = 16
+          Caption = 'Usa no Produto a qtde de Etiqueta RFID por Produto'
+          DataField = 'USA_QTD_ROTULO_RFID'
+          DataSource = DMCadParametros.dsParametros_Prod
+          TabOrder = 31
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
         end
       end
     end

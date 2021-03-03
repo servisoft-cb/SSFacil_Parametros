@@ -1833,6 +1833,8 @@ type
     cdsParametros_FinMOSTRAR_ABA_PREV: TStringField;
     sdsParametros_NTECONTROLAR_QTD_OS: TStringField;
     cdsParametros_NTECONTROLAR_QTD_OS: TStringField;
+    sdsParametros_ProdUSA_QTD_ROTULO_RFID: TStringField;
+    cdsParametros_ProdUSA_QTD_ROTULO_RFID: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
