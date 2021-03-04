@@ -232,7 +232,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     object RxDBComboBox31: TRxDBComboBox
       Left = 278
       Top = 18
-      Width = 184
+      Width = 255
       Height = 21
       Style = csDropDownList
       DataField = 'BAIXAR_REQ_AUTOMATICO'
@@ -250,7 +250,7 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     object RxDBComboBox47: TRxDBComboBox
       Left = 278
       Top = 40
-      Width = 184
+      Width = 255
       Height = 21
       Style = csDropDownList
       DataField = 'BAIXA_ESTOQUE_MP'
@@ -269,8 +269,8 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
     end
     object RxDBComboBox114: TRxDBComboBox
       Left = 278
-      Top = 62
-      Width = 184
+      Top = 63
+      Width = 255
       Height = 21
       Style = csDropDownList
       DataField = 'TIPO_ESTOQUE'
@@ -280,12 +280,14 @@ object frmCadParametros_Estoque: TfrmCadParametros_Estoque
       Items.Strings = (
         'No Pedido'
         'Na Nota Fiscal'
-        'C'#243'd. Barra (Produ'#231#227'o)')
+        'C'#243'd. Barra (Produ'#231#227'o)'
+        'Por Local Estoque (Pedido/Nota Fiscal)')
       TabOrder = 2
       Values.Strings = (
         'P'
         'N'
-        'B')
+        'B'
+        'L')
     end
     object rxdbControlarEstoqueSaida: TRxDBComboBox
       Left = 278
