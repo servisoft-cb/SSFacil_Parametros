@@ -1835,6 +1835,10 @@ type
     cdsParametros_NTECONTROLAR_QTD_OS: TStringField;
     sdsParametros_ProdUSA_QTD_ROTULO_RFID: TStringField;
     cdsParametros_ProdUSA_QTD_ROTULO_RFID: TStringField;
+    sdsParametros_NFeETIQ_RFID_AGRUPADA: TStringField;
+    cdsParametros_NFeETIQ_RFID_AGRUPADA: TStringField;
+    sdsParametros_NFeUSA_DESCONTO_IPI: TStringField;
+    cdsParametros_NFeUSA_DESCONTO_IPI: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

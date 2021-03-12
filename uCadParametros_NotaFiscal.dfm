@@ -10,9 +10,11 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
+  KeyPreview = True
   OldCreateOrder = False
   OnClose = FormClose
   OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
   OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
@@ -1231,6 +1233,31 @@ object frmCadParametros_NotaFiscal: TfrmCadParametros_NotaFiscal
       LookupDisplay = 'NOME'
       LookupSource = DMCadParametros.dsContas
       TabOrder = 50
+    end
+    object DBCheckBox6: TDBCheckBox
+      Left = 760
+      Top = 574
+      Width = 254
+      Height = 17
+      Caption = 'Imprimir Etiqueta RFID Agrupada'
+      DataField = 'ETIQ_RFID_AGRUPADA'
+      DataSource = DMCadParametros.dsParametros_NFe
+      TabOrder = 51
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBCheckBox7: TDBCheckBox
+      Left = 32
+      Top = 580
+      Width = 289
+      Height = 17
+      Caption = 'Usa a op'#231#227'o de descontar IPI do Pre'#231'o Unit'#225'rio'
+      DataField = 'USA_DESCONTO_IPI'
+      DataSource = DMCadParametros.dsParametros_NFe
+      TabOrder = 52
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+      Visible = False
     end
   end
 end

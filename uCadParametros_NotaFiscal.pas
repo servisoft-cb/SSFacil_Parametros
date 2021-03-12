@@ -109,12 +109,16 @@ type
     RxDBComboBox1: TRxDBComboBox;
     Label3: TLabel;
     RxDBLookupCombo8: TRxDBLookupCombo;
+    DBCheckBox6: TDBCheckBox;
+    DBCheckBox7: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure FormKeyDown(Sender: TObject; var Key: Word;
+      Shift: TShiftState);
   private
     { Private declarations }
     procedure prc_Gravar_Registro;
@@ -209,6 +213,13 @@ procedure TfrmCadParametros_NotaFiscal.FormClose(Sender: TObject;
   var Action: TCloseAction);
 begin
   Action := caFree;
+end;
+
+procedure TfrmCadParametros_NotaFiscal.FormKeyDown(Sender: TObject;
+  var Key: Word; Shift: TShiftState);
+begin
+  if (Shift = [ssCtrl]) and (Key = 87) then //W
+    DBCheckBox7.Visible := not(DBCheckBox7.Visible);
 end;
 
 end.

@@ -3047,6 +3047,16 @@ object DMCadParametros: TDMCadParametros
     object sdsParametros_NFeID_CONTA_ADTO: TIntegerField
       FieldName = 'ID_CONTA_ADTO'
     end
+    object sdsParametros_NFeETIQ_RFID_AGRUPADA: TStringField
+      FieldName = 'ETIQ_RFID_AGRUPADA'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_NFeUSA_DESCONTO_IPI: TStringField
+      FieldName = 'USA_DESCONTO_IPI'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_NFe: TClientDataSet
     Aggregates = <>
@@ -3357,6 +3367,16 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_NFeID_CONTA_ADTO: TIntegerField
       FieldName = 'ID_CONTA_ADTO'
+    end
+    object cdsParametros_NFeETIQ_RFID_AGRUPADA: TStringField
+      FieldName = 'ETIQ_RFID_AGRUPADA'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_NFeUSA_DESCONTO_IPI: TStringField
+      FieldName = 'USA_DESCONTO_IPI'
+      FixedChar = True
+      Size = 1
     end
   end
   object dsParametros_NFe: TDataSource
