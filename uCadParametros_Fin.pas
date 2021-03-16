@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, ToolEdit, RXDBCtrl, StdCtrls, DBCtrls, RxDBComb, RxLookup, Mask,
-  Buttons, ExtCtrls, UDMCadParametros, DB, rsDBUtils;
+  Buttons, ExtCtrls, UDMCadParametros, DB, rsDBUtils, RzTabs;
 
 type
   TfrmCadParametros_Fin = class(TForm)
@@ -13,6 +13,8 @@ type
     btnConfirmar: TBitBtn;
     btnCancelar: TBitBtn;
     btnAlterar: TBitBtn;
+    RzPageControl1: TRzPageControl;
+    TS_Geral: TRzTabSheet;
     pnlGeral: TPanel;
     Label107: TLabel;
     Label77: TLabel;
@@ -44,6 +46,7 @@ type
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
+    Label4: TLabel;
     DBEdit14: TDBEdit;
     RxDBLookupCombo10: TRxDBLookupCombo;
     RxDBComboBox52: TRxDBComboBox;
@@ -105,19 +108,23 @@ type
     DBCheckBox9: TDBCheckBox;
     DBCheckBox10: TDBCheckBox;
     DBCheckBox11: TDBCheckBox;
-    Label4: TLabel;
     RxDBLookupCombo3: TRxDBLookupCombo;
     GroupBox1: TGroupBox;
-    DBCheckBox12: TDBCheckBox;
-    DBEdit1: TDBEdit;
     Label5: TLabel;
     SpeedButton1: TSpeedButton;
     Label6: TLabel;
+    DBCheckBox12: TDBCheckBox;
+    DBEdit1: TDBEdit;
     DBEdit2: TDBEdit;
     DBCheckBox13: TDBCheckBox;
     DBCheckBox108: TDBCheckBox;
     DBCheckBox14: TDBCheckBox;
     DBCheckBox15: TDBCheckBox;
+    TS_Token: TRzTabSheet;
+    Label7: TLabel;
+    pnlToken: TPanel;
+    DBMemo1: TDBMemo;
+    Label8: TLabel;
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormDestroy(Sender: TObject);
@@ -156,9 +163,10 @@ begin
     MessageDlg(fDMCadParametros.vMsgErro, mtError, [mbOk], 0);
     exit;
   end;
-  pnlGeral.Enabled := not (pnlGeral.Enabled);
+  pnlGeral.Enabled     := not (pnlGeral.Enabled);
+  pnlToken.Enabled     := not (pnlToken.Enabled);
   btnConfirmar.Enabled := not (btnConfirmar.Enabled);
-  btnAlterar.Enabled := not (btnAlterar.Enabled);
+  btnAlterar.Enabled   := not (btnAlterar.Enabled);
 end;
 
 procedure TfrmCadParametros_Fin.FormShow(Sender: TObject);
@@ -187,9 +195,10 @@ begin
     exit;
   fDMCadParametros.cdsParametros.Edit;
   fDMCadParametros.cdsParametros_Fin.Edit;
-  btnAlterar.Enabled := False;
+  btnAlterar.Enabled   := False;
   btnConfirmar.Enabled := True;
-  pnlGeral.Enabled := True;
+  pnlGeral.Enabled     := True;
+  pnlToken.Enabled     := True;
 end;
 
 procedure TfrmCadParametros_Fin.btnConfirmarClick(Sender: TObject);
@@ -207,6 +216,7 @@ begin
   if (fDMCadParametros.cdsParametros.Active) then
     fDMCadParametros.cdsParametros.CancelUpdates;
   pnlGeral.Enabled         := not(pnlGeral.Enabled);
+  pnlToken.Enabled         := not(pnlToken.Enabled);
   btnConfirmar.Enabled     := not(btnConfirmar.Enabled);
   btnAlterar.Enabled       := not(btnAlterar.Enabled);
 end;

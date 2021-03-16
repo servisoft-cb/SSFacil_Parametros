@@ -1839,6 +1839,8 @@ type
     cdsParametros_NFeETIQ_RFID_AGRUPADA: TStringField;
     sdsParametros_NFeUSA_DESCONTO_IPI: TStringField;
     cdsParametros_NFeUSA_DESCONTO_IPI: TStringField;
+    sdsParametros_FinTOKEN_BR: TStringField;
+    cdsParametros_FinTOKEN_BR: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

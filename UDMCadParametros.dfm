@@ -7024,13 +7024,17 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_FinTOKEN_BR: TStringField
+      FieldName = 'TOKEN_BR'
+      Size = 300
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
     IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros_Fin'
-    Left = 113
+    Left = 114
     Top = 485
     object cdsParametros_FinID: TIntegerField
       FieldName = 'ID'
@@ -7299,6 +7303,10 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'MOSTRAR_ABA_PREV'
       FixedChar = True
       Size = 1
+    end
+    object cdsParametros_FinTOKEN_BR: TStringField
+      FieldName = 'TOKEN_BR'
+      Size = 300
     end
   end
   object dsParametros_Fin: TDataSource
