@@ -125,6 +125,10 @@ type
     pnlToken: TPanel;
     DBMemo1: TDBMemo;
     Label8: TLabel;
+    Label9: TLabel;
+    DBEdit3: TDBEdit;
+    SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormDestroy(Sender: TObject);
@@ -132,6 +136,8 @@ type
     procedure btnConfirmarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButton2Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
   private
     { Private declarations }
     fDMCadParametros: TDMCadParametros;
@@ -225,6 +231,20 @@ procedure TfrmCadParametros_Fin.SpeedButton1Click(Sender: TObject);
 begin
   MessageDlg('*** Esse valor informado , o sistema vai pagar CashBack apartir do valor informado!' +#13 +
              '    Ex: Valor 100,00 , o sistema só vai pagar cashback com vendas igual ou superior a 100,00.', mtConfirmation, [mbOk], 0);
+end;
+
+procedure TfrmCadParametros_Fin.SpeedButton2Click(Sender: TObject);
+begin
+  if not(fDMCadParametros.cdsParametros_Fin.State in [dsEdit, dsInsert]) then
+    fDMCadParametros.cdsParametros_Fin.Edit;
+  fDMCadParametros.cdsParametros_FinEND_POINT_BR.AsString := 'https://api-hml.calcadosbeirario.app/nota-fiscal';
+end;
+
+procedure TfrmCadParametros_Fin.SpeedButton3Click(Sender: TObject);
+begin
+  if not(fDMCadParametros.cdsParametros_Fin.State in [dsEdit, dsInsert]) then
+    fDMCadParametros.cdsParametros_Fin.Edit;
+  fDMCadParametros.cdsParametros_FinEND_POINT_BR.AsString := 'https://api-prd.calcadosbeirario.app/nota-fiscal';
 end;
 
 end.

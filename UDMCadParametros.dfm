@@ -7028,6 +7028,10 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'TOKEN_BR'
       Size = 300
     end
+    object sdsParametros_FinEND_POINT_BR: TStringField
+      FieldName = 'END_POINT_BR'
+      Size = 150
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
@@ -7307,6 +7311,10 @@ object DMCadParametros: TDMCadParametros
     object cdsParametros_FinTOKEN_BR: TStringField
       FieldName = 'TOKEN_BR'
       Size = 300
+    end
+    object cdsParametros_FinEND_POINT_BR: TStringField
+      FieldName = 'END_POINT_BR'
+      Size = 150
     end
   end
   object dsParametros_Fin: TDataSource

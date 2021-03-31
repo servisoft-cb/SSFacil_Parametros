@@ -76,9 +76,9 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     Top = 35
     Width = 1256
     Height = 649
-    ActivePage = TS_Geral
+    ActivePage = TS_Token
     Align = alClient
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 1
     FixedDimension = 19
     object TS_Geral: TRzTabSheet
@@ -1323,14 +1323,39 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         Enabled = False
         TabOrder = 0
         object Label8: TLabel
-          Left = 52
+          Left = 68
           Top = 55
           Width = 34
           Height = 13
           Caption = 'Token:'
         end
+        object Label9: TLabel
+          Left = 20
+          Top = 258
+          Width = 81
+          Height = 13
+          Caption = 'End Point (Rota):'
+        end
+        object SpeedButton2: TSpeedButton
+          Left = 681
+          Top = 248
+          Width = 492
+          Height = 23
+          Caption = 
+            'Rota Homologa'#231#227'o: https://api-hml.calcadosbeirario.app/nota-fisc' +
+            'al'
+          OnClick = SpeedButton2Click
+        end
+        object SpeedButton3: TSpeedButton
+          Left = 680
+          Top = 272
+          Width = 492
+          Height = 23
+          Caption = 'Rota Produ'#231#227'o: https://api-prd.calcadosbeirario.app/nota-fiscal'
+          OnClick = SpeedButton3Click
+        end
         object DBMemo1: TDBMemo
-          Left = 89
+          Left = 105
           Top = 39
           Width = 1068
           Height = 180
@@ -1338,6 +1363,15 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
           DataSource = DMCadParametros.dsParametros_Fin
           ScrollBars = ssVertical
           TabOrder = 0
+        end
+        object DBEdit3: TDBEdit
+          Left = 106
+          Top = 251
+          Width = 564
+          Height = 21
+          DataField = 'END_POINT_BR'
+          DataSource = DMCadParametros.dsParametros_Fin
+          TabOrder = 1
         end
       end
     end
