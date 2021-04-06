@@ -19,7 +19,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1298
+    Width = 1306
     Height = 35
     Align = alTop
     Color = 8404992
@@ -74,14 +74,14 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
   object pnlGeral: TPanel
     Left = 0
     Top = 35
-    Width = 1298
-    Height = 593
+    Width = 1306
+    Height = 601
     Align = alClient
     TabOrder = 1
     object pnlTransfereUsr: TPanel
       Left = 1
       Top = 1
-      Width = 1296
+      Width = 1304
       Height = 41
       Align = alTop
       Color = clSilver
@@ -155,7 +155,7 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
       Left = 1
       Top = 42
       Width = 233
-      Height = 550
+      Height = 558
       Align = alLeft
       DataSource = DMCadParametros.dsParametros_Usuario
       Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgConfirmDelete, dgCancelOnExit]
@@ -199,8 +199,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
     object pnlUsuario: TPanel
       Left = 234
       Top = 42
-      Width = 1063
-      Height = 550
+      Width = 1071
+      Height = 558
       Align = alClient
       Enabled = False
       TabOrder = 2
@@ -343,6 +343,89 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
           FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
           FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000}
         OnClick = SpeedButton1Click
+      end
+      object Label3: TLabel
+        Left = 84
+        Top = 290
+        Width = 104
+        Height = 13
+        Alignment = taRightJustify
+        Caption = 'Senha Excluir T'#237'tulos:'
+      end
+      object SpeedButton2: TSpeedButton
+        Left = 309
+        Top = 283
+        Width = 29
+        Height = 20
+        Glyph.Data = {
+          56080000424D560800000000000036000000280000001A0000001A0000000100
+          18000000000020080000C40E0000C40E00000000000000000000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCFCFCF3F3F3E0E0E0D1D1
+          D1D0D0D0DDDDDDF2F2F2FCFCFCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDC
+          DCDCA0A0A0656565525252505050535353535353505050515151656565A0A0A0
+          DDDDDDFFFFFFFFFFFFFFFFFFFFFFFFF2F2F2BEBEBEEFEFEF0000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFEEEEEE8D8D8D575757727272B3B3B3D7D7D7F1F1F1FFFF
+          FFFFFFFFF1F1F1D8D8D8B3B3B37272725858588C8C8CEFEFEFFFFFFFC4C4C468
+          6868646464E9E9E90000FFFFFFFFFFFFFFFFFFFFFFFFE2E2E2505050727272D0
+          D0D0FDFDFDFFFFFFFFFFFFFFFFFFFDFDFDFDFDFDFFFFFFFFFFFFFFFFFFFEFEFE
+          D2D2D27D7D7D5F5F5F7D7D7D5353539F9F9FEBEBEBFFFFFF0000FFFFFFFFFFFF
+          FFFFFFDBDBDB303030A1A1A1FFFFFFFFFFFFFFFFFFFFFFFFC4C4C45B5B5B3737
+          373737375A5A5AC1C1C1FFFFFFFFFFFFFFFFFFA6A6A6212121030303C1C1C1FF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFD3D3D3393939BABABAFFFFFFFFFFFFFF
+          FFFFFFFFFF8C8C8C454545A8A8A8F0F0F0F0F0F0A8A8A8494949959595CECECE
+          545454555555DDDDDDC6C6C63C3C3CD1D1D1FFFFFFFFFFFF0000FFFFFFEAEAEA
+          5A5A5A9C9C9CFFFFFFFFFFFFFFFFFFFFFFFFC4C4C4434343E6E6E6FFFFFFFFFF
+          FFFFFFFFFFFFFFB8B8B81616163F3F3FA9A9A9FCFCFCFFFFFFFFFFFF9C9C9C59
+          5959E8E8E8FFFFFF0000FFFFFF8F8F8F747474FBFBFBFFFFFFFFFFFFFFFFFFFF
+          FFFF5D5D5DA6A6A6FFFFFFFFFFFFFFFFFFF8F8F88E8E8E5A5A5A585858595959
+          FFFFFFFFFFFFFFFFFFFFFFFFFBFBFB7373738B8B8BFFFFFF0000DFDFDF525252
+          D7D7D7FFFFFFFFFFFFFFFFFFFFFFFFFAFAFA373737F0F0F0FFFFFFFFFFFFCECE
+          CE313131626262DADADAEEEEEE3B3B3BFBFBFBFFFFFFFFFFFFFFFFFFFFFFFFD7
+          D7D7515151DFDFDF0000E1E1E1515151D4D4D4FFFFFFFFFFFFFFFFFFFFFFFFFB
+          FBFB3B3B3BEEEEEEDBDBDB636363343434CDCDCDFFFFFFFFFFFFF0F0F0373737
+          FAFAFAFFFFFFFFFFFFFFFFFFFFFFFFD6D6D64F4F4FDFDFDF0000FFFFFF909090
+          717171FAFAFAFFFFFFFFFFFFFFFFFFFFFFFF5A5A5A5959595C5C5C8F8F8FF7F7
+          F7FFFFFFFFFFFFFFFFFFA7A7A75C5C5CFFFFFFFFFFFFFFFFFFFFFFFFFAFAFA71
+          71718E8E8EFFFFFF0000FFFFFFEAEAEA5C5C5C9B9B9BFFFFFFFFFFFFFCFCFCA7
+          A7A7434343181818B9B9B9FFFFFFFFFFFFFFFFFFFFFFFFE6E6E6454545C4C4C4
+          FFFFFFFFFFFFFFFFFFFFFFFF9C9C9C5C5C5CE9E9E9FFFFFF0000FFFFFFFFFFFF
+          D5D5D53F3F3FBEBEBEDCDCDC545454575757CFCFCF989898474747A5A5A5EFEF
+          EFF0F0F0A6A6A64343438C8C8CFFFFFFFFFFFFFFFFFFFFFFFFB9B9B9393939D5
+          D5D5FFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFC7C7C7070707212121A6A6A6FF
+          FFFFFFFFFFFFFFFFC5C5C55C5C5C3737373737375B5B5BC4C4C4FFFFFFFFFFFF
+          FFFFFFFFFFFFA1A1A1313131DBDBDBFFFFFFFFFFFFFFFFFF0000FFFFFFEBEBEB
+          9E9E9E4F4F4F7F7F7F6262627A7A7AD0D0D0FDFDFDFFFFFFFFFFFFFFFFFFFDFD
+          FDFDFDFDFFFFFFFFFFFFFFFFFFFEFEFECECECE6E6E6E4E4E4EE1E1E1FFFFFFFF
+          FFFFFFFFFFFFFFFF0000E9E9E9666666666666C3C3C3FFFFFFF0F0F08D8D8D57
+          5757727272AFAFAFD5D5D5F2F2F2FFFFFFFFFFFFF1F1F1D5D5D5AFAFAF727272
+          5959598D8D8DEDEDEDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000EFEFEFBFBFBF
+          F2F2F2FFFFFFFFFFFFFFFFFFFFFFFFDEDEDE9F9F9F6A6A6A5353534F4F4F5252
+          525353535050505252526969699E9E9EDEDEDEFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFDFDFDF2F2F2DDDDDDD0D0D0D0D0D0DEDEDEF3F3F3FCFCFCFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000}
+        OnClick = SpeedButton2Click
       end
       object RxDBComboBox86: TRxDBComboBox
         Left = 190
@@ -506,8 +589,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
           'C')
       end
       object DBCheckBox148: TDBCheckBox
-        Left = 190
-        Top = 288
+        Left = 506
+        Top = -15
         Width = 315
         Height = 17
         Caption = 'Mostrar o Custo na OS'
@@ -518,8 +601,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox151: TDBCheckBox
-        Left = 190
-        Top = 302
+        Left = 482
+        Top = 15
         Width = 315
         Height = 17
         Caption = 'Permitir alterar o Material na necessidade de compras'
@@ -530,8 +613,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox152: TDBCheckBox
-        Left = 190
-        Top = 316
+        Left = 482
+        Top = 29
         Width = 315
         Height = 17
         Caption = 'Permitir alterar o consumo na Necessidade de Compras'
@@ -542,8 +625,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox168: TDBCheckBox
-        Left = 190
-        Top = 330
+        Left = 482
+        Top = 43
         Width = 379
         Height = 17
         Caption = 'Permitir alterar o item com pedido com Ordem de Produ'#231#227'o gerada'
@@ -554,8 +637,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox172: TDBCheckBox
-        Left = 190
-        Top = 344
+        Left = 482
+        Top = 57
         Width = 232
         Height = 17
         Caption = 'Solicita confirma'#231#227'o antes de enviar a NFe'
@@ -566,8 +649,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox192: TDBCheckBox
-        Left = 190
-        Top = 358
+        Left = 482
+        Top = 71
         Width = 232
         Height = 17
         Caption = 'Utiliza Cadastro Pessoa Reduzido'
@@ -578,8 +661,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox196: TDBCheckBox
-        Left = 190
-        Top = 372
+        Left = 482
+        Top = 85
         Width = 427
         Height = 17
         Caption = 'Permite alterar o pedido depois de conferido o financeiro'
@@ -590,8 +673,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox197: TDBCheckBox
-        Left = 190
-        Top = 386
+        Left = 482
+        Top = 99
         Width = 427
         Height = 17
         Caption = 'Permite marcar o pedido como conferido o financeiro'
@@ -602,8 +685,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox202: TDBCheckBox
-        Left = 190
-        Top = 401
+        Left = 482
+        Top = 114
         Width = 427
         Height = 17
         Caption = 'Permitir alterar o C'#243'd. Produto do Cliente no Pedido'
@@ -614,8 +697,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox243: TDBCheckBox
-        Left = 190
-        Top = 416
+        Left = 482
+        Top = 129
         Width = 427
         Height = 17
         Caption = 'Permitir aprovar as duplicatas'
@@ -626,8 +709,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox279: TDBCheckBox
-        Left = 190
-        Top = 431
+        Left = 482
+        Top = 144
         Width = 427
         Height = 17
         Caption = 'Permite Cancelar Pedido depois de gerado a Ordem de Produ'#231#227'o'
@@ -638,8 +721,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox286: TDBCheckBox
-        Left = 190
-        Top = 447
+        Left = 482
+        Top = 160
         Width = 427
         Height = 17
         Caption = 
@@ -652,8 +735,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox1: TDBCheckBox
-        Left = 190
-        Top = 462
+        Left = 482
+        Top = 175
         Width = 427
         Height = 17
         Caption = 'Liberar baixa de tal'#227'o mesmo que o anterior n'#227'o esteja encerrada'
@@ -664,8 +747,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox2: TDBCheckBox
-        Left = 190
-        Top = 477
+        Left = 482
+        Top = 190
         Width = 427
         Height = 17
         Caption = 'Liberar Configura'#231#227'o do Representante (Descontos) individual'
@@ -676,8 +759,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox3: TDBCheckBox
-        Left = 190
-        Top = 493
+        Left = 482
+        Top = 206
         Width = 427
         Height = 17
         Caption = 'Cupom - Mostrar barra de totais na consulta'
@@ -708,8 +791,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
           'A')
       end
       object DBCheckBox4: TDBCheckBox
-        Left = 190
-        Top = 509
+        Left = 482
+        Top = 222
         Width = 426
         Height = 17
         Caption = 'Permite alterar o tipo de grava'#231#227'o dos materiais no Lote'
@@ -720,8 +803,8 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         ValueUnchecked = 'N'
       end
       object DBCheckBox5: TDBCheckBox
-        Left = 190
-        Top = 524
+        Left = 482
+        Top = 237
         Width = 426
         Height = 17
         Caption = 'Permite alterar Pre'#231'o do Item do Pedido Parcialmente Faturado'
@@ -741,13 +824,15 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         PasswordChar = '*'
         TabOrder = 8
       end
-      object Edit1: TEdit
-        Left = 640
-        Top = 264
-        Width = 121
+      object DBEdit1: TDBEdit
+        Left = 190
+        Top = 282
+        Width = 116
         Height = 21
+        DataField = 'SENHA_DUP'
+        DataSource = DMCadParametros.dsParametros_Usuario
+        PasswordChar = '*'
         TabOrder = 29
-        Text = 'Edit1'
       end
     end
   end

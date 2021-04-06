@@ -1845,6 +1845,10 @@ type
     cdsParametros_FinEND_POINT_BR: TStringField;
     sdsParametros_FinUSA_TRANSF_ICMS: TStringField;
     cdsParametros_FinUSA_TRANSF_ICMS: TStringField;
+    sdsParametros_FinUSA_SENHA_EXC_DUP: TStringField;
+    cdsParametros_FinUSA_SENHA_EXC_DUP: TStringField;
+    sdsParametros_UsuarioSENHA_DUP: TStringField;
+    cdsParametros_UsuarioSENHA_DUP: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

@@ -58,7 +58,9 @@ type
     Label2: TLabel;
     dbedtSenha: TDBEdit;
     SpeedButton1: TSpeedButton;
-    Edit1: TEdit;
+    Label3: TLabel;
+    DBEdit1: TDBEdit;
+    SpeedButton2: TSpeedButton;
     procedure btnNFeClick(Sender: TObject);
     procedure pnlUsuarioEnter(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -68,6 +70,7 @@ type
     procedure btnConfirmarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButton2Click(Sender: TObject);
   private
     { Private declarations }
     fDMCadParametros: TDMCadParametros;
@@ -141,9 +144,13 @@ begin
   fDMCadParametros.cdsParametros_Com.Open;
   fDMCadParametros.cdsParametros_Est.Close;
   fDMCadParametros.cdsParametros_Est.Open;
+  fDMCadParametros.cdsParametros_Fin.Close;
+  fDMCadParametros.cdsParametros_Fin.Open;
   DBCheckBox2.Visible   := (fDMCadParametros.cdsParametros_ComUSA_CONFIG_IND.AsString = 'S');
   Label1.Visible        := (fDMCadParametros.cdsParametros_EstCONTROLA_DOC_SAIDA.AsString = 'S');
   RxDBComboBox1.Visible := (fDMCadParametros.cdsParametros_EstCONTROLA_DOC_SAIDA.AsString = 'S');
+  DBEdit1.Enabled       := (fDMCadParametros.cdsParametros_FinUSA_SENHA_EXC_DUP.AsString = 'S');
+  Label3.Enabled        := (fDMCadParametros.cdsParametros_FinUSA_SENHA_EXC_DUP.AsString = 'S'); 
 end;
 
 procedure TfrmCadParametros_Usuario.FormClose(Sender: TObject;
@@ -198,6 +205,15 @@ begin
   else
     dbedtSenha.PasswordChar := '*';
   dbedtSenha.Update;  
+end;
+
+procedure TfrmCadParametros_Usuario.SpeedButton2Click(Sender: TObject);
+begin
+  if DBEdit1.PasswordChar = '*' then
+    DBEdit1.PasswordChar := #0
+  else
+    DBEdit1.PasswordChar := '*';
+  DBEdit1.Update;
 end;
 
 end.

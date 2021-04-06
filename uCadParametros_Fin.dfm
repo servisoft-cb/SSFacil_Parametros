@@ -602,7 +602,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox22: TDBCheckBox
           Left = 584
-          Top = 79
+          Top = 78
           Width = 281
           Height = 17
           Caption = 'Mostrar no menu a '#250'ltima remessa gerada para banco'
@@ -642,7 +642,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox24: TDBCheckBox
           Left = 584
-          Top = 93
+          Top = 92
           Width = 281
           Height = 17
           Caption = 'Controlar se o banco pode fazer remessa/dep'#243'sito'
@@ -663,7 +663,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox80: TDBCheckBox
           Left = 584
-          Top = 108
+          Top = 106
           Width = 280
           Height = 17
           Caption = 'Mostrar o valor da multa nas duplicatas'
@@ -675,7 +675,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox82: TDBCheckBox
           Left = 584
-          Top = 122
+          Top = 120
           Width = 353
           Height = 17
           Caption = 'Usa regime de caixa no lan'#231'amento dos t'#237'tulos manualmente'
@@ -697,7 +697,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox89: TDBCheckBox
           Left = 584
-          Top = 135
+          Top = 134
           Width = 353
           Height = 17
           Caption = 'Imprimir o nosso n'#250'mero no relat'#243'rio de contas a receber/pagar'
@@ -731,7 +731,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox99: TDBCheckBox
           Left = 584
-          Top = 150
+          Top = 148
           Width = 353
           Height = 17
           Caption = 'Mostrar o tipo de cr'#233'dito no cadastro de clientes'
@@ -743,7 +743,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox110: TDBCheckBox
           Left = 584
-          Top = 178
+          Top = 175
           Width = 353
           Height = 17
           Caption = 'Usa Tabela de Pre'#231'o Promocional'
@@ -797,7 +797,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox112: TDBCheckBox
           Left = 584
-          Top = 192
+          Top = 189
           Width = 353
           Height = 17
           Caption = 'Copiar o desconto do Vale para a Nota'
@@ -820,7 +820,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox119: TDBCheckBox
           Left = 584
-          Top = 206
+          Top = 203
           Width = 353
           Height = 17
           Caption = 'Controle de pre'#231'o por usu'#225'rio'
@@ -832,7 +832,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox120: TDBCheckBox
           Left = 584
-          Top = 219
+          Top = 217
           Width = 441
           Height = 17
           Caption = 
@@ -864,7 +864,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object chkProtestarCliente: TDBCheckBox
           Left = 584
-          Top = 233
+          Top = 231
           Width = 97
           Height = 17
           Caption = 'Protestar Cliente'
@@ -894,7 +894,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox200: TDBCheckBox
           Left = 584
-          Top = 247
+          Top = 244
           Width = 230
           Height = 17
           Caption = 'Exigir Conta de Or'#231'amento nas Duplicatas'
@@ -954,7 +954,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox256: TDBCheckBox
           Left = 584
-          Top = 263
+          Top = 258
           Width = 230
           Height = 17
           Caption = 'Usa % na Condi'#231#227'o de Pagamento'
@@ -966,7 +966,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox257: TDBCheckBox
           Left = 584
-          Top = 279
+          Top = 272
           Width = 230
           Height = 17
           Caption = 'Arredondar o valor da Tabela de Pre'#231'o'
@@ -1268,7 +1268,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox108: TDBCheckBox
           Left = 584
-          Top = 295
+          Top = 286
           Width = 252
           Height = 17
           Caption = 'Usa desconto no vale'
@@ -1280,7 +1280,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox14: TDBCheckBox
           Left = 584
-          Top = 164
+          Top = 161
           Width = 353
           Height = 17
           Caption = 'Cons. Financeiro (mostrar a aba Centro de Custo / Orcamento)'
@@ -1292,7 +1292,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object DBCheckBox15: TDBCheckBox
           Left = 584
-          Top = 311
+          Top = 300
           Width = 262
           Height = 17
           Caption = 'Mostrar aba de previs'#227'o nas contas de or'#231'amento'
@@ -1311,6 +1311,18 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
           DataField = 'USA_TRANSF_ICMS'
           DataSource = DMCadParametros.dsParametros_Fin
           TabOrder = 67
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox17: TDBCheckBox
+          Left = 584
+          Top = 314
+          Width = 262
+          Height = 17
+          Caption = 'Usa Senha por Usu'#225'rio para excluir Duplicatas'
+          DataField = 'USA_SENHA_EXC_DUP'
+          DataSource = DMCadParametros.dsParametros_Fin
+          TabOrder = 68
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end

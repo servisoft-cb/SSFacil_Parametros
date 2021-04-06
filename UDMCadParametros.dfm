@@ -7036,6 +7036,10 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'USA_TRANSF_ICMS'
       Size = 1
     end
+    object sdsParametros_FinUSA_SENHA_EXC_DUP: TStringField
+      FieldName = 'USA_SENHA_EXC_DUP'
+      Size = 1
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
@@ -7322,6 +7326,10 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_FinUSA_TRANSF_ICMS: TStringField
       FieldName = 'USA_TRANSF_ICMS'
+      Size = 1
+    end
+    object cdsParametros_FinUSA_SENHA_EXC_DUP: TStringField
+      FieldName = 'USA_SENHA_EXC_DUP'
       Size = 1
     end
   end
@@ -7804,12 +7812,16 @@ object DMCadParametros: TDMCadParametros
     object sdsParametros_UsuarioSENHA_CUPOM: TStringField
       FieldName = 'SENHA_CUPOM'
     end
+    object sdsParametros_UsuarioSENHA_DUP: TStringField
+      FieldName = 'SENHA_DUP'
+      Size = 15
+    end
   end
   object cdsParametros_Usuario: TClientDataSet
     Aggregates = <>
     Params = <>
     ProviderName = 'dspParametros_Usuario'
-    Left = 405
+    Left = 406
     Top = 59
     object cdsParametros_UsuarioID: TIntegerField
       FieldName = 'ID'
@@ -7962,6 +7974,10 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_UsuarioSENHA_CUPOM: TStringField
       FieldName = 'SENHA_CUPOM'
+    end
+    object cdsParametros_UsuarioSENHA_DUP: TStringField
+      FieldName = 'SENHA_DUP'
+      Size = 15
     end
   end
   object dsParametros_Usuario: TDataSource
