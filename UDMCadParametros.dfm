@@ -7032,6 +7032,10 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'END_POINT_BR'
       Size = 150
     end
+    object sdsParametros_FinUSA_TRANSF_ICMS: TStringField
+      FieldName = 'USA_TRANSF_ICMS'
+      Size = 1
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
@@ -7315,6 +7319,10 @@ object DMCadParametros: TDMCadParametros
     object cdsParametros_FinEND_POINT_BR: TStringField
       FieldName = 'END_POINT_BR'
       Size = 150
+    end
+    object cdsParametros_FinUSA_TRANSF_ICMS: TStringField
+      FieldName = 'USA_TRANSF_ICMS'
+      Size = 1
     end
   end
   object dsParametros_Fin: TDataSource

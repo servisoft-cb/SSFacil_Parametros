@@ -76,9 +76,9 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
     Top = 35
     Width = 1256
     Height = 649
-    ActivePage = TS_Token
+    ActivePage = TS_Geral
     Align = alClient
-    TabIndex = 1
+    TabIndex = 0
     TabOrder = 1
     FixedDimension = 19
     object TS_Geral: TRzTabSheet
@@ -1194,7 +1194,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object GroupBox1: TGroupBox
           Left = 687
-          Top = 529
+          Top = 537
           Width = 465
           Height = 60
           Caption = ' CashBack'
@@ -1299,6 +1299,18 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
           DataField = 'MOSTRAR_ABA_PREV'
           DataSource = DMCadParametros.dsParametros_Fin
           TabOrder = 66
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox16: TDBCheckBox
+          Left = 857
+          Top = 518
+          Width = 377
+          Height = 17
+          Caption = 'Usa Transfer'#234'ncia ICMS'
+          DataField = 'USA_TRANSF_ICMS'
+          DataSource = DMCadParametros.dsParametros_Fin
+          TabOrder = 67
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
