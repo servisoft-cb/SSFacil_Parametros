@@ -1849,6 +1849,8 @@ type
     cdsParametros_FinUSA_SENHA_EXC_DUP: TStringField;
     sdsParametros_UsuarioSENHA_DUP: TStringField;
     cdsParametros_UsuarioSENHA_DUP: TStringField;
+    sdsParametros_ProdCOPIAR_COR_MAT_COMB: TStringField;
+    cdsParametros_ProdCOPIAR_COR_MAT_COMB: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

@@ -76,10 +76,10 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
     Top = 35
     Width = 1293
     Height = 622
-    ActivePage = TS_Usa
+    ActivePage = TS_Gerar
     ActivePageDefault = TS_Usa
     Align = alClient
-    TabIndex = 0
+    TabIndex = 2
     TabOrder = 1
     OnChange = RzPageControl1Change
     FixedDimension = 19
@@ -1134,6 +1134,20 @@ object frmCadParametros_Prod: TfrmCadParametros_Prod
           DataField = 'GERAR_CODBARRA_ID'
           DataSource = DMCadParametros.dsParametros_Prod
           TabOrder = 12
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox22: TDBCheckBox
+          Left = 123
+          Top = 300
+          Width = 405
+          Height = 16
+          Caption = 
+            'Copiar a Cor do Material de uma combina'#231#227'o para o novo registro ' +
+            '(Consumo)'
+          DataField = 'COPIAR_COR_MAT_COMB'
+          DataSource = DMCadParametros.dsParametros_Prod
+          TabOrder = 13
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end

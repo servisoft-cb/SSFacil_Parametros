@@ -4034,6 +4034,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_ProdCOPIAR_COR_MAT_COMB: TStringField
+      FieldName = 'COPIAR_COR_MAT_COMB'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Prod: TClientDataSet
     Aggregates = <>
@@ -4325,6 +4330,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_ProdUSA_QTD_ROTULO_RFID: TStringField
       FieldName = 'USA_QTD_ROTULO_RFID'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_ProdCOPIAR_COR_MAT_COMB: TStringField
+      FieldName = 'COPIAR_COR_MAT_COMB'
       FixedChar = True
       Size = 1
     end
