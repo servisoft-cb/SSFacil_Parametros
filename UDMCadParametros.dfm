@@ -7050,6 +7050,10 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'USA_SENHA_EXC_DUP'
       Size = 1
     end
+    object sdsParametros_FinSENHA_CONF_PADRAO_COB: TStringField
+      FieldName = 'SENHA_CONF_PADRAO_COB'
+      Size = 15
+    end
   end
   object cdsParametros_Fin: TClientDataSet
     Aggregates = <>
@@ -7341,6 +7345,10 @@ object DMCadParametros: TDMCadParametros
     object cdsParametros_FinUSA_SENHA_EXC_DUP: TStringField
       FieldName = 'USA_SENHA_EXC_DUP'
       Size = 1
+    end
+    object cdsParametros_FinSENHA_CONF_PADRAO_COB: TStringField
+      FieldName = 'SENHA_CONF_PADRAO_COB'
+      Size = 15
     end
   end
   object dsParametros_Fin: TDataSource

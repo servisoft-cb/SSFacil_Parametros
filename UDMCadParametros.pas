@@ -1851,6 +1851,8 @@ type
     cdsParametros_UsuarioSENHA_DUP: TStringField;
     sdsParametros_ProdCOPIAR_COR_MAT_COMB: TStringField;
     cdsParametros_ProdCOPIAR_COR_MAT_COMB: TStringField;
+    sdsParametros_FinSENHA_CONF_PADRAO_COB: TStringField;
+    cdsParametros_FinSENHA_CONF_PADRAO_COB: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

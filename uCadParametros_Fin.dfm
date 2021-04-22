@@ -255,7 +255,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object Label244: TLabel
           Left = 128
-          Top = 450
+          Top = 482
           Width = 173
           Height = 13
           Alignment = taRightJustify
@@ -263,7 +263,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object Label114: TLabel
           Left = 223
-          Top = 473
+          Top = 505
           Width = 76
           Height = 13
           Alignment = taRightJustify
@@ -271,7 +271,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object Label251: TLabel
           Left = 223
-          Top = 495
+          Top = 527
           Width = 76
           Height = 13
           Alignment = taRightJustify
@@ -279,7 +279,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object Label252: TLabel
           Left = 223
-          Top = 516
+          Top = 548
           Width = 76
           Height = 13
           Alignment = taRightJustify
@@ -319,7 +319,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object Label2: TLabel
           Left = 128
-          Top = 560
+          Top = 592
           Width = 171
           Height = 13
           Alignment = taRightJustify
@@ -335,11 +335,19 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object Label4: TLabel
           Left = 223
-          Top = 539
+          Top = 571
           Width = 76
           Height = 13
           Alignment = taRightJustify
           Caption = 'Tabela Pre'#231'o 4:'
+        end
+        object Label10: TLabel
+          Left = 482
+          Top = 441
+          Width = 139
+          Height = 13
+          Alignment = taRightJustify
+          Caption = 'Senha Atualizar Cob. Nuvem:'
         end
         object DBEdit14: TDBEdit
           Left = 226
@@ -709,8 +717,8 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object RxDBComboBox147: TRxDBComboBox
           Left = 303
-          Top = 442
-          Width = 530
+          Top = 474
+          Width = 534
           Height = 21
           Style = csDropDownList
           DataField = 'TIPO_GERACAO_REM'
@@ -755,7 +763,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object RxDBLookupCombo31: TRxDBLookupCombo
           Left = 303
-          Top = 464
+          Top = 496
           Width = 286
           Height = 21
           DropDownCount = 8
@@ -769,7 +777,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object RxDBLookupCombo32: TRxDBLookupCombo
           Left = 303
-          Top = 486
+          Top = 518
           Width = 286
           Height = 21
           DropDownCount = 8
@@ -783,7 +791,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object RxDBLookupCombo33: TRxDBLookupCombo
           Left = 303
-          Top = 507
+          Top = 539
           Width = 286
           Height = 21
           DropDownCount = 8
@@ -1076,7 +1084,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object RxDBLookupCombo2: TRxDBLookupCombo
           Left = 303
-          Top = 551
+          Top = 583
           Width = 286
           Height = 21
           DropDownCount = 8
@@ -1180,7 +1188,7 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
         end
         object RxDBLookupCombo3: TRxDBLookupCombo
           Left = 303
-          Top = 529
+          Top = 561
           Width = 286
           Height = 21
           DropDownCount = 8
@@ -1325,6 +1333,16 @@ object frmCadParametros_Fin: TfrmCadParametros_Fin
           TabOrder = 68
           ValueChecked = 'S'
           ValueUnchecked = 'N'
+        end
+        object DBEdit4: TDBEdit
+          Left = 623
+          Top = 434
+          Width = 116
+          Height = 21
+          DataField = 'SENHA_CONF_PADRAO_COB'
+          DataSource = DMCadParametros.dsParametros_Fin
+          PasswordChar = '*'
+          TabOrder = 69
         end
       end
     end
