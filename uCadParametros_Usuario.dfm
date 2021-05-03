@@ -427,6 +427,14 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
           FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000}
         OnClick = SpeedButton2Click
       end
+      object Label4: TLabel
+        Left = 22
+        Top = 319
+        Width = 166
+        Height = 13
+        Alignment = taRightJustify
+        Caption = 'Doc. Ajuste Estoque (Filial Padr'#227'o):'
+      end
       object RxDBComboBox86: TRxDBComboBox
         Left = 190
         Top = 13
@@ -833,6 +841,19 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         DataSource = DMCadParametros.dsParametros_Usuario
         PasswordChar = '*'
         TabOrder = 29
+      end
+      object RxDBLookupCombo1: TRxDBLookupCombo
+        Left = 190
+        Top = 311
+        Width = 307
+        Height = 21
+        DropDownCount = 8
+        DataField = 'ID_FILIAL_ESTOQUE'
+        DataSource = DMCadParametros.dsParametros_Usuario
+        LookupField = 'ID'
+        LookupDisplay = 'NOME'
+        LookupSource = DMCadParametros.dsFilial
+        TabOrder = 30
       end
     end
   end

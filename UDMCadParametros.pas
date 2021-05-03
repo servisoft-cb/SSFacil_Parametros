@@ -1545,8 +1545,6 @@ type
     IntegerField1: TIntegerField;
     StringField1: TStringField;
     dsFilial: TDataSource;
-    sdsFilialID: TIntegerField;
-    sdsFilialNOME: TStringField;
     sdsParametros_UsuarioLIBERA_TALAO_ANT: TStringField;
     cdsParametros_UsuarioLIBERA_TALAO_ANT: TStringField;
     sdsParametros_ProdGERADORES_ELETRICOS: TStringField;
@@ -1853,6 +1851,9 @@ type
     cdsParametros_ProdCOPIAR_COR_MAT_COMB: TStringField;
     sdsParametros_FinSENHA_CONF_PADRAO_COB: TStringField;
     cdsParametros_FinSENHA_CONF_PADRAO_COB: TStringField;
+    sdsParametros_UsuarioID_FILIAL_ESTOQUE: TIntegerField;
+    cdsParametros_UsuarioID_FILIAL_ESTOQUE: TIntegerField;
+    cdsFilialNOME_INTERNO: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

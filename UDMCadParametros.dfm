@@ -7834,6 +7834,9 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'SENHA_DUP'
       Size = 15
     end
+    object sdsParametros_UsuarioID_FILIAL_ESTOQUE: TIntegerField
+      FieldName = 'ID_FILIAL_ESTOQUE'
+    end
   end
   object cdsParametros_Usuario: TClientDataSet
     Aggregates = <>
@@ -7996,6 +7999,9 @@ object DMCadParametros: TDMCadParametros
     object cdsParametros_UsuarioSENHA_DUP: TStringField
       FieldName = 'SENHA_DUP'
       Size = 15
+    end
+    object cdsParametros_UsuarioID_FILIAL_ESTOQUE: TIntegerField
+      FieldName = 'ID_FILIAL_ESTOQUE'
     end
   end
   object dsParametros_Usuario: TDataSource
@@ -8781,20 +8787,12 @@ object DMCadParametros: TDMCadParametros
   object sdsFilial: TSQLDataSet
     NoMetadata = True
     GetMetadata = False
-    CommandText = 'SELECT *'#13#10'FROM FILIAL'
+    CommandText = 'SELECT ID, NOME, NOME_INTERNO'#13#10'FROM FILIAL'
     MaxBlobSize = -1
     Params = <>
     SQLConnection = dmDatabase.scoDados
     Left = 976
     Top = 454
-    object sdsFilialID: TIntegerField
-      FieldName = 'ID'
-      Required = True
-    end
-    object sdsFilialNOME: TStringField
-      FieldName = 'NOME'
-      Size = 60
-    end
   end
   object dspFilial: TDataSetProvider
     DataSet = sdsFilial
@@ -8813,6 +8811,10 @@ object DMCadParametros: TDMCadParametros
     end
     object StringField1: TStringField
       FieldName = 'NOME'
+      Size = 30
+    end
+    object cdsFilialNOME_INTERNO: TStringField
+      FieldName = 'NOME_INTERNO'
       Size = 30
     end
   end

@@ -61,6 +61,8 @@ type
     Label3: TLabel;
     DBEdit1: TDBEdit;
     SpeedButton2: TSpeedButton;
+    Label4: TLabel;
+    RxDBLookupCombo1: TRxDBLookupCombo;
     procedure btnNFeClick(Sender: TObject);
     procedure pnlUsuarioEnter(Sender: TObject);
     procedure FormShow(Sender: TObject);
