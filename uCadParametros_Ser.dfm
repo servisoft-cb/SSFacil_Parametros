@@ -19,7 +19,7 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1112
+    Width = 1120
     Height = 35
     Align = alTop
     Color = 8404992
@@ -74,8 +74,8 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
   object pnlGeral: TPanel
     Left = 0
     Top = 35
-    Width = 1112
-    Height = 514
+    Width = 1120
+    Height = 522
     Align = alClient
     Enabled = False
     TabOrder = 1
@@ -488,7 +488,7 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
       Width = 380
       Height = 17
       Caption = 'Usa c'#225'lculo completo do Or'#231'amento (Supercrom)'
-      DataField = 'MOSTRAR_QTD_NOTA'
+      DataField = 'USA_CALC_COMPLETO'
       DataSource = DMCadParametros.dsParametros_Ser
       TabOrder = 24
       ValueChecked = 'S'
