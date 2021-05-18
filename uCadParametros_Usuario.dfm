@@ -498,7 +498,6 @@ object frmCadParametros_Usuario: TfrmCadParametros_Usuario
         TabOrder = 2
         ValueChecked = 'S'
         ValueUnchecked = 'N'
-        Visible = False
       end
       object DBCheckBox36: TDBCheckBox
         Left = 190
