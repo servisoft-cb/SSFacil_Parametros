@@ -19,7 +19,7 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1311
+    Width = 1319
     Height = 31
     Align = alTop
     Color = 8404992
@@ -74,16 +74,16 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
   object pnlGeral: TPanel
     Left = 0
     Top = 31
-    Width = 1311
-    Height = 584
+    Width = 1319
+    Height = 592
     Align = alClient
     Enabled = False
     TabOrder = 1
     object RzPageControl3: TRzPageControl
       Left = 1
       Top = 1
-      Width = 1309
-      Height = 582
+      Width = 1317
+      Height = 590
       ActivePage = TS_NFE_Geral
       ActivePageDefault = TS_NFE_Geral
       Align = alClient
@@ -488,7 +488,7 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           Width = 267
           Height = 17
           Caption = 'Enviar Nota Beneficiamento na NFe'
-          DataField = 'IMP_REFERENCIANANOTA'
+          DataField = 'ENVIARNOTABENEF_NANFE'
           DataSource = DMCadParametros.dsParametros
           TabOrder = 13
           ValueChecked = 'S'
