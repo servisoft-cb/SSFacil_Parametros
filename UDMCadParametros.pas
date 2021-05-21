@@ -1854,6 +1854,8 @@ type
     sdsParametros_UsuarioID_FILIAL_ESTOQUE: TIntegerField;
     cdsParametros_UsuarioID_FILIAL_ESTOQUE: TIntegerField;
     cdsFilialNOME_INTERNO: TStringField;
+    sdsParametros_SerORCAMENTO_ANO: TStringField;
+    cdsParametros_SerORCAMENTO_ANO: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

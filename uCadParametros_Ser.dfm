@@ -494,5 +494,17 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
+    object DBCheckBox3: TDBCheckBox
+      Left = 578
+      Top = 387
+      Width = 380
+      Height = 17
+      Caption = 'Usa N'#250'mero de Or'#231'amento por Ano'
+      DataField = 'ORCAMENTO_ANO'
+      DataSource = DMCadParametros.dsParametros_Ser
+      TabOrder = 25
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
   end
 end
