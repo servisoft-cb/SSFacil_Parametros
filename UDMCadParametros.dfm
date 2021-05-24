@@ -1,8 +1,8 @@
 object DMCadParametros: TDMCadParametros
   OldCreateOrder = False
   OnCreate = DataModuleCreate
-  Left = 54
-  Top = 27
+  Left = 48
+  Top = 35
   Height = 654
   Width = 1290
   object sdsParametros: TSQLDataSet
@@ -2529,6 +2529,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_GeralUSA_PESQUISA_COR: TStringField
+      FieldName = 'USA_PESQUISA_COR'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Geral: TClientDataSet
     Aggregates = <>
@@ -2726,6 +2731,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_GeralESTACAO_SERVIDOR_NFCE: TStringField
       FieldName = 'ESTACAO_SERVIDOR_NFCE'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_GeralUSA_PESQUISA_COR: TStringField
+      FieldName = 'USA_PESQUISA_COR'
       FixedChar = True
       Size = 1
     end
@@ -3057,6 +3067,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_NFeIMP_PEDIDO_INT: TStringField
+      FieldName = 'IMP_PEDIDO_INT'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_NFe: TClientDataSet
     Aggregates = <>
@@ -3375,6 +3390,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_NFeUSA_DESCONTO_IPI: TStringField
       FieldName = 'USA_DESCONTO_IPI'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_NFeIMP_PEDIDO_INT: TStringField
+      FieldName = 'IMP_PEDIDO_INT'
       FixedChar = True
       Size = 1
     end
@@ -5489,6 +5509,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedOBRIGAR_FINALIDADE: TStringField
+      FieldName = 'OBRIGAR_FINALIDADE'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
@@ -5937,6 +5962,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_PedUSAR_ADIANTAMENTO: TStringField
       FieldName = 'USAR_ADIANTAMENTO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedOBRIGAR_FINALIDADE: TStringField
+      FieldName = 'OBRIGAR_FINALIDADE'
       FixedChar = True
       Size = 1
     end

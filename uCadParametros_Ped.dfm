@@ -1135,6 +1135,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
+        object DBCheckBox27: TDBCheckBox
+          Left = 641
+          Top = 322
+          Width = 297
+          Height = 17
+          Caption = 'Obriga o uso da finalidade (Or'#231'amento/Pedido)'
+          DataField = 'OBRIGAR_FINALIDADE'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 61
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
       end
       object TabSheet9: TRzTabSheet
         Caption = 'Pedido - Complemento'

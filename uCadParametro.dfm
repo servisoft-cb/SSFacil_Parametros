@@ -1188,6 +1188,18 @@ object frmCadParametro: TfrmCadParametro
             'E'
             'S')
         end
+        object DBCheckBox26: TDBCheckBox
+          Left = 501
+          Top = 133
+          Width = 171
+          Height = 17
+          Caption = 'Usa pesquisa de cor'
+          DataField = 'USA_PESQUISA_COR'
+          DataSource = DMCadParametros.dsParametros_Geral
+          TabOrder = 62
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
       end
     end
     object TS_TipoEmpresa: TRzTabSheet

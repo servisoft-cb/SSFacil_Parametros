@@ -1856,6 +1856,12 @@ type
     cdsFilialNOME_INTERNO: TStringField;
     sdsParametros_SerORCAMENTO_ANO: TStringField;
     cdsParametros_SerORCAMENTO_ANO: TStringField;
+    sdsParametros_GeralUSA_PESQUISA_COR: TStringField;
+    cdsParametros_GeralUSA_PESQUISA_COR: TStringField;
+    sdsParametros_PedOBRIGAR_FINALIDADE: TStringField;
+    cdsParametros_PedOBRIGAR_FINALIDADE: TStringField;
+    sdsParametros_NFeIMP_PEDIDO_INT: TStringField;
+    cdsParametros_NFeIMP_PEDIDO_INT: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

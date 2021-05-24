@@ -84,10 +84,10 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
       Top = 1
       Width = 1317
       Height = 590
-      ActivePage = TS_NFE_Geral
+      ActivePage = TS_NFE_Imp
       ActivePageDefault = TS_NFE_Geral
       Align = alClient
-      TabIndex = 0
+      TabIndex = 1
       TabOrder = 0
       FixedDimension = 19
       object TS_NFE_Geral: TRzTabSheet
@@ -843,6 +843,18 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           DataField = 'IMP_TAMANHO_FINAL'
           DataSource = DMCadParametros.dsParametros_NFe
           TabOrder = 15
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox8: TDBCheckBox
+          Left = 13
+          Top = 209
+          Width = 341
+          Height = 17
+          Caption = 'Imprimir o N'#186' do Pedido Interno nos itens'
+          DataField = 'IMP_PEDIDO_INT'
+          DataSource = DMCadParametros.dsParametros_NFe
+          TabOrder = 16
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
