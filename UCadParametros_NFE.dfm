@@ -84,10 +84,10 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
       Top = 1
       Width = 1317
       Height = 590
-      ActivePage = TS_NFE_Imp
+      ActivePage = TS_NFE_Geral
       ActivePageDefault = TS_NFE_Geral
       Align = alClient
-      TabIndex = 1
+      TabIndex = 0
       TabOrder = 0
       FixedDimension = 19
       object TS_NFE_Geral: TRzTabSheet
@@ -485,9 +485,11 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
         object DBCheckBox268: TDBCheckBox
           Left = 135
           Top = 284
-          Width = 267
+          Width = 407
           Height = 17
-          Caption = 'Enviar Nota Beneficiamento na NFe'
+          Caption = 
+            'Enviar Nota de Devolu'#231#227'o/Beneficiamento Como nota Referenciada a' +
+            'utom'#225'tica'
           DataField = 'ENVIARNOTABENEF_NANFE'
           DataSource = DMCadParametros.dsParametros
           TabOrder = 13
