@@ -1147,6 +1147,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
+        object DBCheckBox28: TDBCheckBox
+          Left = 641
+          Top = 338
+          Width = 297
+          Height = 17
+          Caption = 'Permite alterar o Cliente depois de faturado o pedido'
+          DataField = 'ALTERAR_CLIENTE_FAT'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 62
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
       end
       object TabSheet9: TRzTabSheet
         Caption = 'Pedido - Complemento'

@@ -5514,6 +5514,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_PedALTERAR_CLIENTE_FAT: TStringField
+      FieldName = 'ALTERAR_CLIENTE_FAT'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ped: TClientDataSet
     Aggregates = <>
@@ -5967,6 +5972,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_PedOBRIGAR_FINALIDADE: TStringField
       FieldName = 'OBRIGAR_FINALIDADE'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_PedALTERAR_CLIENTE_FAT: TStringField
+      FieldName = 'ALTERAR_CLIENTE_FAT'
       FixedChar = True
       Size = 1
     end

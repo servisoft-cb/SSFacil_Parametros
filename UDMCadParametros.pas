@@ -1862,6 +1862,8 @@ type
     cdsParametros_PedOBRIGAR_FINALIDADE: TStringField;
     sdsParametros_NFeIMP_PEDIDO_INT: TStringField;
     cdsParametros_NFeIMP_PEDIDO_INT: TStringField;
+    sdsParametros_PedALTERAR_CLIENTE_FAT: TStringField;
+    cdsParametros_PedALTERAR_CLIENTE_FAT: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
