@@ -1864,6 +1864,8 @@ type
     cdsParametros_NFeIMP_PEDIDO_INT: TStringField;
     sdsParametros_PedALTERAR_CLIENTE_FAT: TStringField;
     cdsParametros_PedALTERAR_CLIENTE_FAT: TStringField;
+    sdsParametros_RecXMLRECEPCAO_NOVO: TStringField;
+    cdsParametros_RecXMLRECEPCAO_NOVO: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

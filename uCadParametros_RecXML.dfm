@@ -450,5 +450,17 @@ object frmCadParametros_RecXML: TfrmCadParametros_RecXML
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
+    object DBCheckBox5: TDBCheckBox
+      Left = 274
+      Top = 449
+      Width = 360
+      Height = 17
+      Caption = 'Usar nova tela do Recebimento do XML'
+      DataField = 'RECEPCAO_NOVO'
+      DataSource = DMCadParametros.dsParametros_RecXML
+      TabOrder = 21
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
   end
 end
