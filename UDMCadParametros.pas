@@ -1866,6 +1866,8 @@ type
     cdsParametros_PedALTERAR_CLIENTE_FAT: TStringField;
     sdsParametros_RecXMLRECEPCAO_NOVO: TStringField;
     cdsParametros_RecXMLRECEPCAO_NOVO: TStringField;
+    sdsParametros_GeralUSA_NFCE_LOCAL_SERV: TStringField;
+    cdsParametros_GeralUSA_NFCE_LOCAL_SERV: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

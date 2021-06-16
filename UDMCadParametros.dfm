@@ -2534,6 +2534,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_GeralUSA_NFCE_LOCAL_SERV: TStringField
+      FieldName = 'USA_NFCE_LOCAL_SERV'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Geral: TClientDataSet
     Aggregates = <>
@@ -2736,6 +2741,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_GeralUSA_PESQUISA_COR: TStringField
       FieldName = 'USA_PESQUISA_COR'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_GeralUSA_NFCE_LOCAL_SERV: TStringField
+      FieldName = 'USA_NFCE_LOCAL_SERV'
       FixedChar = True
       Size = 1
     end

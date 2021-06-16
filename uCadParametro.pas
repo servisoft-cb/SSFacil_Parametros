@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, ToolEdit, RxLookup, StdCtrls, DBCtrls, Mask, RxDBComb, Buttons,
-  ExtCtrls, UDMCadParametros, rsDBUtils, RzTabs, DB;
+  ExtCtrls, UDMCadParametros, rsDBUtils, RzTabs, DB, RzPanel;
 
 type
   TfrmCadParametro = class(TForm)
@@ -125,12 +125,14 @@ type
     DBCheckBox155: TDBCheckBox;
     DBCheckBox3: TDBCheckBox;
     DBCheckBox21: TDBCheckBox;
-    DBCheckBox22: TDBCheckBox;
     DBCheckBox24: TDBCheckBox;
     DBCheckBox25: TDBCheckBox;
     Label6: TLabel;
     RxDBComboBox2: TRxDBComboBox;
     DBCheckBox26: TDBCheckBox;
+    RzGroupBox1: TRzGroupBox;
+    DBCheckBox22: TDBCheckBox;
+    DBCheckBox27: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
