@@ -4767,6 +4767,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_SerUSA_OS_PROJETO: TStringField
+      FieldName = 'USA_OS_PROJETO'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Ser: TClientDataSet
     Aggregates = <>
@@ -4903,6 +4908,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_SerORCAMENTO_ANO: TStringField
       FieldName = 'ORCAMENTO_ANO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_SerUSA_OS_PROJETO: TStringField
+      FieldName = 'USA_OS_PROJETO'
       FixedChar = True
       Size = 1
     end

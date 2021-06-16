@@ -1868,6 +1868,8 @@ type
     cdsParametros_RecXMLRECEPCAO_NOVO: TStringField;
     sdsParametros_GeralUSA_NFCE_LOCAL_SERV: TStringField;
     cdsParametros_GeralUSA_NFCE_LOCAL_SERV: TStringField;
+    sdsParametros_SerUSA_OS_PROJETO: TStringField;
+    cdsParametros_SerUSA_OS_PROJETO: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

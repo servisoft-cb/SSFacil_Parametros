@@ -506,5 +506,17 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
       ValueChecked = 'S'
       ValueUnchecked = 'N'
     end
+    object DBCheckBox4: TDBCheckBox
+      Left = 578
+      Top = 408
+      Width = 380
+      Height = 17
+      Caption = 'Usa OS Projeto (presta'#231#227'o de servi'#231'o)'
+      DataField = 'USA_OS_PROJETO'
+      DataSource = DMCadParametros.dsParametros_Ser
+      TabOrder = 26
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
   end
 end
