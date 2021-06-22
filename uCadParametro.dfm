@@ -77,9 +77,9 @@ object frmCadParametro: TfrmCadParametro
     Top = 35
     Width = 1374
     Height = 678
-    ActivePage = ts_Geral
+    ActivePage = TS_TipoEmpresa
     Align = alClient
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 1
     FixedDimension = 19
     object ts_Geral: TRzTabSheet
@@ -1423,6 +1423,18 @@ object frmCadParametro: TfrmCadParametro
             ValueChecked = 'S'
             ValueUnchecked = 'N'
           end
+        end
+        object DBCheckBox30: TDBCheckBox
+          Left = 22
+          Top = 251
+          Width = 188
+          Height = 17
+          Caption = 'Mec'#226'nica'
+          DataField = 'EMPRESA_MECANICA'
+          DataSource = DMCadParametros.dsParametros_Geral
+          TabOrder = 17
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
         end
       end
     end

@@ -1174,7 +1174,7 @@ object DMCadParametros: TDMCadParametros
     Params = <>
     ProviderName = 'dspParametros'
     Left = 98
-    Top = 6
+    Top = 8
     object cdsParametrosID: TIntegerField
       FieldName = 'ID'
       ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
@@ -2336,7 +2336,7 @@ object DMCadParametros: TDMCadParametros
     Params = <>
     SQLConnection = dmDatabase.scoDados
     Left = 32
-    Top = 65
+    Top = 66
     object sdsParametros_GeralID: TIntegerField
       FieldName = 'ID'
       ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
@@ -2536,6 +2536,11 @@ object DMCadParametros: TDMCadParametros
     end
     object sdsParametros_GeralUSA_NFCE_LOCAL_SERV: TStringField
       FieldName = 'USA_NFCE_LOCAL_SERV'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_GeralEMPRESA_MECANICA: TStringField
+      FieldName = 'EMPRESA_MECANICA'
       FixedChar = True
       Size = 1
     end
@@ -2746,6 +2751,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_GeralUSA_NFCE_LOCAL_SERV: TStringField
       FieldName = 'USA_NFCE_LOCAL_SERV'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_GeralEMPRESA_MECANICA: TStringField
+      FieldName = 'EMPRESA_MECANICA'
       FixedChar = True
       Size = 1
     end

@@ -1874,6 +1874,8 @@ type
     sdsParametros_SerQTD_DIGITOS_OS: TIntegerField;
     cdsParametros_SerOS_ANO: TStringField;
     cdsParametros_SerQTD_DIGITOS_OS: TIntegerField;
+    sdsParametros_GeralEMPRESA_MECANICA: TStringField;
+    cdsParametros_GeralEMPRESA_MECANICA: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
