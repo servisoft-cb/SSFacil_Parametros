@@ -1173,7 +1173,7 @@ object DMCadParametros: TDMCadParametros
     IndexFieldNames = 'ID'
     Params = <>
     ProviderName = 'dspParametros'
-    Left = 97
+    Left = 98
     Top = 6
     object cdsParametrosID: TIntegerField
       FieldName = 'ID'
@@ -4772,6 +4772,14 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_SerOS_ANO: TStringField
+      FieldName = 'OS_ANO'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_SerQTD_DIGITOS_OS: TIntegerField
+      FieldName = 'QTD_DIGITOS_OS'
+    end
   end
   object cdsParametros_Ser: TClientDataSet
     Aggregates = <>
@@ -4915,6 +4923,14 @@ object DMCadParametros: TDMCadParametros
       FieldName = 'USA_OS_PROJETO'
       FixedChar = True
       Size = 1
+    end
+    object cdsParametros_SerOS_ANO: TStringField
+      FieldName = 'OS_ANO'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_SerQTD_DIGITOS_OS: TIntegerField
+      FieldName = 'QTD_DIGITOS_OS'
     end
   end
   object dsParametros_Ser: TDataSource

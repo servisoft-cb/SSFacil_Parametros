@@ -151,6 +151,14 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
       Alignment = taRightJustify
       Caption = 'Dia Vecto 13'#186':'
     end
+    object Label3: TLabel
+      Left = 133
+      Top = 217
+      Width = 170
+      Height = 13
+      Alignment = taRightJustify
+      Caption = 'Qtd. D'#237'gitos da OS Projeto Por Ano:'
+    end
     object RxDBComboBox72: TRxDBComboBox
       Left = 305
       Top = 5
@@ -517,6 +525,27 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
       TabOrder = 26
       ValueChecked = 'S'
       ValueUnchecked = 'N'
+    end
+    object DBCheckBox5: TDBCheckBox
+      Left = 578
+      Top = 424
+      Width = 380
+      Height = 17
+      Caption = 'Usa N'#250'meo da OS Projeto Por ANO'
+      DataField = 'OS_ANO'
+      DataSource = DMCadParametros.dsParametros_Ser
+      TabOrder = 27
+      ValueChecked = 'S'
+      ValueUnchecked = 'N'
+    end
+    object DBEdit2: TDBEdit
+      Left = 304
+      Top = 207
+      Width = 121
+      Height = 21
+      DataField = 'QTD_DIGITOS_OS'
+      DataSource = DMCadParametros.dsParametros_Ser
+      TabOrder = 28
     end
   end
 end
