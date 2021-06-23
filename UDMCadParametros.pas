@@ -1876,6 +1876,10 @@ type
     cdsParametros_SerQTD_DIGITOS_OS: TIntegerField;
     sdsParametros_GeralEMPRESA_MECANICA: TStringField;
     cdsParametros_GeralEMPRESA_MECANICA: TStringField;
+    sdsParametros_SerIMPRIMIR_IMPOSTOS: TStringField;
+    sdsParametros_SerPORTAEMAILALTERNATIVA: TIntegerField;
+    cdsParametros_SerIMPRIMIR_IMPOSTOS: TStringField;
+    cdsParametros_SerPORTAEMAILALTERNATIVA: TIntegerField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

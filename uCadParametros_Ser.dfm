@@ -19,7 +19,7 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1120
+    Width = 1112
     Height = 35
     Align = alTop
     Color = 8404992
@@ -74,8 +74,8 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
   object pnlGeral: TPanel
     Left = 0
     Top = 35
-    Width = 1120
-    Height = 522
+    Width = 1112
+    Height = 515
     Align = alClient
     Enabled = False
     TabOrder = 1
@@ -158,6 +158,14 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
       Height = 13
       Alignment = taRightJustify
       Caption = 'Qtd. D'#237'gitos da OS Projeto Por Ano:'
+    end
+    object Label4: TLabel
+      Left = 188
+      Top = 241
+      Width = 115
+      Height = 13
+      Alignment = taRightJustify
+      Caption = 'Porta Email Alteranativa:'
     end
     object RxDBComboBox72: TRxDBComboBox
       Left = 305
@@ -470,7 +478,7 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
     end
     object RxDBLookupCombo1: TRxDBLookupCombo
       Left = 305
-      Top = 162
+      Top = 163
       Width = 246
       Height = 21
       DropDownCount = 8
@@ -483,7 +491,7 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
     end
     object DBEdit1: TDBEdit
       Left = 305
-      Top = 185
+      Top = 187
       Width = 121
       Height = 21
       DataField = 'VECTO_13'
@@ -540,12 +548,21 @@ object frmCadParametros_Ser: TfrmCadParametros_Ser
     end
     object DBEdit2: TDBEdit
       Left = 304
-      Top = 207
+      Top = 209
       Width = 121
       Height = 21
       DataField = 'QTD_DIGITOS_OS'
       DataSource = DMCadParametros.dsParametros_Ser
       TabOrder = 28
+    end
+    object DBEdit3: TDBEdit
+      Left = 304
+      Top = 233
+      Width = 121
+      Height = 21
+      DataField = 'PORTAEMAILALTERNATIVA'
+      DataSource = DMCadParametros.dsParametros_Ser
+      TabOrder = 29
     end
   end
 end

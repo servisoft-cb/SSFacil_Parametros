@@ -4790,6 +4790,14 @@ object DMCadParametros: TDMCadParametros
     object sdsParametros_SerQTD_DIGITOS_OS: TIntegerField
       FieldName = 'QTD_DIGITOS_OS'
     end
+    object sdsParametros_SerIMPRIMIR_IMPOSTOS: TStringField
+      FieldName = 'IMPRIMIR_IMPOSTOS'
+      FixedChar = True
+      Size = 1
+    end
+    object sdsParametros_SerPORTAEMAILALTERNATIVA: TIntegerField
+      FieldName = 'PORTAEMAILALTERNATIVA'
+    end
   end
   object cdsParametros_Ser: TClientDataSet
     Aggregates = <>
@@ -4941,6 +4949,14 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_SerQTD_DIGITOS_OS: TIntegerField
       FieldName = 'QTD_DIGITOS_OS'
+    end
+    object cdsParametros_SerIMPRIMIR_IMPOSTOS: TStringField
+      FieldName = 'IMPRIMIR_IMPOSTOS'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_SerPORTAEMAILALTERNATIVA: TIntegerField
+      FieldName = 'PORTAEMAILALTERNATIVA'
     end
   end
   object dsParametros_Ser: TDataSource
