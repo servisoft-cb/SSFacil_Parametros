@@ -2544,6 +2544,11 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_GeralUSA_CLIENTE_POR_VEND: TStringField
+      FieldName = 'USA_CLIENTE_POR_VEND'
+      FixedChar = True
+      Size = 1
+    end
   end
   object cdsParametros_Geral: TClientDataSet
     Aggregates = <>
@@ -2756,6 +2761,11 @@ object DMCadParametros: TDMCadParametros
     end
     object cdsParametros_GeralEMPRESA_MECANICA: TStringField
       FieldName = 'EMPRESA_MECANICA'
+      FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_GeralUSA_CLIENTE_POR_VEND: TStringField
+      FieldName = 'USA_CLIENTE_POR_VEND'
       FixedChar = True
       Size = 1
     end

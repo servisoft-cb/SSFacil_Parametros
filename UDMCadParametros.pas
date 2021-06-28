@@ -1880,6 +1880,8 @@ type
     sdsParametros_SerPORTAEMAILALTERNATIVA: TIntegerField;
     cdsParametros_SerIMPRIMIR_IMPOSTOS: TStringField;
     cdsParametros_SerPORTAEMAILALTERNATIVA: TIntegerField;
+    sdsParametros_GeralUSA_CLIENTE_POR_VEND: TStringField;
+    cdsParametros_GeralUSA_CLIENTE_POR_VEND: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

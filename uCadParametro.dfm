@@ -77,9 +77,9 @@ object frmCadParametro: TfrmCadParametro
     Top = 35
     Width = 1374
     Height = 678
-    ActivePage = TS_TipoEmpresa
+    ActivePage = ts_Geral
     Align = alClient
-    TabIndex = 1
+    TabIndex = 0
     TabOrder = 1
     FixedDimension = 19
     object ts_Geral: TRzTabSheet
@@ -1185,6 +1185,18 @@ object frmCadParametro: TfrmCadParametro
           DataField = 'USA_PESQUISA_COR'
           DataSource = DMCadParametros.dsParametros_Geral
           TabOrder = 61
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox31: TDBCheckBox
+          Left = 499
+          Top = 231
+          Width = 187
+          Height = 17
+          Caption = 'Usa Cliente Por Vendedor'
+          DataField = 'USA_CLIENTE_POR_VEND'
+          DataSource = DMCadParametros.dsParametros_Geral
+          TabOrder = 62
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end
