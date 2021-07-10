@@ -1112,8 +1112,8 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           ValueUnchecked = 'N'
         end
         object DBCheckBox18: TDBCheckBox
-          Left = 986
-          Top = 459
+          Left = 985
+          Top = 431
           Width = 250
           Height = 17
           Caption = 'Usa Unidade Padr'#227'o no Cliente'
@@ -1156,6 +1156,18 @@ object frmCadParametros_Ped: TfrmCadParametros_Ped
           DataField = 'ALTERAR_CLIENTE_FAT'
           DataSource = DMCadParametros.dsParametros_Ped
           TabOrder = 62
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object DBCheckBox29: TDBCheckBox
+          Left = 641
+          Top = 354
+          Width = 297
+          Height = 17
+          Caption = 'Permite alterar a Finalidade (Or'#231'amento/Pedido)'
+          DataField = 'ALT_FINALIDADE'
+          DataSource = DMCadParametros.dsParametros_Ped
+          TabOrder = 63
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end

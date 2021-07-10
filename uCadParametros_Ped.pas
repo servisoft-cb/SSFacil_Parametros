@@ -180,6 +180,7 @@ type
     DBCheckBox26: TDBCheckBox;
     DBCheckBox27: TDBCheckBox;
     DBCheckBox28: TDBCheckBox;
+    DBCheckBox29: TDBCheckBox;
     procedure btnAlterarClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure btnConfirmarClick(Sender: TObject);
