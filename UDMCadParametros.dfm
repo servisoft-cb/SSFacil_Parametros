@@ -3102,6 +3102,10 @@ object DMCadParametros: TDMCadParametros
       FixedChar = True
       Size = 1
     end
+    object sdsParametros_NFeUSA_LOGO_CLIENTE: TStringField
+      FieldName = 'USA_LOGO_CLIENTE'
+      Size = 1
+    end
   end
   object cdsParametros_NFe: TClientDataSet
     Aggregates = <>
@@ -3426,6 +3430,10 @@ object DMCadParametros: TDMCadParametros
     object cdsParametros_NFeIMP_PEDIDO_INT: TStringField
       FieldName = 'IMP_PEDIDO_INT'
       FixedChar = True
+      Size = 1
+    end
+    object cdsParametros_NFeUSA_LOGO_CLIENTE: TStringField
+      FieldName = 'USA_LOGO_CLIENTE'
       Size = 1
     end
   end

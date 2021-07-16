@@ -113,6 +113,7 @@ type
     DBCheckBox5: TDBCheckBox;
     DBCheckBox7: TDBCheckBox;
     DBCheckBox8: TDBCheckBox;
+    chkUsaLogoCliente: TDBCheckBox;
     procedure btnConfirmarClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);

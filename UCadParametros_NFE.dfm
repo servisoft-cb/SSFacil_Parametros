@@ -19,7 +19,7 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1319
+    Width = 1311
     Height = 31
     Align = alTop
     Color = 8404992
@@ -74,19 +74,20 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
   object pnlGeral: TPanel
     Left = 0
     Top = 31
-    Width = 1319
-    Height = 592
+    Width = 1311
+    Height = 584
     Align = alClient
     Enabled = False
     TabOrder = 1
     object RzPageControl3: TRzPageControl
       Left = 1
       Top = 1
-      Width = 1317
-      Height = 590
+      Width = 1309
+      Height = 582
       ActivePage = TS_NFE_Geral
       ActivePageDefault = TS_NFE_Geral
       Align = alClient
+      ParentColor = False
       TabIndex = 0
       TabOrder = 0
       FixedDimension = 19
@@ -592,6 +593,18 @@ object frmCadParametros_NFE: TfrmCadParametros_NFE
           DataField = 'CONTROLAR_ENVIO_EMAIL'
           DataSource = DMCadParametros.dsParametros_NFe
           TabOrder = 27
+          ValueChecked = 'S'
+          ValueUnchecked = 'N'
+        end
+        object chkUsaLogoCliente: TDBCheckBox
+          Left = 136
+          Top = 318
+          Width = 289
+          Height = 17
+          Caption = 'Habilita impress'#227'o de logo do cliente'
+          DataField = 'USA_LOGO_CLIENTE'
+          DataSource = DMCadParametros.dsParametros_NFe
+          TabOrder = 28
           ValueChecked = 'S'
           ValueUnchecked = 'N'
         end

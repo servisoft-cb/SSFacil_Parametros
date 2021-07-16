@@ -1884,6 +1884,8 @@ type
     cdsParametros_GeralUSA_CLIENTE_POR_VEND: TStringField;
     sdsParametros_PedALT_FINALIDADE: TStringField;
     cdsParametros_PedALT_FINALIDADE: TStringField;
+    sdsParametros_NFeUSA_LOGO_CLIENTE: TStringField;
+    cdsParametros_NFeUSA_LOGO_CLIENTE: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
